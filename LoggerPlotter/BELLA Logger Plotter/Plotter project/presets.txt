@@ -1,0 +1,4 @@
+#environment basic#3
+BELLA LaserBay Environment\Zone1 Temp,0,4194474,1.000000,0.000000
+BELLA LaserBay Environment\Zone2 Temp,0,4237994,1.000000,0.000000
+BELLA LaserBay Environment\Zone3 Temp,0,15378944,1.000000,0.000000

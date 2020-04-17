@@ -1,0 +1,54 @@
+#environment basic#7
+71-253 Environment\71-253 Humidity,1,4194474,1.000000,0.000000
+71-253 Environment\Oscillator Temp,0,4237994,1.000000,0.000000
+A-Cave Environment\A-Cave room temp,0,15378944,1.000000,0.000000
+B-Cave Environment\Incoming Air Temp,0,4092174,1.000000,0.000000
+L-Cave Environment 2\L-Cave cooling water supply temp,0,4135694,1.000000,0.000000
+B-Cave Environment\10TW Laser Table Temp,0,4135694,1.000000,0.000000
+L-Cave Environment\L-Cave Pre-Amp Temp,0,15233294,1.000000,0.000000
+
+#xpw spectral+pulse#2
+71-253 Laser\XPW Spectral Width,1,4237994,1.000000,0.000000
+71-253 Femtometer\Pulse Duration,0,15233294,1.000000,0.000000
+
+#xpw set#6
+71-253 Laser\Regen Pulse Energy,0,4194474,100.000000,0.000000
+71-253 Laser\XPW Spectral Width,1,4237994,1.000000,0.000000
+71-253 Laser\Amp0 Pulse Energy,0,15335594,1000.000000,0.000000
+71-253 Environment\Oscillator Temp,0,15378944,1.000000,0.000000
+71-253 Environment\Preamp Temp,0,4092174,1.000000,0.000000
+71-253 Environment\71-253 Humidity,0,4135694,1.000000,0.000000
+
+#71-253 environ#5
+71-253 Environment\Oscillator Temp,0,4194474,1.000000,0.000000
+71-253 Environment\Target Cave Temp,0,4237994,1.000000,0.000000
+71-253 Environment\Godzilla Temp,0,15335594,1.000000,0.000000
+71-253 Environment\Preamp Temp,0,15378944,1.000000,0.000000
+71-253 Environment\71-253 Humidity,1,4092174,1.000000,0.000000
+
+#L-Cave cooling water#2
+L-Cave Environment 2\L-Cave cooling water supply temp,0,4194474,1.000000,0.000000
+L-Cave Environment 2\L-Cave cooling water return temp,0,4237994,1.000000,0.000000
+
+#B-cave gate valves status#8
+Capillary Vacuum System Status\boolean set 1\Gate Valve 5 Closed	26,0,4194474,1.000000,0.000000
+Capillary Vacuum System Status\boolean set 1\Gate Valve 5 Opened	25,0,4237994,1.000000,0.000000
+Capillary Vacuum System Status\boolean set 1\Gate Valve 6 Closed	28,0,15335594,1.000000,1.500000
+Capillary Vacuum System Status\boolean set 1\Gate Valve 6 Opened	27,0,15378944,1.000000,1.500000
+Capillary Vacuum System Status\boolean set 1\Gate Valve 7 Closed	30,0,4092174,1.000000,3.000000
+Capillary Vacuum System Status\boolean set 1\Gate Valve 7 Opened	29,0,4135694,1.000000,3.000000
+Capillary Vacuum System Status\boolean set 1\Gate Valve 8 Closed	32,0,15233294,1.000000,4.500000
+Capillary Vacuum System Status\boolean set 1\Gate Valve 8 Opened	31,0,15276644,1.000000,4.500000
+
+#B-Cave environ#5
+B-Cave Environment\100TW Diagnostic Laser Table Temp,0,4194474,1.000000,0.000000
+B-Cave Environment\10TW Laser Table Temp,0,4237994,1.000000,0.000000
+B-Cave Environment\B-Cave Humidity,1,15335594,1.000000,0.000000
+B-Cave Environment\Incoming Air Temp,0,15378944,1.000000,0.000000
+B-Cave Environment\OAP Laser Table Temp,0,4092174,1.000000,0.000000
+
+#L-cave environ#4
+L-Cave Environment\L-Cave Humidity,1,4194474,1.000000,0.000000
+L-Cave Environment\L-Cave Pre-Amp Temp,0,4237994,1.000000,0.000000
+L-Cave Environment\MCC1 Temp,0,15335594,1.000000,0.000000
+L-Cave Environment\MCC2 Temp,0,15378944,1.000000,0.000000

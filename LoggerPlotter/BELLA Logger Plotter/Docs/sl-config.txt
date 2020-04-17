@@ -1,0 +1,69 @@
+// format:
+// ##<group name>,<logging interval (ms)>,<# of datasockets>,<# of channels (not counting subchannels)>
+// <datasocket format code>,<datasocket url>,<# of possible data returned, including subchannels>
+// <datasocket format code>,<datasocket url>,<# of possible data returned, including subchannels>
+// ...
+// <channel number>,<channel name>,[<labview integer indicating datatype for channel>]
+// <channel number>,<channel name>,[<labview integer indicating datatype for channel>]
+// ...
+// #<channel number>,<channel name>,<labview integer indicating datatype for subchannel>,<# of subchannels>
+// <subchannel number>,<subchannel name>
+// <subchannel number>,<subchannel name>
+// ...
+//
+//
+// datasocket format codes:
+// 0=array of double
+// 1=array of string
+// 2=array of string, converted from hexadecimal as exponential (like for ION gauges)
+// 3=array of string, converted from hexadecimal using mini-convectron conversion functions
+// 4=cluster of 5 strings
+// 5=cluster of 3 arrays of boolean, 1 array of word, 1 array of double
+// 6=array of cluster of time, double, double
+//
+
+
+
+##BELLA LaserBay Environment,5000,1,6
+1,dstp://192.168.14.6/wave,1-6
+1,Zone1 Temp
+2,Zone2 Temp
+3,Zone3 Temp
+4,Spare1
+5,Spare2
+6,Spare3
+
+
+##Thales Laser System,5000,1,30
+1,dstp://192.168.14.6/Thales,1-30
+1,Preamp Energy
+2,AMP1 Energy
+3,AMP2 Energy
+4,AMP3 Energy
+5,GAIA IR Line A Energy 1
+6,GAIA IR Line A Energy 2
+7,GAIA IR Line A Energy 3
+8,GAIA IR Line A Energy 4
+9,GAIA IR Line A Energy 5
+10,GAIA IR Line A Energy 6
+11,GAIA IR Line A Energy 7
+12,GAIA IR Line A Energy 8
+13,GAIA IR Line A Energy 9
+14,GAIA IR Line A Energy 10
+15,GAIA IR Line A Energy 11
+16,GAIA IR Line A Energy 12
+17,GAIA IR Line B Energy 1
+18,GAIA IR Line B Energy 2
+19,GAIA IR Line B Energy 3
+20,GAIA IR Line B Energy 4
+21,GAIA IR Line B Energy 5
+22,GAIA IR Line B Energy 6
+23,GAIA IR Line B Energy 7
+24,GAIA IR Line B Energy 8
+25,GAIA IR Line B Energy 9
+26,GAIA IR Line B Energy 10
+27,GAIA IR Line B Energy 11
+28,GAIA IR Line B Energy 12
+29,AMP1 Spectral Checkpoint
+30,AMP2 Spectral Checkpoint
+

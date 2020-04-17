@@ -1,0 +1,47 @@
+[ProjectWindow_Data]
+ProjectExplorer.ClassicPosition[String] = "411,516,1096,933"
+
+[AB_Cache_{237D02FC-E68A-4A50-A694-4A618C5BA56B}]
+Cache_ProjSymbolChksum[String] = "7dea362b3fac8e00956a4952a3d4f474"
+Cache_TargetSymbolChksum[String] = "7dea362b3fac8e00956a4952a3d4f474"
+Cache_MyCompChksum[String] = "506a6ab94718dc20e83ba8b89c4dda2a"
+Cache_GenFile_Count[Integer] = 3
+Cache_GenFile[0][Path] Line0001 = "/C/Users/loasis/Documents/000 Labview Local/"
+Cache_GenFile[0][Path] Line0002 = "Developers Version/Interface/builds/Logger a"
+Cache_GenFile[0][Path] Line0003 = "nd Plotter/Thales SVE logger.exe"
+Cache_GenFile[1][Path] Line0001 = "/C/Users/loasis/Documents/000 Labview Local/"
+Cache_GenFile[1][Path] Line0002 = "Developers Version/Interface/builds/Logger a"
+Cache_GenFile[1][Path] Line0003 = "nd Plotter/Thales SVE logger.aliases"
+Cache_GenFile[2][Path] Line0001 = "/C/Users/loasis/Documents/000 Labview Local/"
+Cache_GenFile[2][Path] Line0002 = "Developers Version/Interface/builds/Logger a"
+Cache_GenFile[2][Path] Line0003 = "nd Plotter/Thales SVE logger.ini"
+Cache_GenGUID_Count[Integer] = 3
+Cache_GenGUID[0][String] = "{6DD5C700-BF54-4F00-B161-1609B8302A73}"
+Cache_GenGUID[1][String] = "{3FFD012B-EC07-482B-BB08-AEA236AC309D}"
+Cache_GenGUID[2][String] = "{F0CB4265-8252-43D9-BDF4-B59D68458653}"
+Cache_OutputDir[Path] Line0001 = "/C/Users/loasis/Documents/000 Labview Local/D"
+Cache_OutputDir[Path] Line0002 = "evelopers Version/Interface/builds/Logger and"
+Cache_OutputDir[Path] Line0003 = " Plotter"
+
+[AB_Cache_{48BB1482-D1A7-444E-AE89-C649D68E4916}]
+Cache_ProjSymbolChksum[String] = "7dea362b3fac8e00956a4952a3d4f474"
+Cache_TargetSymbolChksum[String] = "7dea362b3fac8e00956a4952a3d4f474"
+Cache_MyCompChksum[String] = "506a6ab94718dc20e83ba8b89c4dda2a"
+Cache_GenFile_Count[Integer] = 3
+Cache_GenFile[0][Path] Line0001 = "/C/Users/loasis/Documents/000 Labview Local/"
+Cache_GenFile[0][Path] Line0002 = "Developers Version/Interface/builds/Logger a"
+Cache_GenFile[0][Path] Line0003 = "nd Plotter/Thales SVE logger.exe"
+Cache_GenFile[1][Path] Line0001 = "/C/Users/loasis/Documents/000 Labview Local/"
+Cache_GenFile[1][Path] Line0002 = "Developers Version/Interface/builds/Logger a"
+Cache_GenFile[1][Path] Line0003 = "nd Plotter/Thales SVE logger.aliases"
+Cache_GenFile[2][Path] Line0001 = "/C/Users/loasis/Documents/000 Labview Local/"
+Cache_GenFile[2][Path] Line0002 = "Developers Version/Interface/builds/Logger a"
+Cache_GenFile[2][Path] Line0003 = "nd Plotter/Thales SVE logger.ini"
+Cache_GenGUID_Count[Integer] = 3
+Cache_GenGUID[0][String] = "{6DD5C700-BF54-4F00-B161-1609B8302A73}"
+Cache_GenGUID[1][String] = "{3FFD012B-EC07-482B-BB08-AEA236AC309D}"
+Cache_GenGUID[2][String] = "{F0CB4265-8252-43D9-BDF4-B59D68458653}"
+Cache_OutputDir[Path] Line0001 = "/C/Users/loasis/Documents/000 Labview Local/D"
+Cache_OutputDir[Path] Line0002 = "evelopers Version/Interface/builds/Logger and"
+Cache_OutputDir[Path] Line0003 = " Plotter"
+

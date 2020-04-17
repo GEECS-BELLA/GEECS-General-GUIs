@@ -1,0 +1,73 @@
+my.firewall,.,192.168.10.1,00-08-da-53-05-68,dynamic,.,.,.,.,.,.,.
+LOASIS-LB12,Laser Bay Picomotor Server,192.168.10.11,00-1e-2a-47-a6-98,dynamic,Enabled,always wakes,.,.,Enabled,.,.
+LOASIS-AC01,.,192.168.10.110,00-25-64-39-0c-11,dynamic,.,passed,.,.,Unable to connect,.,.
+.,.,192.168.10.112,00-07-e9-42-11-9a,dynamic,.,.,.,.,Unable to connect,.,.
+LOASIS-AC02,.,192.168.10.114,00-26-b9-7f-7f-93,dynamic,.,passed,.,.,Enabled,.,.
+LOASIS-LB9,Test Stand,192.168.10.12,00-22-19-16-1e-4c,dynamic,Enabled,passed,VISTA,8.6,Enabled,.,.
+LOASIS-STPXI,Staging PXI,192.168.10.122,00-30-64-0a-84-5b,dynamic,enabled,not checked,7,2009,.,.,.
+LOASIS-LB5,Masterclock,192.168.10.15,00-08-74-92-c1-89,dynamic,.,.,.,.,Unable to connect,.,.
+LOASIS-CR101,100TW Control,192.168.10.150,00-18-8b-02-cd-0c,dynamic,Enabled,passed,XP,8.2,Enabled,.,.
+LOASIS-CR102,L cave,192.168.10.151,00-1a-a0-d6-14-17,dynamic,Enabled,passed,XP,2009,Enabled,.,.
+.,Pixi,192.168.10.152,00-80-2f-11-35-91,dynamic,Enabled,passed,Vista,.,Enabled,.,.
+LOASIS-CR104,.,192.168.10.153,00-18-8b-57-95-90,dynamic,Enabled,passed,XP,2009,Enabled,Enabled,passed
+.,.,192.168.10.154,e0-cb-4e-2c-9a-9c,dynamic,.,.,.,.,Enabled,.,.
+.,Control Room - Laser Status,192.168.10.155,c8-0a-a9-37-eb-8b,dynamic,Enabled,passed,7,.,Unable to connect,.,.
+LOASIS-CR107,.,192.168.10.156,84-2b-2b-98-51-fd,dynamic,Enabled,passed,XP,8.6,Enabled,.,.
+LOASIS-CR108,Staging Control 1,192.168.10.157,84-2b-2b-98-04-b6,,Enabled,passed,Windows 7,none,Unable to connect
+LOASIS-LB7,XPW computer,192.168.10.16,00-1e-4f-a6-e0-fc,dynamic,Enabled,passed,XP,2009,Enabled,.,.
+LOASIS-LB11,Godzilla/Chi Power Control,192.168.10.17,00-23-ae-81-fd-97,dynamic,Enabled,passed,XP,2009,Unable to connect,Enabled,passed
+LOASIS-LB8,Femtometer,192.168.10.18,00-25-b3-43-09-78,dynamic,Enabled,passed,XP,none,Enabled,.,.
+LOASIS-CR2,.,192.168.10.182,00-23-ae-98-a0-e9,dynamic,Enabled,passed,XP,2009,Enabled,.,.
+LOASIS-CR3,10TW Mastercontrol,192.168.10.183,00-21-9b-27-fb-7b,dynamic,Enabled,passed,VISTA,8.6,Unable to connect,.,.
+LOASIS-CR4,.,192.168.10.184,00-24-e8-fb-f8-3e,dynamic,Enabled,passed,XP,2009,Enabled,.,.
+LOASIS-CR6,.,192.168.10.186,00-24-e8-fc-00-a8,dynamic,Enabled,passed,XP,2009,Unable to connect,.,.
+LOASIS-CR7,100TW OTR/,192.168.10.187,00-24-e8-fb-f8-32,dynamic,Enabled,passed,XP,2009,Enabled,.,.
+LOASIS-CR9,.,192.168.10.189,00-24-e8-fb-f8-66,dynamic,Enabled,passed,XP,2009,Enabled,.,.
+LOASIS-LB11,Gas Jet Test Stand,192.168.10.21,00-22-19-21-98-1E,static,Enabled,passed,VISTA,8.6,Enabled
+LOASIS-CR26,Logger,192.168.10.213,00-22-19-0a-05-6c,dynamic,Enabled,passed,XP,8.6,Enabled,.,.
+LOASIS-LB1,Salad,192.168.10.23,00-22-19-16-14-9f,dynamic,Enabled,passed,VISTA,2009,Unable to connect,.,.
+LOASIS-DOMAIN,.,192.168.10.245,00-e0-4d-b9-55-04,dynamic,.,.,.,.,Enabled,.,.
+LOASIS-LC102,Beam Pointing Testing,192.168.10.31,00-23-ae-57-9d-20,dynamic,Enabled,passed,XP,2009,Enabled,.,.
+.,.,192.168.10.32,00-80-2f-0a-2e-93,dynamic,.,.,.,.,Unable to connect,.,.
+LOASIS-LC104,LCave,192.168.10.33,00-26-b9-8f-20-85,dynamic,Enabled,passed,7,2009,Enabled,.,.
+LOASIS-LC105,100TW Picomotor Control,192.168.10.34,e0-cb-4e-2f-10-98,dynamic,Enabled,passed,XP,2009,Enabled,.,.
+,L-Cave,192.168.10.35,BC-30-5B-D8-FC-55,,Enabled,passed,7,,Enabled
+LOASIS-TC101,100TW ,192.168.10.60,00-13-20-6b-d0-34,dynamic,Enabled,always wakes,XP-TS,8.2,Enabled,.,.
+LOASIS-TC102,,192.168.10.61,00-1a-a0-b3-9d-ac,dynamic,Enabled,passed,XP,,Enabled
+LOASIS-TC104,HEXAPOD,192.168.10.63,00-1e-4f-9a-42-81,static,Enabled,passed,XP,.,Enabled,Enabled,passed
+LOASIS-TC103,100TW Magspec,192.168.10.64,00-1e-4f-e9-59-c0,dynamic,Enabled,passed,XP-TS,8.2,Enabled,.,.
+LOASIS-TC105,.,192.168.10.65,00-22-19-18-ac-1f,dynamic,Enabled,passed,Vista,.,Enabled,.,.
+LOASIS-LC103,.,192.168.10.66,00-11-2f-e2-73-f1,dynamic,.,.,.,.,Unable to connect,.,.
+LOASIS-TC112,,192.168.10.67,BC-30-5B-D9-24-2D,static,Enabled,passed,7 Pro x64,2009 x64,Enabled
+LOASIS-TC106,,192.168.10.68,00-1e-4f-d0-e4-1c,dynamic,Enabled,passed,XP,,Enabled,.,.
+LOASIS-TC107,.,192.168.10.69,00-26-18-ce-22-da,dynamic,Enabled,passed,XP,.,Enabled,.,.
+LOASIS-TC108,.,192.168.10.71,00-26-b9-8f-22-4a,dynamic,Enabled,passed,7,.,Enabled,.,.
+LOASIS-CR5,.,192.168.10.72,00-24-e8-fb-fe-4f,dynamic,Enabled,passed,XP,2009,Unable to connect,.,.
+LOASIS-TC110,.,192.168.10.73,90-FB-A6-8A-84-E6,dynamic,Enabled,,7,.,Enabled,.,.
+LOASIS-GHOST,"GhostFocus, CompressorCam",192.168.10.78,10-78-d2-7e-aa-c4,static,Enabled,passed,7,2009,Enabled,.,.
+LOASIS-TC10,Jobin-Yvon Spectrometer,192.168.10.88,00-1D-09-0B-7E-EA,static,Enabled,passed,XP,8.2,Enabled,.,.
+LOASIS-TC1,.,192.168.10.90,00-80-2f-0a-07-f4,dynamic,.,.,.,.,Unable to connect,.,.
+LOASIS-TC2,10/100TW Flipper Controller,192.168.10.91,00-1e-4f-9b-d0-66,dynamic,Enabled,passed,XP,8.2,Enabled,Enabled,.
+LOASIS-TC3,10TW Blue Webcam,192.168.10.92,00-22-19-21-e9-5f,dynamic,Enabled,passed,VISTA,2009,Enabled,.,.
+LOASIS-TC6,B-cave 1-wire flipper controller,192.168.10.93,00-19-d1-e0-ed-45,dynamic,Enabled,passed,XP-TS,8.2,Enabled,.,.
+LOASIS-TC4,10TW Magspec/Spectrometer,192.168.10.94,00-24-e8-fb-f2-94,dynamic,Enabled,passed,XP,8.6,Enabled,.,.
+LOASIS-TC5,Chihuahua Flipper,192.168.10.95,00-01-03-2b-8f-6a,dynamic,Enabled,failed,XP,8.2,Enabled,.,.
+.,.,192.168.10.98,00-50-c2-29-51-80,dynamic,.,.,.,.,Unable to connect,.,.
+LOASIS-TC9,10TW Mode Imager/Shdwgm,192.168.10.99,00-22-19-15-c8-8e,dynamic,Enabled,passed,VISTA,8.6,Unable to connect,.,.
+.,.,192.168.11.12,00-11-5b-5a-6f-bc,dynamic,.,.,.,.,Needs Admin Password,.,.
+.,.,192.168.11.36,00-11-5b-5b-28-44,dynamic,.,.,.,.,Needs Admin Password,.,.
+.,.,192.168.12.107,00-08-74-41-d6-82,dynamic,.,.,.,.,Unable to connect,.,.
+.,.,192.168.12.15,00-16-36-b4-5f-c4,dynamic,.,.,.,.,Unable to connect,.,.
+.,.,192.168.12.167,00-24-7e-e0-e3-fd,dynamic,.,.,.,.,Unable to connect,.,.
+quad-control-2,,192.168.12.195,00-22-19-21-f0-2b,dynamic,Enabled,passed,XP,.,Enabled,.,.
+.,.,192.168.12.203,00-30-48-ba-7b-73,dynamic,.,.,.,.,Enabled,.,.
+loflip1,Laser Bay 1-wire flipper,192.168.12.76,00-19-d1-e0-ed-89,dynamic,Enabled,passed,XP,8.2,Unable to connect,.,.
+.,.,192.168.15.255,ff-ff-ff-ff-ff-ff,static,.,.,.,.,Unable to connect,.,.
+.,.,224.0.0.2,01-00-5e-00-00-02,static,.,.,.,.,?,.,.
+.,.,224.0.0.22,01-00-5e-00-00-16,static,.,.,.,.,?,.,.
+.,.,224.0.0.251,01-00-5e-00-00-fb,static,.,.,.,.,?,.,.
+.,.,224.0.0.252,01-00-5e-00-00-fc,static,.,.,.,.,?,.,.
+.,.,224.1.0.38,01-00-5e-01-00-26,static,.,.,.,.,?,.,.
+.,.,239.255.255.250,01-00-5e-7f-ff-fa,static,.,.,.,.,?,.,.
+.,.,255.255.255.255,ff-ff-ff-ff-ff-ff,static,.,.,.,.,?,.,.
+Name,Description,IP Address,Mac Address,Type of Address,Wake on LAN,Wake Verified,OS,LabVIEW Ver.,Automatic Logon,Remote Shutdown,Shutdown Verified

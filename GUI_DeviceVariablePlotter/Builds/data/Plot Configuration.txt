@@ -1,0 +1,7 @@
+[Section 1]
+Variable1 = "Tel4_Cam,centroidx,one,10"
+Variable2 = "Tel4_Cam,centroidx,two,20"
+Variable3 = "Tel4_Cam,centroidx,three,30"
+Variable4 = "Tel4_Cam,centroidx,four,40"
+Variable5 = "Tel4_Cam,centroidx,five,50"
+Variable6 = "Tel4_Cam,centroidx,six,60"

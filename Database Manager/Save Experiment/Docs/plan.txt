@@ -1,0 +1,11 @@
+1. Get list of experiments from the database
+2. Select the experiment.
+3. Get the list of all enabled devices for that experiment
+4. Get all variable names for all enabled devices
+5. Get min, max, from database for the variables
+6. Subscribe from all devices the current/default for settable variables
+9. Save the experiment in the expt table
+8. Save all devices in the experiment device table
+9. Save all settable variables with values in the experiment device varaible table
+10. get the expt device ID using the nameof the experiment and name of the device from the expt_device table
+11. 

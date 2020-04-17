@@ -1,0 +1,1 @@
+Start "" "H:\Software\control-all-loasis\Active Version\Interface\builds\Logger and Plotter\DSC_Plotter2\DSC_Plotter2.exe" BELLA_ENV_TEMPERATURE

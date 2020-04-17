@@ -1,0 +1,4 @@
+device table: name, device type
+expt device table: expt, device
+variable table: device, 
+variable_device 'loasis'.'device'

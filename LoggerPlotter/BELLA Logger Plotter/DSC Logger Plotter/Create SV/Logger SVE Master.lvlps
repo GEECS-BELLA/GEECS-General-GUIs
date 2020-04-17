@@ -1,0 +1,48 @@
+[ProjectWindow_Data]
+ProjectExplorer.ClassicPosition[String] = "162,1378,1104,1750"
+
+[AB_Cache_{2A292EF8-20B4-49C8-A562-E12F98AD369E}]
+Cache_ProjSymbolChksum[String] = "7dea362b3fac8e00956a4952a3d4f474"
+Cache_TargetSymbolChksum[String] = "7dea362b3fac8e00956a4952a3d4f474"
+Cache_MyCompChksum[String] = "40cea7300be74d3a611e4cf7c204c595"
+Cache_GenFile_Count[Integer] = 8
+Cache_GenFile[0][Path] Line0001 = "/C/Users/loasis.BELLANET/Documents/builds/Lo"
+Cache_GenFile[0][Path] Line0002 = "gger SVE Master/Init/Init.exe"
+Cache_GenFile[1][Path] Line0001 = "/C/Users/loasis.BELLANET/Documents/builds/Lo"
+Cache_GenFile[1][Path] Line0002 = "gger SVE Master/Init/Init.aliases"
+Cache_GenFile[2][Path] Line0001 = "/C/Users/loasis.BELLANET/Documents/builds/Lo"
+Cache_GenFile[2][Path] Line0002 = "gger SVE Master/Init/Init.ini"
+Cache_GenFile[3][Path] Line0001 = "/C/Users/loasis.BELLANET/Documents/builds/Lo"
+Cache_GenFile[3][Path] Line0002 = "gger SVE Master/Init/data/dscHistD.dll"
+Cache_GenFile[4][Path] Line0001 = "/C/Users/loasis.BELLANET/Documents/builds/Lo"
+Cache_GenFile[4][Path] Line0002 = "gger SVE Master/Init/data/dscCommn.dll"
+Cache_GenFile[5][Path] Line0001 = "/C/Users/loasis.BELLANET/Documents/builds/Lo"
+Cache_GenFile[5][Path] Line0002 = "gger SVE Master/Init/data/dscProc.dll"
+Cache_GenFile[6][Path] Line0001 = "/C/Users/loasis.BELLANET/Documents/builds/Lo"
+Cache_GenFile[6][Path] Line0002 = "gger SVE Master/Init/data/ni_citadel_lv.dll"
+Cache_GenFile[7][Path] Line0001 = "/C/Users/loasis.BELLANET/Documents/builds/Lo"
+Cache_GenFile[7][Path] Line0002 = "gger SVE Master/Init/data/logosbrw.dll"
+Cache_GenGUID_Count[Integer] = 8
+Cache_GenGUID[0][String] = "{4BEA8572-AF14-4767-AA02-044FC959A1C8}"
+Cache_GenGUID[1][String] = "{3748AB83-559A-450F-9F26-8953F088BF00}"
+Cache_GenGUID[2][String] = "{76C87D30-2527-4A5F-99EC-27F6FCD860DA}"
+Cache_GenGUID[3][String] = ""
+Cache_GenGUID[4][String] = ""
+Cache_GenGUID[5][String] = ""
+Cache_GenGUID[6][String] = ""
+Cache_GenGUID[7][String] = ""
+Cache_OutputDir[Path] Line0001 = "/C/Users/loasis.BELLANET/Documents/builds/Log"
+Cache_OutputDir[Path] Line0002 = "ger SVE Master/Init"
+
+[AB_Cache_{C28EB89F-43A3-49B0-9E35-EB29D6D2E98D}]
+Cache_Path[Path] Line0001 = "/C/Users/loasis.BELLANET/AppData/Local/Temp/AB_Cac"
+Cache_Path[Path] Line0002 = "he_{C28EB89F-43A3-49B0-9E35-EB29D6D2E98D}.txt"
+
+[AB_Cache_{07C39C35-B941-4834-9E19-DB078DFC4905}]
+Cache_Path[Path] Line0001 = "/C/Users/loasis.BELLANET/AppData/Local/Temp/AB_Cac"
+Cache_Path[Path] Line0002 = "he_{07C39C35-B941-4834-9E19-DB078DFC4905}.txt"
+
+[AB_Cache_{9E803A61-9428-4443-BF94-2B67F282FC3D}]
+Cache_Path[Path] Line0001 = "/C/Users/loasis.BELLANET/AppData/Local/Temp/AB_Cac"
+Cache_Path[Path] Line0002 = "he_{9E803A61-9428-4443-BF94-2B67F282FC3D}.txt"
+

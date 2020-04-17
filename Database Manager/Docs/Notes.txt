@@ -1,0 +1,7 @@
+
+1. Logger Variable Subscription and their aliases
+In Subscribe Logger Variable, all aliases are now selected from the variable table.
+
+When a new logger variable is added, first the alias is checked in the variable table and added to 
+the logger table. If the alias does not exist in the var table, the newly typed variable alias is
+added to both the var table and the logger table.

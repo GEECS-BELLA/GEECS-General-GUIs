@@ -1,0 +1,3 @@
+localport	64444
+port	65400
+remotehost	192.168.10.157

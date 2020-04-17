@@ -1,0 +1,47 @@
+[ProjectWindow_Data]
+ProjectExplorer.ClassicPosition[String] = "195,1068,698,1578"
+
+[AB_Cache_{9698EF87-510E-4356-B250-4DCBF9581B91}]
+Cache_ProjSymbolChksum[String] = "7dea362b3fac8e00956a4952a3d4f474"
+Cache_TargetSymbolChksum[String] = "7dea362b3fac8e00956a4952a3d4f474"
+Cache_MyCompChksum[String] = "e717322b122b1e559ecaa258a02edb47"
+Cache_GenFile_Count[Integer] = 3
+Cache_GenFile[0][Path] Line0001 = "/C/Users/loasis.BELLANET/Documents/000 Labvi"
+Cache_GenFile[0][Path] Line0002 = "ew Local/Developers Version/Interface/builds"
+Cache_GenFile[0][Path] Line0003 = "/Logger and Plotter/plotter/plotter.exe"
+Cache_GenFile[1][Path] Line0001 = "/C/Users/loasis.BELLANET/Documents/000 Labvi"
+Cache_GenFile[1][Path] Line0002 = "ew Local/Developers Version/Interface/builds"
+Cache_GenFile[1][Path] Line0003 = "/Logger and Plotter/plotter/plotter.aliases"
+Cache_GenFile[2][Path] Line0001 = "/C/Users/loasis.BELLANET/Documents/000 Labvi"
+Cache_GenFile[2][Path] Line0002 = "ew Local/Developers Version/Interface/builds"
+Cache_GenFile[2][Path] Line0003 = "/Logger and Plotter/plotter/plotter.ini"
+Cache_GenGUID_Count[Integer] = 3
+Cache_GenGUID[0][String] = "{8C2F9E10-0848-4CF8-BC60-82F363D0B5C0}"
+Cache_GenGUID[1][String] = "{BAE83242-6AD8-4411-ABC7-D9FF7EF6D69F}"
+Cache_GenGUID[2][String] = "{52441CC4-82CF-4B8A-9B46-6F90EA14A67C}"
+Cache_OutputDir[Path] Line0001 = "/C/Users/loasis.BELLANET/Documents/000 Labvie"
+Cache_OutputDir[Path] Line0002 = "w Local/Developers Version/Interface/builds/L"
+Cache_OutputDir[Path] Line0003 = "ogger and Plotter/plotter"
+
+[AB_Cache_{867EA1C4-7FFC-4A11-A33D-58583B50A212}]
+Cache_ProjSymbolChksum[String] = "7dea362b3fac8e00956a4952a3d4f474"
+Cache_TargetSymbolChksum[String] = "7dea362b3fac8e00956a4952a3d4f474"
+Cache_MyCompChksum[String] = "e717322b122b1e559ecaa258a02edb47"
+Cache_GenFile_Count[Integer] = 3
+Cache_GenFile[0][Path] Line0001 = "/C/Users/loasis.BELLANET/Documents/000 Labvi"
+Cache_GenFile[0][Path] Line0002 = "ew Local/Developers Version/Interface/builds"
+Cache_GenFile[0][Path] Line0003 = "/Logger and Plotter/plotter/plotter.exe"
+Cache_GenFile[1][Path] Line0001 = "/C/Users/loasis.BELLANET/Documents/000 Labvi"
+Cache_GenFile[1][Path] Line0002 = "ew Local/Developers Version/Interface/builds"
+Cache_GenFile[1][Path] Line0003 = "/Logger and Plotter/plotter/plotter.aliases"
+Cache_GenFile[2][Path] Line0001 = "/C/Users/loasis.BELLANET/Documents/000 Labvi"
+Cache_GenFile[2][Path] Line0002 = "ew Local/Developers Version/Interface/builds"
+Cache_GenFile[2][Path] Line0003 = "/Logger and Plotter/plotter/plotter.ini"
+Cache_GenGUID_Count[Integer] = 3
+Cache_GenGUID[0][String] = "{8C2F9E10-0848-4CF8-BC60-82F363D0B5C0}"
+Cache_GenGUID[1][String] = "{BAE83242-6AD8-4411-ABC7-D9FF7EF6D69F}"
+Cache_GenGUID[2][String] = "{52441CC4-82CF-4B8A-9B46-6F90EA14A67C}"
+Cache_OutputDir[Path] Line0001 = "/C/Users/loasis.BELLANET/Documents/000 Labvie"
+Cache_OutputDir[Path] Line0002 = "w Local/Developers Version/Interface/builds/L"
+Cache_OutputDir[Path] Line0003 = "ogger and Plotter/plotter"
+

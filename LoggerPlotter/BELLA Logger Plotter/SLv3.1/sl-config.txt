@@ -1,0 +1,353 @@
+// format:
+// ##<group name>,<logging interval (ms)>,<# of datasockets>,<# of channels (not counting subchannels)>
+// <datasocket format code>,<datasocket url>,<# of possible data returned, including subchannels>
+// <datasocket format code>,<datasocket url>,<# of possible data returned, including subchannels>
+// ...
+// <channel number>,<channel name>,[<labview integer indicating datatype for channel>]
+// <channel number>,<channel name>,[<labview integer indicating datatype for channel>]
+// ...
+// #<channel number>,<channel name>,<labview integer indicating datatype for subchannel>,<# of subchannels>
+// <subchannel number>,<subchannel name>
+// <subchannel number>,<subchannel name>
+// ...
+//
+//
+// datasocket format codes:
+// 0=array of double
+// 1=array of string
+// 2=array of string, converted from hexadecimal as exponential (like for ION gauges)
+// 3=array of string, converted from hexadecimal using mini-convectron conversion functions
+// 4=cluster of 5 strings
+// 5=cluster of 3 arrays of boolean, 1 array of word, 1 array of double
+// 6=array of cluster of time, double, double
+//
+
+
+##L-Cave Environment,4000,2,4
+1,dstp://192.168.11.6/L-Cave_Temperature_Mon_Feedback,1-4
+1,dstp://192.168.11.6/L-Cave_Humidity_Sensor_Feedback,5-7
+2,L-Cave Pre-Amp Temp
+3,MCC2 Temp
+4,MCC1 Temp
+6,L-Cave Humidity
+
+##L-Cave Environment 2,4000,1,2
+1,dstp://192.168.11.6/L-Cave_Temperature_Mon2_Feedback,1-4
+1,L-Cave cooling water supply temp
+2,L-Cave cooling water return temp
+
+##71-253 Environment,4000,2,5
+1,dstp://192.168.11.12/71-253_Temperature_Mon_Feedback,1-4
+1,dstp://192.168.11.12/71-253_Humidity_Sensor_Feedback,5-7
+1,Oscillator Temp
+2,Target Cave Temp
+3,Godzilla Temp
+4,Preamp Temp
+6,71-253 Humidity
+
+##71-253 Laser,2000,1,7
+1,dstp://192.168.10.16/71_253_front_end_laser_parameters,1-7
+1,Regen Pulse Energy
+2,XPW spec peak counts
+3,XPW Spectral Width
+4,Amp0 Input Centroid X
+5,Amp0 Input Centroid Y
+6,Amp0 Pulse Energy
+7,Preamp1 Power
+
+##L-cave Pump Laser Octet Power,4000,1,8
+1,dstp://192.168.10.192/octetpower,1-8
+1,Laser 1
+2,Laser 2
+3,Laser 3
+4,Laser 4
+5,Laser 5
+6,Laser 6
+7,Laser 7
+8,Laser 8
+
+##B-Cave Environment,4000,2,5
+1,dstp://192.168.11.36/Capillary_Temperature_Mon_Feedback,1-4
+1,dstp://192.168.11.12/10TW_Humidity_Sensor_Feedback,5-7
+1,OAP Laser Table Temp
+2,100TW Diagnostic Laser Table Temp
+3,Incoming Air Temp
+4,10TW Laser Table Temp
+6,B-Cave Humidity
+
+##L-Cave Cryo Temperature,4000,1,8
+1,dstp://192.168.11.6/L-Cave_Cryo_Temp_Mon_Feedback,1-8
+1,Cryo 1
+2,Cryo 2
+3,Cryo 3
+4,Cryo 4
+5,Cryo 5
+6,Cryo 6
+7,Cryo 7
+8,Cryo 8
+
+##A-Cave Environment,4000,1,1
+1,dstp://192.168.11.36/A-Cave_Temperature_Mon_Feedback,1-2
+1,A-Cave room temp
+
+##71-253 Femtometer,4000,1,5
+4,dstp://192.168.10.18/femtometer,1-5
+1,Pulse Duration
+2,Fringe
+3,FWHM
+4,FWTM
+5,Central Wavelength
+
+##Capillary Vacuum System Status,2000,1,31
+5,dstp://192.168.11.36/Capillary_Vacsys_Feedback,1-75
+#1,boolean set 1,33,48
+1,COMP4 Ion Gauge On Feedback
+2,COMP4 Ion Gauge Degas Feedback
+3,DEMAG Ion Gauge On Feedback
+4,DEMAG Ion Gauge Degas Feedback
+5,OAP Ion Gauge On Feedback
+6,OAP Ion Gauge Degas Feedback
+9,DIAG Ion Gauge On Feedback
+10,DIAG Ion Gauge Degas Feedback
+13,Roughing Manifold Valve Opened
+14,Roughing Manifold Valve Closed
+15,COMP4 Roughing Valve Opened
+16,COMP4 Roughing Valve Closed
+17,DEMAG Roughing Valve Opened
+18,DEMAG Roughing Valve Closed
+19,OAP Roughing Valve Opened
+20,OAP Roughing Valve Closed
+21,Capillary Roughing Valve Opened
+22,Capillary Roughing Valve Closed
+23,Diagnostic Roughing Valve Opened
+24,Diagnostic Roughing Valve Closed
+25,Gate Valve 5 Opened
+26,Gate Valve 5 Closed
+27,Gate Valve 6 Opened
+28,Gate Valve 6 Closed
+29,Gate Valve 7 Opened
+30,Gate Valve 7 Closed
+31,Gate Valve 8 Opened
+32,Gate Valve 8 Closed
+33,COMP4 Vent Valve Opened
+34,COMP4 Vent Valve Closed
+35,DEMAG Vent Valve Opened
+36,DEMAG Vent Valve Closed
+37,OAP Vent Valve Opened
+38,OAP Vent Valve Closed
+39,Capillary Vent Valve Opened
+40,Capillary Vent Valve Closed
+41,DIAG Vent Valve Opened
+42,DIAG Vent Valve Closed
+43,COMP4 Turbo Backing Valve Opened
+44,COMP4 Turbo Backing Valve Closed
+45,DEMAG Turbo Backing Valve Opened
+46,DEMAG Turbo Backing Valve Closed
+47,OAP Turbo Backing Valve Opened
+48,OAP Turbo Backing Valve Closed
+49,Capillary Turbo Backing Valve Opened
+50,Capillary Turbo Backing Valve Closed
+51,DIAG Turbo Backing Valve Opened
+52,DIAG Turbo Backing Valve Closed
+#2,boolean set 2,33,36
+9,COMP4 Turbo Fault Feedback
+10,COMP4 Turbo Normal Feedback
+11,DEMAG Turbo Fault Feedback
+12,DEMAG Turbo Normal Feedback
+13,OAP Turbo Fault Feedback
+14,OAP Turbo Normal Feedback
+15,DIAG Turbo Fault Feedback
+16,DIAG Turbo Normal Feedback
+29,COMP4 ION Gauge On Signal
+30,COMP4 ION Gauge Degas Signal
+31,DEMAG ION Gauge On Signal
+32,DEMAG ION Gauge Degas Signal
+33,OAP ION Gauge On Signal
+34,OAP ION Gauge Degas Signal
+37,DIAG ION Gauge On Signal
+38,DIAG ION Gauge Degas Signal
+41,Roughing Manifold Valve Actuate
+42,COMP4 Roughing Valve Actuate
+43,DEMAG Roughing Valve Actuate
+44,OAP Roughing Valve Actuate
+45,Capillary Roughing Valve Actuate
+46,DIAG Roughing Valve Actuate
+47,Gate Valve 5 Actuate
+48,Gate Valve 6 Actuate
+49,Gate Valve 7 Actuate
+50,Gate Valve 8 Actuate
+51,COMP4 Vent Valve Actuate
+52,DEMAG Vent Valve Actuate
+53,OAP Vent Valve Actuate
+54,Capillary Vent Valve Actuate
+55,DIAG Vent Valve Actuate
+56,COMP4 Turbo Backing Valve Actuate
+57,DEMAG Turbo Backing Valve Actuate
+58,OAP Turbo Backing Valve Actuate
+59,Capillary Turbo Backing Valve Actuate
+60,DIAG Turbo Backing Valve Actuate
+#3,boolean set 3,33,8
+7,Manifold Roughing Pump Actuate
+8,COMP4 Turbo Backing Pump Actuate
+9,DEMAG Turbo Backing Pump Actuate
+10,DIAG Turbo Backing Pump Actuate
+19,COMP4 Turbo Pump Run Signal
+20,DEMAG Turbo Pump Run Signal
+21,OAP Turbo Pump Run Signal
+22,DIAG Turbo Pump Run Signal
+4,COMP4 Convectron Status,6
+5,DEMAG Convectron Status,6
+6,OAP Convectron Status,6
+7,Capillary Convectron Status,6
+8,DIAG Convectron Status,6
+10,Roughing Line Convectron Status,6
+11,COMP4 Foreline Convectron Status,6
+12,DEMAG Foreline Convectron Status,6
+13,OAP Foreline Convectron Status,6
+15,DIAG Foreline Convectron Status,6
+19,COMP4 Turbo Pump Status,6
+20,DEMAG Turbo Pump Status,6
+21,OAP Turbo Pump Status,6
+22,DIAG Turbo Pump Status,6
+28,COMP4 Convectron Consolidate
+32,DEMAG Convectron Consolidate
+36,OAP Convectron Consolidate
+40,Capillary Convectron Consolidate
+44,DIAG Convectron Consolidate
+52,COMP4 Ion Gauge
+53,DEMAG Ion Gauge
+54,OAP Ion Gauge
+56,DIAG Ion Gauge
+60,Roughing Line Convectron Gauge
+61,COMP4 Foreline Convectron Gauge
+62,DEMAG Foreline Convectron Gauge
+63,OAP Foreline Convectron Gauge
+65,DIAG Foreline Convectron Gauge
+
+##L-Cave Vacuum System Status,2000,1,21
+5,dstp://192.168.11.6/L-CAVE_Vacsys_Feedback,1-75
+#4,boolean set 4,33,34
+1,CCC Ion Gauge On Feedback
+2,CCC Ion Gauge Degas Feedback
+3,BTL Ion Gauge On Feedback
+4,BTL Ion Gauge Degas Feedback
+13,Roughing Manifold Valve Opened
+14,Roughing Manifold Valve Closed
+15,MCC2 Roughing Valve Opened
+16,MCC2 Roughing Valve Closed
+17,MCC1 Roughing Valve Opened
+18,MCC1 Roughing Valve Closed
+19,BTL Roughing Valve Opened
+20,BTL Roughing Valve Closed
+21,GV1 Valve Opened
+22,GV1 Roughing Valve Closed
+23,GV2 Roughing Valve Opened
+24,GV2 Roughing Valve Closed
+25,GV3 Opened
+26,GV3 Closed
+27,GV4 Opened
+28,GV4 Closed
+29,MCC2 Vent Valve Opened
+30,MCC2 Vent Valve Closed
+31,CCC Vent Valve Opened
+32,CCC Vent Valve Closed
+33,MCC1 Vent Valve Opened
+34,MCC1 Vent Valve Closed
+35,BTL Vent Valve Opened
+36,BTL Vent Valve Closed
+37,CCC Turbo Backing Valve Opened
+38,CCC Turbo Backing Valve Closed
+39,BTL Turbo Backing Valve Opened
+40,BTL Turbo Backing Valve Closed
+41,CCC Roughing Valve Opened
+42,CCC Roughing Valve Closed
+#5,boolean set 5,33,25
+9,CCC Turbo Fault Feedback
+10,CCC Turbo Normal Feedback
+11,BTL Turbo Fault Feedback
+12,BTL Turbo Normal Feedback
+21,Cryo cryostat warm status
+29,CCC ION Gauge On Signal
+30,CCC ION Gauge Degas Signal
+31,BTL ION Gauge On Signal
+32,BTL ION Gauge Degas Signal
+41,Roughing Manifold Valve Actuate
+42,MCC2 Roughing Valve Actuate
+43,MCC1 Roughing Valve Actuate
+44,BTL Roughing Valve Actuate
+45,GV1 Actuate
+46,GV2 Actuate
+47,GV3 Actuate
+48,GV4 Actuate
+49,MCC2 Vent Valve Actuate
+50,CCC Vent Valve Actuate
+51,MCC1 Vent Valve Actuate
+52,BTL Vent Valve Actuate
+53,CCC Turbo Backing Valve Actuate
+54,BTL Turbo Backing Valve Actuate
+55,CCC Roughing Valve Actuate
+57,CCC cold head enable
+#6,boolean set 6,33,8
+7,Manifold Roughing Pump Actuate
+8,CCC Turbo Backing Pump Actuate
+9,BTL Turbo Backing Pump Actuate
+12,CCC SUSPA Enable
+13,CCC Turbo Vent Valve Actuate
+15,BTL Turbo Vent Valve Actuate
+19,CCC Turbo Pump Run Signal
+20,BTL Turbo Pump Run Signal
+4,MCC2 Convectron Status,6
+5,CCC Convectron Status,6
+6,MCC1 Convectron Status,6
+7,BTL Convectron Status,6
+10,Roughing Line Convectron Status,6
+11,CCC Foreline Convectron Status,6
+12,BTL Foreline Convectron Status,6
+19,CCC Turbo Pump Status,6
+20,BTL Turbo Pump Status,6
+28,MCC2 Convectron Consolidate
+32,CCC Convectron Consolidate
+36,MCC1 Convectron Consolidate
+40,BTL Convectron Consolidate
+52,CCC Ion Gauge
+53,BTL Ion Gauge
+60,Roughing Line Convectron Gauge
+61,CCC Foreline Convectron Gauge
+62,BTL Foreline Convectron Gauge
+
+
+##10 TW Mini-Convectrons,4000,1,4
+3,dstp://192.168.11.12/10tw_vacuum_feedback,1-4
+1,10 TW TREX Beampipe
+2,10 TW MagSpec
+3,10 TW Compressor Chamber
+4,10 TW Target Chamber
+
+##BELLA LaserBay Environment,5000,1,5
+4,dstp://192.168.10.183/wave,1-5
+1,Zone1 Temp
+2,Zone2 Temp
+3,Zone3 Temp
+4,Zone4 Temp
+5,Zone5 Temp
+
+##TREX Beam Pointing,2000,2,18
+6,dstp://192.168.10.184/trexbp,1-20
+1,Preamp2 Cam X Centroid
+2,Preamp2 Cam Y Centroid
+3,Main Amp Input Cam1 X Centroid
+4,Main Amp Input Cam1 Y Centroid
+5,Main Amp Input Cam2 X Centroid
+6,Main Amp Input Cam2 Y Centroid
+7,LCAM 7 X Centroid
+8,LCAM 7 Y Centroid
+9,LCAM 8 X Centroid
+10,LCAM 8 Y Centroid
+11,LCAM 8B X Centroid
+12,LCAM 8B Y Centroid
+13,LCAM 9 X Centroid
+14,LCAM 9 Y Centroid
+15,TA 1 X Centroid
+16,TA 1 Y Centroid
+17,TA 2 X Centroid
+18,TA 2 Y Centroid
