@@ -221,6 +221,9 @@
 		<Item Name="maybe obsolete.vi" Type="VI" URL="../../Database Manager/SubVIs/maybe obsolete.vi"/>
 		<Item Name="device on off list mouse down.vi" Type="VI" URL="../../Database Manager/SubVIs/device on off list mouse down.vi"/>
 		<Item Name="start kill devs.vi" Type="VI" URL="../Subvi/start kill devs.vi"/>
+		<Item Name="Get Experiment Information.vi" Type="VI" URL="../Subvi/Get Experiment Information.vi"/>
+		<Item Name="Wait for cmd execution state.vi" Type="VI" URL="../Subvi/Wait for cmd execution state.vi"/>
+		<Item Name="wait for cmd exec next steps.ctl" Type="VI" URL="../Subvi/wait for cmd exec next steps.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="1D Array to String__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/string/string.llb/1D Array to String__ogtk.vi"/>
