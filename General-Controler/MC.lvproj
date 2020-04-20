@@ -224,6 +224,7 @@
 		<Item Name="Get Experiment Information.vi" Type="VI" URL="../Subvi/Get Experiment Information.vi"/>
 		<Item Name="Wait for cmd execution state.vi" Type="VI" URL="../Subvi/Wait for cmd execution state.vi"/>
 		<Item Name="wait for cmd exec next steps.ctl" Type="VI" URL="../Subvi/wait for cmd exec next steps.ctl"/>
+		<Item Name="make scan analysis files.vi" Type="VI" URL="../Subvi/make scan analysis files.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="1D Array to String__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/string/string.llb/1D Array to String__ogtk.vi"/>
