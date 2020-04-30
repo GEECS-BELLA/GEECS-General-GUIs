@@ -1353,6 +1353,75 @@
 				<Property Name="TgtF_targetfileGUID" Type="Str">{798EBAF6-EC5C-4A25-AB4D-D9DCE68E989F}</Property>
 				<Property Name="TgtF_targetfileName" Type="Str">MakeScanFile2D.exe</Property>
 			</Item>
+			<Item Name="Master Control Debug" Type="EXE">
+				<Property Name="App_INI_aliasGUID" Type="Str">{E23556C4-7471-4D87-98AF-DD342D83A111}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{48BD9863-BF0B-410A-9540-5247CED6B2FB}</Property>
+				<Property Name="App_INI_itemID" Type="Ref">/My Computer/Master Control.ini</Property>
+				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="App_waitDebugging" Type="Bool">true</Property>
+				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{C1926F33-29FD-41BB-8B1E-6C77B5B60FE1}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">Master Control Debug</Property>
+				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_localDestDir" Type="Path">/C/GEECS/Developers Version/builds/Interface builds/General GUIs/NI_AB_PROJECTNAME/Master Control</Property>
+				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{2A5EC35D-0A4C-4A2A-8DA7-18666F160A30}</Property>
+				<Property Name="Bld_version.build" Type="Int">189</Property>
+				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Destination[0].destName" Type="Str">MC Debug.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">/C/GEECS/Developers Version/builds/Interface builds/General GUIs/NI_AB_PROJECTNAME/Master Control/MC Debug.exe</Property>
+				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[0].type" Type="Str">App</Property>
+				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
+				<Property Name="Destination[1].path" Type="Path">/C/GEECS/Developers Version/builds/Interface builds/General GUIs/NI_AB_PROJECTNAME/Master Control/data</Property>
+				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="Exe_cmdLineArgs" Type="Bool">true</Property>
+				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/icons/MC.ico</Property>
+				<Property Name="Source[0].itemID" Type="Str">{2A90AE3A-1167-4BE1-A3DC-BDD2E2A03A7F}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/MC3.vi</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[1].type" Type="Str">VI</Property>
+				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/My Computer/sub vis/Device Enable Status.vi</Property>
+				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[2].type" Type="Str">VI</Property>
+				<Property Name="Source[3].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[3].itemID" Type="Ref">/My Computer/sub vis/Test alarms and traces DSC.vi</Property>
+				<Property Name="Source[3].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[3].type" Type="Str">VI</Property>
+				<Property Name="Source[4].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[4].itemID" Type="Ref">/My Computer/sub vis/preset diagnostics GUI.vi</Property>
+				<Property Name="Source[4].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[4].type" Type="Str">VI</Property>
+				<Property Name="Source[5].Container.applyInclusion" Type="Bool">true</Property>
+				<Property Name="Source[5].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[5].itemID" Type="Ref">/My Computer/GUI_Template</Property>
+				<Property Name="Source[5].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[5].type" Type="Str">Container</Property>
+				<Property Name="Source[6].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[6].itemID" Type="Ref">/My Computer/GUI_Template/Reentrant Multiple Progress/Reentrant tcp for data gatherer.vi</Property>
+				<Property Name="Source[6].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[6].type" Type="Str">VI</Property>
+				<Property Name="Source[7].Container.applyInclusion" Type="Bool">true</Property>
+				<Property Name="Source[7].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[7].itemID" Type="Ref">/My Computer/pbar</Property>
+				<Property Name="Source[7].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[7].type" Type="Str">Container</Property>
+				<Property Name="SourceCount" Type="Int">8</Property>
+				<Property Name="TgtF_companyName" Type="Str">LBNL</Property>
+				<Property Name="TgtF_enableDebugging" Type="Bool">true</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">Master Control</Property>
+				<Property Name="TgtF_internalName" Type="Str">Master Control</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2011 LBNL</Property>
+				<Property Name="TgtF_productName" Type="Str">Master Control</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{D0F84780-8FC3-4E6C-AD67-B46503AE8538}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">MC Debug.exe</Property>
+			</Item>
 		</Item>
 	</Item>
 </Project>
