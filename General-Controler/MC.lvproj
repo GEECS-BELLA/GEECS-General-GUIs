@@ -225,6 +225,9 @@
 		<Item Name="Wait for cmd execution state.vi" Type="VI" URL="../Subvi/Wait for cmd execution state.vi"/>
 		<Item Name="wait for cmd exec next steps.ctl" Type="VI" URL="../Subvi/wait for cmd exec next steps.ctl"/>
 		<Item Name="make scan analysis files.vi" Type="VI" URL="../Subvi/make scan analysis files.vi"/>
+		<Item Name="MC Network cluster.ctl" Type="VI" URL="../MC Network cluster.ctl"/>
+		<Item Name="MC scan cluster.ctl" Type="VI" URL="../MC scan cluster.ctl"/>
+		<Item Name="MC timing cluster.ctl" Type="VI" URL="../MC timing cluster.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="1D Array to String__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/string/string.llb/1D Array to String__ogtk.vi"/>
