@@ -1,5 +1,5 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
-<Project Type="Project" LVVersion="18008000">
+<Project Type="Project" LVVersion="20008000">
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
@@ -627,7 +627,6 @@
 				<Item Name="Get String Text Bounds.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Get String Text Bounds.vi"/>
 				<Item Name="Get System Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/sysdir.llb/Get System Directory.vi"/>
 				<Item Name="Get Text Rect.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Get Text Rect.vi"/>
-				<Item Name="Get Type of Variant.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/GetType.llb/Get Type of Variant.vi"/>
 				<Item Name="getChannelList.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tdmsutil.llb/getChannelList.vi"/>
 				<Item Name="GetFileVersionInfo.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/fileVersionInfo.llb/GetFileVersionInfo.vi"/>
 				<Item Name="GetFileVersionInfoSize.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/fileVersionInfo.llb/GetFileVersionInfoSize.vi"/>
@@ -687,7 +686,6 @@
 				<Item Name="Three Button Dialog CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog CORE.vi"/>
 				<Item Name="Three Button Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog.vi"/>
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
-				<Item Name="Type Enum.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/GetType.llb/Type Enum.ctl"/>
 				<Item Name="UDP Multicast Open.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tcp.llb/UDP Multicast Open.vi"/>
 				<Item Name="UDP Multicast Read-Only Open.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tcp.llb/UDP Multicast Read-Only Open.vi"/>
 				<Item Name="UDP Multicast Read-Write Open.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tcp.llb/UDP Multicast Read-Write Open.vi"/>
@@ -697,7 +695,6 @@
 				<Item Name="UpdateListBoxAfterKeyEvent.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tdmsutil.llb/UpdateListBoxAfterKeyEvent.vi"/>
 				<Item Name="UpdateScrollbarBeforeKeyEvent.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tdmsutil.llb/UpdateScrollbarBeforeKeyEvent.vi"/>
 				<Item Name="usereventprio.ctl" Type="VI" URL="/&lt;vilib&gt;/event_ctls.llb/usereventprio.ctl"/>
-				<Item Name="VariantType to Type Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/GetType.llb/VariantType to Type Code.vi"/>
 				<Item Name="VariantType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/VariantDataType/VariantType.lvlib"/>
 				<Item Name="VerQueryValue.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/fileVersionInfo.llb/VerQueryValue.vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
@@ -743,7 +740,6 @@
 				<Item Name="DWDT Empty Digital.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DWDTOps.llb/DWDT Empty Digital.vi"/>
 				<Item Name="DTbl Empty Digital.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DTblOps.llb/DTbl Empty Digital.vi"/>
 				<Item Name="General Error Handler Core CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler Core CORE.vi"/>
-				<Item Name="Read Alarms.vi" Type="VI" URL="/&lt;vilib&gt;/lvdsc/alarm/Read Alarms.vi"/>
 				<Item Name="Sampling Mode.ctl" Type="VI" URL="/&lt;vilib&gt;/sound2/lvsound2.llb/Sampling Mode.ctl"/>
 				<Item Name="Sound File Info.vi" Type="VI" URL="/&lt;vilib&gt;/sound2/lvsound2.llb/Sound File Info.vi"/>
 				<Item Name="Sound File Info (path).vi" Type="VI" URL="/&lt;vilib&gt;/sound2/lvsound2.llb/Sound File Info (path).vi"/>
@@ -773,6 +769,22 @@
 				<Item Name="Sound Output Write (SGL).vi" Type="VI" URL="/&lt;vilib&gt;/sound2/lvsound2.llb/Sound Output Write (SGL).vi"/>
 				<Item Name="Sound Output Write (U8).vi" Type="VI" URL="/&lt;vilib&gt;/sound2/lvsound2.llb/Sound Output Write (U8).vi"/>
 				<Item Name="Sound Output Write (DBL Single).vi" Type="VI" URL="/&lt;vilib&gt;/sound2/lvsound2.llb/Sound Output Write (DBL Single).vi"/>
+				<Item Name="NI_Data Type.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/Data Type/NI_Data Type.lvlib"/>
+				<Item Name="NI_DSC.lvlib" Type="Library" URL="/&lt;vilib&gt;/lvdsc/NI_DSC.lvlib"/>
+				<Item Name="ALM_Get_Alarms.vi" Type="VI" URL="/&lt;vilib&gt;/lvdsc/alarm/internal/ALM_Get_Alarms.vi"/>
+				<Item Name="nialarms.dll" Type="Document" URL="/&lt;vilib&gt;/lvdsc/alarm/internal/nialarms.dll"/>
+				<Item Name="ALM_GetTagURLs.vi" Type="VI" URL="/&lt;vilib&gt;/lvdsc/alarm/internal/ALM_GetTagURLs.vi"/>
+				<Item Name="HIST_FormatTagname&amp;ProcessFilterSpec.vi" Type="VI" URL="/&lt;vilib&gt;/lvdsc/historical/internal/alarm/HIST_FormatTagname&amp;ProcessFilterSpec.vi"/>
+				<Item Name="NET_GetHostName.vi" Type="VI" URL="/&lt;vilib&gt;/lvdsc/common/net/NET_GetHostName.vi"/>
+				<Item Name="dscCommn.dll" Type="Document" URL="/&lt;vilib&gt;/lvdsc/common/dscCommn.dll"/>
+				<Item Name="ERR_MergeErrors.vi" Type="VI" URL="/&lt;vilib&gt;/lvdsc/common/error/ERR_MergeErrors.vi"/>
+				<Item Name="CTL_defaultProcessName.vi" Type="VI" URL="/&lt;vilib&gt;/lvdsc/historical/internal/cittools/CTL_defaultProcessName.vi"/>
+				<Item Name="PTH_ConstructCustomURL.vi" Type="VI" URL="/&lt;vilib&gt;/lvdsc/common/path/PTH_ConstructCustomURL.vi"/>
+				<Item Name="NET_resolveNVIORef.vi" Type="VI" URL="/&lt;vilib&gt;/lvdsc/common/net/NET_resolveNVIORef.vi"/>
+				<Item Name="NET_tagURLdecode.vi" Type="VI" URL="/&lt;vilib&gt;/lvdsc/common/net/NET_tagURLdecode.vi"/>
+				<Item Name="ERR_ErrorClusterFromErrorCode.vi" Type="VI" URL="/&lt;vilib&gt;/lvdsc/common/error/ERR_ErrorClusterFromErrorCode.vi"/>
+				<Item Name="ALM_Error_Resolve.vi" Type="VI" URL="/&lt;vilib&gt;/lvdsc/alarm/internal/ALM_Error_Resolve.vi"/>
+				<Item Name="Path to URL inner.vi" Type="VI" URL="/&lt;vilib&gt;/printing/PathToURL.llb/Path to URL inner.vi"/>
 			</Item>
 			<Item Name="add to array if.vi" Type="VI" URL="../add to array if.vi"/>
 			<Item Name="Alarms FP FGV.vi" Type="VI" URL="../Alarms FP FGV.vi"/>
@@ -972,6 +984,9 @@
 			<Item Name="stop FGV control.ctl" Type="VI" URL="../../../Device Drivers/shared/stop FGV control.ctl"/>
 			<Item Name="supergui create stop queue.vi" Type="VI" URL="../../../Shared/supergui create stop queue.vi"/>
 			<Item Name="delete device group name.vi" Type="VI" URL="../../Database Manager/SubVIs/delete device group name.vi"/>
+			<Item Name="NVIORef.dll" Type="Document" URL="NVIORef.dll">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="DataMerger" Type="EXE">
@@ -979,6 +994,7 @@
 				<Property Name="App_INI_aliasGUID" Type="Str">{32EFD3E9-E2F0-4A6C-A762-B80939C19C06}</Property>
 				<Property Name="App_INI_GUID" Type="Str">{A867A720-875A-48D3-A70A-EBCD496019E9}</Property>
 				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="App_serverType" Type="Int">1</Property>
 				<Property Name="App_winsec.description" Type="Str">http://www.LBNL.com</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{3EEC40CB-0BA5-4939-B2D6-AA11A72E2F00}</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">DataMerger</Property>
@@ -1016,6 +1032,7 @@
 				<Property Name="App_INI_aliasGUID" Type="Str">{6672DE4B-1DFE-4621-B2EB-B7FDEDA80F76}</Property>
 				<Property Name="App_INI_GUID" Type="Str">{3C9AEE94-9CB5-47F4-96B1-14E16FCE86F9}</Property>
 				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="App_serverType" Type="Int">1</Property>
 				<Property Name="App_winsec.description" Type="Str">http://www.LBNL.com</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{20DF9EB8-0580-4205-8FB6-35364032AE5D}</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">General Data Gatherer</Property>
@@ -1056,6 +1073,7 @@
 				<Property Name="App_INI_aliasGUID" Type="Str">{8EBC9446-C543-400C-9B20-7890E8A8D8CF}</Property>
 				<Property Name="App_INI_GUID" Type="Str">{07DC80A8-53EC-4DF1-A56F-5DC7DF853F51}</Property>
 				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="App_serverType" Type="Int">1</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{5621EFBA-82FA-4467-A58A-265E615745AF}</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">LVstarter</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
@@ -1093,6 +1111,7 @@
 				<Property Name="App_INI_GUID" Type="Str">{3F56B368-0860-45DA-89E4-119456C06D84}</Property>
 				<Property Name="App_INI_itemID" Type="Ref">/My Computer/Master Control.ini</Property>
 				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="App_serverType" Type="Int">1</Property>
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{1C8CC965-E02F-46A1-9D82-1A6E647CBD03}</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">Master Control</Property>
@@ -1101,7 +1120,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">/C/GEECS/Developers Version/builds/Interface builds/General GUIs/NI_AB_PROJECTNAME/Master Control</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{C126A360-18F5-4B84-9B98-CDE1988BCE93}</Property>
-				<Property Name="Bld_version.build" Type="Int">189</Property>
+				<Property Name="Bld_version.build" Type="Int">190</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Master Control.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">/C/GEECS/Developers Version/builds/Interface builds/General GUIs/NI_AB_PROJECTNAME/Master Control/Master Control.exe</Property>
@@ -1159,6 +1178,7 @@
 				<Property Name="App_INI_aliasGUID" Type="Str">{5612C4A6-FF7A-465A-94B5-226184FC4F37}</Property>
 				<Property Name="App_INI_GUID" Type="Str">{D0BD023D-7E02-4E24-952C-B0B4DFE0A80C}</Property>
 				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="App_serverType" Type="Int">1</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{7E8DDFA9-95A6-4B12-A640-EFCC37E7EE31}</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">Plotter</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
@@ -1198,6 +1218,7 @@
 				<Property Name="App_INI_GUID" Type="Str">{701D8D83-B87A-49DB-A719-D88FE5ED22AF}</Property>
 				<Property Name="App_INI_itemID" Type="Ref">/My Computer/Master Control.ini</Property>
 				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="App_serverType" Type="Int">1</Property>
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{AA4E68B0-E6D1-4B48-9956-118AB20FDDE9}</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">MultiVariableScanPolynomial</Property>
@@ -1255,6 +1276,7 @@
 				<Property Name="App_INI_GUID" Type="Str">{8AA8539A-573B-40CD-84B4-2AE2D4AE343C}</Property>
 				<Property Name="App_INI_itemID" Type="Ref">/My Computer/Master Control.ini</Property>
 				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="App_serverType" Type="Int">1</Property>
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{E8D6984C-4B48-4777-AF2D-973E5BA3F74A}</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">Capillary Hexapod scan creator</Property>
@@ -1317,6 +1339,7 @@
 				<Property Name="App_INI_aliasGUID" Type="Str">{5E682C52-167F-4379-8075-44406BAD99EA}</Property>
 				<Property Name="App_INI_GUID" Type="Str">{1C7BF361-183C-4701-BDAB-95BCFEBF7D4F}</Property>
 				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="App_serverType" Type="Int">1</Property>
 				<Property Name="App_winsec.description" Type="Str">http://www.LBNL.com</Property>
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{ACFA1F0C-45F1-4C04-8845-666411ED3359}</Property>
@@ -1361,6 +1384,7 @@
 				<Property Name="App_INI_GUID" Type="Str">{48BD9863-BF0B-410A-9540-5247CED6B2FB}</Property>
 				<Property Name="App_INI_itemID" Type="Ref">/My Computer/Master Control.ini</Property>
 				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="App_serverType" Type="Int">1</Property>
 				<Property Name="App_waitDebugging" Type="Bool">true</Property>
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{C1926F33-29FD-41BB-8B1E-6C77B5B60FE1}</Property>
