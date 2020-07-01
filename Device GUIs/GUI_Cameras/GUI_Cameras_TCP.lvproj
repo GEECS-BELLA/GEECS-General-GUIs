@@ -435,6 +435,7 @@
 			<Item Name="ByteToVariant.vi" Type="VI" URL="../../../../Shared/MySQL/ByteToVariant.vi"/>
 			<Item Name="changePath.vi" Type="VI" URL="../changePath.vi"/>
 			<Item Name="ChnageControlLimits.vi" Type="VI" URL="../../../../Shared/Device Driver/ChnageControlLimits.vi"/>
+			<Item Name="clearTCPBufferSerial.vi" Type="VI" URL="../../../../Shared/TCP/clearTCPBufferSerial.vi"/>
 			<Item Name="closeQueues.vi" Type="VI" URL="../../../../Shared/Device Driver/closeQueues.vi"/>
 			<Item Name="Color Table Generator.vi" Type="VI" URL="../color tables/2008 Image manager.llb/Color Table Generator.vi"/>
 			<Item Name="ColorRamp_TS.vi" Type="VI" URL="../ColorRamp_TS.vi"/>
