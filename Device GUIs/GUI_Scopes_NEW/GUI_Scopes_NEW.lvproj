@@ -1,5 +1,5 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
-<Project Type="Project" LVVersion="13008000">
+<Project Type="Project" LVVersion="20008000">
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
@@ -14,6 +14,7 @@
 		<Item Name="GUI_Template" Type="Folder" URL="../../../../Shared/GUI_Template">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
+		<Item Name="GUI_picoscope.vi" Type="VI" URL="../GUI_picoscope.vi"/>
 		<Item Name="GUI_Scopes_NEW.vi" Type="VI" URL="../GUI_Scopes_NEW.vi"/>
 		<Item Name="getActiveItems.vi" Type="VI" URL="../getActiveItems.vi"/>
 		<Item Name="checkTrigger.vi" Type="VI" URL="../checkTrigger.vi"/>
@@ -299,7 +300,6 @@
 				<Item Name="eventvkey.ctl" Type="VI" URL="/&lt;vilib&gt;/event_ctls.llb/eventvkey.ctl"/>
 				<Item Name="Find Tag.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Find Tag.vi"/>
 				<Item Name="Format Message String.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Format Message String.vi"/>
-				<Item Name="General Error Handler CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler CORE.vi"/>
 				<Item Name="General Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler.vi"/>
 				<Item Name="Get String Text Bounds.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Get String Text Bounds.vi"/>
 				<Item Name="Get Text Rect.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Get Text Rect.vi"/>
@@ -348,6 +348,7 @@
 				<Item Name="Image Type" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/Image Type"/>
 				<Item Name="Waveform Scale and Offset.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/WDTOps.llb/Waveform Scale and Offset.vi"/>
 				<Item Name="IMAQ Image Bit Depth" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ Image Bit Depth"/>
+				<Item Name="General Error Handler Core CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler Core CORE.vi"/>
 			</Item>
 			<Item Name="mode_TypDef.ctl" Type="VI" URL="../../../Device Driver/PXIdigitizer/mode_TypDef.ctl"/>
 			<Item Name="Trigger.DigitalSource_TypDEf.ctl" Type="VI" URL="../../../../Device Drivers/PXIdigitizer/subVis/Trigger.DigitalSource_TypDEf.ctl"/>
@@ -461,6 +462,7 @@
 			<Item Name="get ip ports and subscribe commands for expt tcp data.vi" Type="VI" URL="../../../General-Controler/get ip ports and subscribe commands for expt tcp data.vi"/>
 			<Item Name="scan data to receive to subscribe commands.vi" Type="VI" URL="../../../../Shared/scan data to receive to subscribe commands.vi"/>
 			<Item Name="remove rows of duplicate col in 2d array.vi" Type="VI" URL="../../../../Shared/remove rows of duplicate col in 2d array.vi"/>
+			<Item Name="clearTCPBufferSerial.vi" Type="VI" URL="../../../../Shared/TCP/clearTCPBufferSerial.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="GUI_Scopes_NEW" Type="EXE">
@@ -468,6 +470,7 @@
 				<Property Name="App_INI_aliasGUID" Type="Str">{F798C07C-EE9A-4F07-84E0-B22DE3C9971B}</Property>
 				<Property Name="App_INI_GUID" Type="Str">{19290383-901F-4998-A981-D75C54C87590}</Property>
 				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="App_serverType" Type="Int">1</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{FC5B4AA2-B513-4CC2-A74B-F9EDAF7EA6BD}</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">GUI_Scopes_NEW</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
@@ -505,6 +508,53 @@
 				<Property Name="TgtF_productName" Type="Str">GUI_Scopes_NEW</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{A953208E-D858-4AC3-8E63-AD69D8C809E1}</Property>
 				<Property Name="TgtF_targetfileName" Type="Str">GUI_Scopes_NEW.exe</Property>
+			</Item>
+			<Item Name="GUI_Picoscope" Type="EXE">
+				<Property Name="App_copyErrors" Type="Bool">true</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{3F641F76-359B-4125-83E3-E9A1F03B607A}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{D02B36EC-2907-4A49-815B-3D262EEFEA59}</Property>
+				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="App_serverType" Type="Int">1</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{68099F92-7DAA-4081-9A32-9076F1EEA8EA}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">GUI_Picoscope</Property>
+				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_localDestDir" Type="Path">/C/GEECS/Developers Version/builds/Interface builds/General GUIs/Device GUIs/GUI_Picoscope</Property>
+				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{DE3A9FC8-E1CD-4EF3-A752-D1A178D65DDE}</Property>
+				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Destination[0].destName" Type="Str">GUI_Picoscope.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">/C/GEECS/Developers Version/builds/Interface builds/General GUIs/Device GUIs/GUI_Picoscope/GUI_Picoscope.exe</Property>
+				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[0].type" Type="Str">App</Property>
+				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
+				<Property Name="Destination[1].path" Type="Path">/C/GEECS/Developers Version/builds/Interface builds/General GUIs/Device GUIs/GUI_Picoscope/data</Property>
+				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/scopeIcon.ico</Property>
+				<Property Name="Source[0].itemID" Type="Str">{37E0C008-7754-41D0-A469-A33130332387}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/GUI_Scopes_NEW.vi</Property>
+				<Property Name="Source[1].type" Type="Str">VI</Property>
+				<Property Name="Source[2].Container.applyInclusion" Type="Bool">true</Property>
+				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/My Computer/GUI_Template</Property>
+				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[2].type" Type="Str">Container</Property>
+				<Property Name="Source[3].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[3].itemID" Type="Ref">/My Computer/GUI_picoscope.vi</Property>
+				<Property Name="Source[3].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[3].type" Type="Str">VI</Property>
+				<Property Name="SourceCount" Type="Int">4</Property>
+				<Property Name="TgtF_companyName" Type="Str">LBNL</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">GUI_Scopes_NEW</Property>
+				<Property Name="TgtF_internalName" Type="Str">GUI_Scopes_NEW</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2012 LBNL</Property>
+				<Property Name="TgtF_productName" Type="Str">GUI_Scopes_NEW</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{3CDBF8A4-A789-4535-A18F-53FACF02C808}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">GUI_Picoscope.exe</Property>
 			</Item>
 		</Item>
 	</Item>

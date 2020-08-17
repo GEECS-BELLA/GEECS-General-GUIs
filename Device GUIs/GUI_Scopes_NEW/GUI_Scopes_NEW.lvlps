@@ -9,3 +9,11 @@ Cache_Path[Path] Line0002 = "he_{FC5B4AA2-B513-4CC2-A74B-F9EDAF7EA6BD}.txt"
 Cache_Path[Path] Line0001 = "/C/Users/loasis.BELLANET/AppData/Local/Temp/AB_Cac"
 Cache_Path[Path] Line0002 = "he_{3A4A35A3-00CB-4B08-A171-C7EFC0ADB824}.txt"
 
+[AB_Cache_{68099F92-7DAA-4081-9A32-9076F1EEA8EA}]
+Cache_Path[Path] Line0001 = "/C/Users/tony_/AppData/Local/Temp/AB_Cache_{68099F"
+Cache_Path[Path] Line0002 = "92-7DAA-4081-9A32-9076F1EEA8EA}.txt"
+
+[AB_Cache_{DE3A9FC8-E1CD-4EF3-A752-D1A178D65DDE}]
+Cache_Path[Path] Line0001 = "/C/Users/tony_/AppData/Local/Temp/AB_Cache_{DE3A9F"
+Cache_Path[Path] Line0002 = "C8-E1CD-4EF3-A752-D1A178D65DDE}.txt"
+
