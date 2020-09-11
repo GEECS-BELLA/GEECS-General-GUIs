@@ -1,5 +1,5 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
-<Project Type="Project" LVVersion="13008000">
+<Project Type="Project" LVVersion="20008000">
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
@@ -238,7 +238,6 @@
 				<Item Name="eventvkey.ctl" Type="VI" URL="/&lt;vilib&gt;/event_ctls.llb/eventvkey.ctl"/>
 				<Item Name="Find Tag.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Find Tag.vi"/>
 				<Item Name="Format Message String.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Format Message String.vi"/>
-				<Item Name="General Error Handler CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler CORE.vi"/>
 				<Item Name="General Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler.vi"/>
 				<Item Name="Get String Text Bounds.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Get String Text Bounds.vi"/>
 				<Item Name="Get Text Rect.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Get Text Rect.vi"/>
@@ -281,6 +280,8 @@
 				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
 				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
 				<Item Name="System Exec.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/system.llb/System Exec.vi"/>
+				<Item Name="General Error Handler Core CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler Core CORE.vi"/>
+				<Item Name="LVRectTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRectTypeDef.ctl"/>
 			</Item>
 			<Item Name="Add Experiment Device.vi" Type="VI" URL="../Add Experiment Device.vi"/>
 			<Item Name="add expt_device_variable.vi" Type="VI" URL="../add expt_device_variable.vi"/>
@@ -358,6 +359,8 @@
 			<Item Name="SQL Query.vi" Type="VI" URL="../../../../Shared/MySQL/SQL Query.vi"/>
 			<Item Name="Preset Query Enum.ctl" Type="VI" URL="../../../../Shared/MySQL/Preset Query Enum.ctl"/>
 			<Item Name="preset SQL Queries.vi" Type="VI" URL="../../../../Shared/MySQL/preset SQL Queries.vi"/>
+			<Item Name="Allowed root paths.vi" Type="VI" URL="../../../../Shared/Allowed root paths.vi"/>
+			<Item Name="any equal.vi" Type="VI" URL="../../../General-Controler/any equal.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Expt_Devices_GUI" Type="EXE">
@@ -365,6 +368,7 @@
 				<Property Name="App_INI_aliasGUID" Type="Str">{6FE7C7A0-7472-4B89-A76E-A8A996B0220C}</Property>
 				<Property Name="App_INI_GUID" Type="Str">{0148E54A-05F2-403B-A129-5EAE86410F49}</Property>
 				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="App_serverType" Type="Int">1</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{5043929C-8069-4404-BF6A-DDD73970035D}</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">Expt_Devices_GUI</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
@@ -406,6 +410,7 @@
 				<Property Name="App_INI_aliasGUID" Type="Str">{9C6EDF57-EF52-4FB7-88FE-3E22A5BC78ED}</Property>
 				<Property Name="App_INI_GUID" Type="Str">{11F1C9BB-BEDC-44E6-9485-D665B2F7AF20}</Property>
 				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="App_serverType" Type="Int">1</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{F30BF402-C874-4C76-AF85-6B1027B20C58}</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">Expt_Devices_GUI 2</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
@@ -447,6 +452,7 @@
 				<Property Name="App_INI_aliasGUID" Type="Str">{ABBD1767-B84A-40AA-9040-EE3160327D10}</Property>
 				<Property Name="App_INI_GUID" Type="Str">{A875E97F-97A1-4977-97ED-6B8D99130C7B}</Property>
 				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="App_serverType" Type="Int">1</Property>
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{6D932B56-68E6-40A1-9B67-01D34E6D2495}</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">Expt_Devices_GUI_Datagridview</Property>
@@ -456,7 +462,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">/C/GEECS/Developers Version/builds/Interface builds/General GUIs/Database editor</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{038BAE34-1CA9-4C42-902C-7A97C7187EDC}</Property>
-				<Property Name="Bld_version.build" Type="Int">17</Property>
+				<Property Name="Bld_version.build" Type="Int">18</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Expt_Devices_GUI_Datagridview.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">/C/GEECS/Developers Version/builds/Interface builds/General GUIs/Database editor/Expt_Devices_GUI_Datagridview.exe</Property>

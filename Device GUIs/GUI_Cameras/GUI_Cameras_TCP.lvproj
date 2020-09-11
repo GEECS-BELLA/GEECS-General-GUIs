@@ -21,6 +21,7 @@
 		</Item>
 		<Item Name="Camera.ico" Type="Document" URL="../Camera.ico"/>
 		<Item Name="create imaq user palettes.vi" Type="VI" URL="../create imaq user palettes.vi"/>
+		<Item Name="get experiment lines.vi" Type="VI" URL="../../../../Shared/MySQL/get experiment lines.vi"/>
 		<Item Name="GUI_Cameras.ini" Type="Document" URL="../GUI_Cameras.ini"/>
 		<Item Name="GUI_Cameras.vi" Type="VI" URL="../GUI_Cameras.vi"/>
 		<Item Name="Read and write vision info.vi" Type="VI" URL="../Read and write vision info.vi"/>
