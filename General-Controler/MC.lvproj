@@ -228,6 +228,7 @@
 		<Item Name="MC Network cluster.ctl" Type="VI" URL="../MC Network cluster.ctl"/>
 		<Item Name="MC scan cluster.ctl" Type="VI" URL="../MC scan cluster.ctl"/>
 		<Item Name="MC timing cluster.ctl" Type="VI" URL="../MC timing cluster.ctl"/>
+		<Item Name="tcp shot sender queue.ctl" Type="VI" URL="../tcp shot sender queue.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="1D Array to String__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/string/string.llb/1D Array to String__ogtk.vi"/>
@@ -931,7 +932,7 @@
 			<Item Name="stop FGV control.ctl" Type="VI" URL="../../../Device Drivers/shared/stop FGV control.ctl"/>
 			<Item Name="supergui create stop queue.vi" Type="VI" URL="../../../Shared/supergui create stop queue.vi"/>
 			<Item Name="delete device group name.vi" Type="VI" URL="../../Database Manager/SubVIs/delete device group name.vi"/>
-			<Item Name="TCP Multiple Connections State.ctl" Type="VI" URL="../../../../../../Program Files (x86)/National Instruments/LabVIEW 2020/examples/Data Communication/Protocols/TCP/TCP Multiple Connections/controls/TCP Multiple Connections State.ctl"/>
+			<Item Name="TCP Multiple Connections State.ctl" Type="VI" URL="../TCP Multiple Connections State.ctl"/>
 			<Item Name="MC shot tcp server.vi" Type="VI" URL="../MC shot tcp server.vi"/>
 			<Item Name="does string start with.vi" Type="VI" URL="../does string start with.vi"/>
 		</Item>
