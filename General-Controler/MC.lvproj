@@ -230,6 +230,8 @@
 		<Item Name="MC scan cluster.ctl" Type="VI" URL="../MC scan cluster.ctl"/>
 		<Item Name="MC timing cluster.ctl" Type="VI" URL="../MC timing cluster.ctl"/>
 		<Item Name="tcp shot sender queue.ctl" Type="VI" URL="../tcp shot sender queue.ctl"/>
+		<Item Name="error_detail.vi" Type="VI" URL="../../../Bella center GUIs/StagingBeamline/error_detail.vi"/>
+		<Item Name="PC_PING.vi" Type="VI" URL="../../../Bella center GUIs/StagingBeamline/PC_PING.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="1D Array to String__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/string/string.llb/1D Array to String__ogtk.vi"/>
@@ -998,13 +1000,11 @@
 			<Item Name="PingQueueTypDef.ctl" Type="VI" URL="../../../Bella center GUIs/StagingBeamline/Controls/PingQueueTypDef.ctl"/>
 			<Item Name="deviceQueue.ctl" Type="VI" URL="../../../Bella center GUIs/StagingBeamline/Controls/deviceQueue.ctl"/>
 			<Item Name="GetDataSubVi.vi" Type="VI" URL="../../../Bella center GUIs/StagingBeamline/SubVis/GetDataSubVi.vi"/>
-			<Item Name="error_detail.vi" Type="VI" URL="../../../Bella center GUIs/StagingBeamline/error_detail.vi"/>
 			<Item Name="DeviceControl_Typdef.ctl" Type="VI" URL="../../../Bella center GUIs/StagingBeamline/Controls/DeviceControl_Typdef.ctl"/>
 			<Item Name="getDeviceType.vi" Type="VI" URL="../../../Bella center GUIs/StagingBeamline/SubVis/getDeviceType.vi"/>
 			<Item Name="getSubVarib.vi" Type="VI" URL="../../../Bella center GUIs/StagingBeamline/SubVis/getSubVarib.vi"/>
 			<Item Name="getDeviceIP.vi" Type="VI" URL="../../../Bella center GUIs/StagingBeamline/SubVis/getDeviceIP.vi"/>
 			<Item Name="DiagDeviceControl.vi" Type="VI" URL="../../../Bella center GUIs/StagingBeamline/SubVis/DiagDeviceControl.vi"/>
-			<Item Name="PC_PING.vi" Type="VI" URL="../../../Bella center GUIs/StagingBeamline/PC_PING.vi"/>
 			<Item Name="checkPC.vi" Type="VI" URL="../../../Bella center GUIs/StagingBeamline/SubVis/checkPC.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
@@ -1139,7 +1139,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">/C/GEECS/Developers Version/builds/Interface builds/General GUIs/NI_AB_PROJECTNAME/Master Control</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{C126A360-18F5-4B84-9B98-CDE1988BCE93}</Property>
-				<Property Name="Bld_version.build" Type="Int">204</Property>
+				<Property Name="Bld_version.build" Type="Int">211</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Master Control.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">/C/GEECS/Developers Version/builds/Interface builds/General GUIs/NI_AB_PROJECTNAME/Master Control/Master Control.exe</Property>
@@ -1152,12 +1152,16 @@
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_cmdLineArgs" Type="Bool">true</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/icons/MC.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{AE0F9718-D837-4BB7-868C-0F93955B295A}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{C687D49A-BC9F-4137-887B-EC95434F38C4}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/MC3.vi</Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
+				<Property Name="Source[10].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[10].itemID" Type="Ref">/My Computer/PC_PING.vi</Property>
+				<Property Name="Source[10].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[10].type" Type="Str">VI</Property>
 				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[2].itemID" Type="Ref">/My Computer/sub vis/Device Enable Status.vi</Property>
 				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
@@ -1184,7 +1188,15 @@
 				<Property Name="Source[7].itemID" Type="Ref">/My Computer/pbar</Property>
 				<Property Name="Source[7].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[7].type" Type="Str">Container</Property>
-				<Property Name="SourceCount" Type="Int">8</Property>
+				<Property Name="Source[8].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[8].itemID" Type="Ref">/My Computer/AllDevicesAcquisitionRate.vi</Property>
+				<Property Name="Source[8].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[8].type" Type="Str">VI</Property>
+				<Property Name="Source[9].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[9].itemID" Type="Ref">/My Computer/error_detail.vi</Property>
+				<Property Name="Source[9].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[9].type" Type="Str">VI</Property>
+				<Property Name="SourceCount" Type="Int">11</Property>
 				<Property Name="TgtF_companyName" Type="Str">LBNL</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">Master Control</Property>
 				<Property Name="TgtF_internalName" Type="Str">Master Control</Property>
