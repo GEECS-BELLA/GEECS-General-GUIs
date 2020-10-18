@@ -191,6 +191,7 @@
 		<Item Name="Make single scan multivariable array file.vi" Type="VI" URL="../Make single scan multivariable array file.vi"/>
 		<Item Name="Master Control.ini" Type="Document" URL="../Master Control.ini"/>
 		<Item Name="MC3.vi" Type="VI" URL="../MC3.vi"/>
+		<Item Name="AllDevicesAcquisitionRate.vi" Type="VI" URL="../AllDevicesAcquisitionRate.vi"/>
 		<Item Name="Plotter_General.vi" Type="VI" URL="../../Plotter/Plotter_General.vi"/>
 		<Item Name="is slow response a fire command.vi" Type="VI" URL="../Subvi/is slow response a fire command.vi"/>
 		<Item Name="TCP read example.vi" Type="VI" URL="../../../Shared/TCP/TCP read example.vi"/>
@@ -991,6 +992,20 @@
 			<Item Name="NVIORef.dll" Type="Document" URL="NVIORef.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="diagnosticQuee.ctl" Type="VI" URL="../../../Bella center GUIs/StagingBeamline/Controls/diagnosticQuee.ctl"/>
+			<Item Name="comunicationQueuecluster.ctl" Type="VI" URL="../../../Bella center GUIs/StagingBeamline/Controls/comunicationQueuecluster.ctl"/>
+			<Item Name="stopQue.ctl" Type="VI" URL="../../../Bella center GUIs/StagingBeamline/Controls/stopQue.ctl"/>
+			<Item Name="PingQueueTypDef.ctl" Type="VI" URL="../../../Bella center GUIs/StagingBeamline/Controls/PingQueueTypDef.ctl"/>
+			<Item Name="deviceQueue.ctl" Type="VI" URL="../../../Bella center GUIs/StagingBeamline/Controls/deviceQueue.ctl"/>
+			<Item Name="GetDataSubVi.vi" Type="VI" URL="../../../Bella center GUIs/StagingBeamline/SubVis/GetDataSubVi.vi"/>
+			<Item Name="error_detail.vi" Type="VI" URL="../../../Bella center GUIs/StagingBeamline/error_detail.vi"/>
+			<Item Name="DeviceControl_Typdef.ctl" Type="VI" URL="../../../Bella center GUIs/StagingBeamline/Controls/DeviceControl_Typdef.ctl"/>
+			<Item Name="getDeviceType.vi" Type="VI" URL="../../../Bella center GUIs/StagingBeamline/SubVis/getDeviceType.vi"/>
+			<Item Name="getSubVarib.vi" Type="VI" URL="../../../Bella center GUIs/StagingBeamline/SubVis/getSubVarib.vi"/>
+			<Item Name="getDeviceIP.vi" Type="VI" URL="../../../Bella center GUIs/StagingBeamline/SubVis/getDeviceIP.vi"/>
+			<Item Name="DiagDeviceControl.vi" Type="VI" URL="../../../Bella center GUIs/StagingBeamline/SubVis/DiagDeviceControl.vi"/>
+			<Item Name="PC_PING.vi" Type="VI" URL="../../../Bella center GUIs/StagingBeamline/PC_PING.vi"/>
+			<Item Name="checkPC.vi" Type="VI" URL="../../../Bella center GUIs/StagingBeamline/SubVis/checkPC.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="DataMerger" Type="EXE">
@@ -1124,7 +1139,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">/C/GEECS/Developers Version/builds/Interface builds/General GUIs/NI_AB_PROJECTNAME/Master Control</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{C126A360-18F5-4B84-9B98-CDE1988BCE93}</Property>
-				<Property Name="Bld_version.build" Type="Int">203</Property>
+				<Property Name="Bld_version.build" Type="Int">204</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Master Control.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">/C/GEECS/Developers Version/builds/Interface builds/General GUIs/NI_AB_PROJECTNAME/Master Control/Master Control.exe</Property>
