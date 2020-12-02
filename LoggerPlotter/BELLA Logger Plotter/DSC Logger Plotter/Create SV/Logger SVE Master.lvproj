@@ -809,7 +809,7 @@
 				<Property Name="Destination[1].path" Type="Path">/C/GEECS/Developers Version/builds/Interface builds/General GUIs/Logger and Plotter/DSCLogger/data</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{B7DD56FC-F94B-472A-988A-CDD3AA67A0EB}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{CA5AE974-58E7-4EFE-8DEC-D00310A045C2}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Main.vi</Property>
@@ -823,12 +823,7 @@
 				<Property Name="Source[3].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[3].itemID" Type="Ref">/My Computer/DSClog.ini</Property>
 				<Property Name="Source[3].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[4].Container.applyInclusion" Type="Bool">true</Property>
-				<Property Name="Source[4].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[4].itemID" Type="Ref"></Property>
-				<Property Name="Source[4].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[4].type" Type="Str">Container</Property>
-				<Property Name="SourceCount" Type="Int">5</Property>
+				<Property Name="SourceCount" Type="Int">4</Property>
 				<Property Name="TgtF_companyName" Type="Str">LBNL</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">DSCLogger</Property>
 				<Property Name="TgtF_internalName" Type="Str">DSCLogger</Property>
