@@ -783,15 +783,6 @@
 			<Item Name="wsock32.dll" Type="Document" URL="wsock32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="readTCP.vi" Type="VI" URL="../../../../../../shared programs/TCP/readTCP.vi"/>
-			<Item Name="TCP_NoDelay.vi" Type="VI" URL="../../../../../../Device Driver/shared/TCP_NoDelay.vi"/>
-			<Item Name="checkSubscriberList.vi" Type="VI" URL="../../../../../../Device Driver/shared/checkSubscriberList.vi"/>
-			<Item Name="FGV_Control.ctl" Type="VI" URL="../../../../../../Device Driver/shared/FGV_Control.ctl"/>
-			<Item Name="SubscriberDataFGV.vi" Type="VI" URL="../../../../../../Device Driver/shared/SubscriberDataFGV.vi"/>
-			<Item Name="FGV Stop.vi" Type="VI" URL="../../../../../../Device Driver/shared/FGV Stop.vi"/>
-			<Item Name="WaitForDeviceName.vi" Type="VI" URL="../../../../../../Device Driver/shared/WaitForDeviceName.vi"/>
-			<Item Name="DevicePort.vi" Type="VI" URL="../../../../../../Device Driver/shared/DevicePort.vi"/>
-			<Item Name="getValeFromDBString.vi" Type="VI" URL="../../../../../../Device Driver/shared/getValeFromDBString.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="DSCLogger" Type="EXE">
