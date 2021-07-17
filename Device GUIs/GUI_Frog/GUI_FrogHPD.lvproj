@@ -1,5 +1,5 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
-<Project Type="Project" LVVersion="13008000">
+<Project Type="Project" LVVersion="20008000">
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
@@ -286,6 +286,16 @@
 				<Item Name="1D Array to String__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/string/string.llb/1D Array to String__ogtk.vi"/>
 				<Item Name="Set Enum String Value__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Set Enum String Value__ogtk.vi"/>
 				<Item Name="Set Cluster Element by Name__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Set Cluster Element by Name__ogtk.vi"/>
+				<Item Name="File Exists__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/File Exists__ogtk.vi"/>
+				<Item Name="File Exists - Scalar__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/File Exists - Scalar__ogtk.vi"/>
+				<Item Name="File Exists - Array__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/File Exists - Array__ogtk.vi"/>
+				<Item Name="MGI Replace File Extension.vi" Type="VI" URL="/&lt;userlib&gt;/_MGI/File/MGI Replace File Extension.vi"/>
+				<Item Name="Strip Path Extension__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Strip Path Extension__ogtk.vi"/>
+				<Item Name="Strip Path Extension - Path__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Strip Path Extension - Path__ogtk.vi"/>
+				<Item Name="Strip Path Extension - String__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Strip Path Extension - String__ogtk.vi"/>
+				<Item Name="Strip Path Extension - 1D Array of Paths__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Strip Path Extension - 1D Array of Paths__ogtk.vi"/>
+				<Item Name="Strip Path Extension - 1D Array of Strings__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Strip Path Extension - 1D Array of Strings__ogtk.vi"/>
+				<Item Name="Wait (ms)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/time/time.llb/Wait (ms)__ogtk.vi"/>
 			</Item>
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
@@ -318,7 +328,6 @@
 				<Item Name="DialogType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogType.ctl"/>
 				<Item Name="General Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler.vi"/>
 				<Item Name="DialogTypeEnum.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogTypeEnum.ctl"/>
-				<Item Name="General Error Handler CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler CORE.vi"/>
 				<Item Name="Check Special Tags.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Check Special Tags.vi"/>
 				<Item Name="TagReturnType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/TagReturnType.ctl"/>
 				<Item Name="Set String Value.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set String Value.vi"/>
@@ -385,6 +394,18 @@
 				<Item Name="IMAQ Clear Overlay" Type="VI" URL="/&lt;vilib&gt;/vision/Overlay.llb/IMAQ Clear Overlay"/>
 				<Item Name="IMAQ Copy Overlay" Type="VI" URL="/&lt;vilib&gt;/vision/Overlay.llb/IMAQ Copy Overlay"/>
 				<Item Name="Waveform Scale and Offset.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/WDTOps.llb/Waveform Scale and Offset.vi"/>
+				<Item Name="General Error Handler Core CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler Core CORE.vi"/>
+				<Item Name="IMAQ Write String" Type="VI" URL="/&lt;vilib&gt;/vision/Files.llb/IMAQ Write String"/>
+				<Item Name="IMAQ Write JPEG String" Type="VI" URL="/&lt;vilib&gt;/vision/Files.llb/IMAQ Write JPEG String"/>
+				<Item Name="IMAQ Write PNG String" Type="VI" URL="/&lt;vilib&gt;/vision/Files.llb/IMAQ Write PNG String"/>
+				<Item Name="IMAQ Write Image And Vision Info String" Type="VI" URL="/&lt;vilib&gt;/vision/Files.llb/IMAQ Write Image And Vision Info String"/>
+				<Item Name="IMAQ Write TIFF String" Type="VI" URL="/&lt;vilib&gt;/vision/Files.llb/IMAQ Write TIFF String"/>
+				<Item Name="IMAQ Write BMP String" Type="VI" URL="/&lt;vilib&gt;/vision/Files.llb/IMAQ Write BMP String"/>
+				<Item Name="IMAQ Flatten Image Options" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ Flatten Image Options"/>
+				<Item Name="NI_PtbyPt.lvlib" Type="Library" URL="/&lt;vilib&gt;/ptbypt/NI_PtbyPt.lvlib"/>
+				<Item Name="IMAQ ReadFile 2" Type="VI" URL="/&lt;vilib&gt;/vision/Files.llb/IMAQ ReadFile 2"/>
+				<Item Name="Get File System Separator.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/sysinfo.llb/Get File System Separator.vi"/>
+				<Item Name="Get LV Class Path.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Path.vi"/>
 			</Item>
 			<Item Name="add value to xy graph.vi" Type="VI" URL="../../../shared/add value to xy graph.vi"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
@@ -523,14 +544,11 @@
 			<Item Name="Read Attribute Max range value.vi" Type="VI" URL="../../../../Device Drivers/Point Grey Camera/subVis/Read Attribute Max range value.vi"/>
 			<Item Name="setTriggerDelayMVF_1.vi" Type="VI" URL="../../../../Device Drivers/Point Grey Camera/subVis/setTriggerDelayMVF_1.vi"/>
 			<Item Name="setTriggerMVF_1.vi" Type="VI" URL="../../../../Device Drivers/Point Grey Camera/subVis/setTriggerMVF_1.vi"/>
-			<Item Name="AcquisitionMVF.vi" Type="VI" URL="../../../../Device Drivers/Point Grey Camera/subVis/AcquisitionMVF.vi"/>
 			<Item Name="GENERATEDUMMYIMAGE.vi" Type="VI" URL="../../../../Shared/GENERATEDUMMYIMAGE.vi"/>
 			<Item Name="2d Gaussian array.vi" Type="VI" URL="../../GUI_Cameras/Subvi/2d Gaussian array.vi"/>
 			<Item Name="createSavingCommands.vi" Type="VI" URL="../../../../Device Drivers/shared/createSavingCommands.vi"/>
 			<Item Name="calculate binning.vi" Type="VI" URL="../../../../Shared/Image/calculate binning.vi"/>
-			<Item Name="online image analysis.vi" Type="VI" URL="../../../../Device Drivers/Point Grey Camera/subVis/online image analysis.vi"/>
 			<Item Name="Image analysys result.ctl" Type="VI" URL="../../../../Device Drivers/Point Grey Camera/subVis/Image analysys result.ctl"/>
-			<Item Name="prepare image for 2nd mom analysis.vi" Type="VI" URL="../../../../Device Drivers/Point Grey Camera/subVis/prepare image for 2nd mom analysis.vi"/>
 			<Item Name="create 4 corner roi.vi" Type="VI" URL="../../../../Device Drivers/Point Grey Camera/subVis/create 4 corner roi.vi"/>
 			<Item Name="threshold fraction or count.vi" Type="VI" URL="../../../../Device Drivers/Point Grey Camera/subVis/threshold fraction or count.vi"/>
 			<Item Name="spot size 2D.vi" Type="VI" URL="../../../../Device Drivers/Point Grey Camera/subVis/spot size 2D.vi"/>
@@ -606,12 +624,24 @@
 			<Item Name="get ip ports and subscribe commands for expt tcp data.vi" Type="VI" URL="../../../General-Controler/get ip ports and subscribe commands for expt tcp data.vi"/>
 			<Item Name="scan data to receive to subscribe commands.vi" Type="VI" URL="../../../../Shared/scan data to receive to subscribe commands.vi"/>
 			<Item Name="remove rows of duplicate col in 2d array.vi" Type="VI" URL="../../../../Shared/remove rows of duplicate col in 2d array.vi"/>
+			<Item Name="clearTCPBufferSerial.vi" Type="VI" URL="../../../../Shared/TCP/clearTCPBufferSerial.vi"/>
+			<Item Name="Image save type.ctl" Type="VI" URL="../../../../Device Drivers/Point Grey Camera/subVis/Image save type.ctl"/>
+			<Item Name="GUIcompressionCluster.ctl" Type="VI" URL="../../../../Device Drivers/Point Grey Camera/GUIcompressionCluster.ctl"/>
+			<Item Name="compress to 8 bit imaq cast.vi" Type="VI" URL="../../../../Shared/Image/compress to 8 bit imaq cast.vi"/>
+			<Item Name="calculate binning sub.vi" Type="VI" URL="../../../../Device Drivers/shared/Cameras/CommonVIs/calculate binning sub.vi"/>
+			<Item Name="threhsold IMAQ.vi" Type="VI" URL="../../../../Device Drivers/Point Grey Camera/subVis/threhsold IMAQ.vi"/>
+			<Item Name="mask lineout.vi" Type="VI" URL="../../../../Device Drivers/Point Grey Camera/subVis/mask lineout.vi"/>
+			<Item Name="hdf5 image file ref FGV.vi" Type="VI" URL="../../../../Device Drivers/Point Grey Camera/subVis/hdf5 image file ref FGV.vi"/>
+			<Item Name="1st or last shot of scan.ctl" Type="VI" URL="../../../../Device Drivers/Point Grey Camera/subVis/1st or last shot of scan.ctl"/>
+			<Item Name="tdms image file ref.vi" Type="VI" URL="../../../../Device Drivers/Point Grey Camera/subVis/tdms image file ref.vi"/>
+			<Item Name="png path to tdms image path.vi" Type="VI" URL="../../../../Device Drivers/Point Grey Camera/subVis/png path to tdms image path.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="GUI_Frog_HPD" Type="EXE">
 				<Property Name="App_copyErrors" Type="Bool">true</Property>
 				<Property Name="App_INI_aliasGUID" Type="Str">{F1AC8808-CC04-422D-A71D-B24FDD0093B5}</Property>
 				<Property Name="App_INI_GUID" Type="Str">{BF428355-0730-4692-BF08-DFACFF272466}</Property>
+				<Property Name="App_serverType" Type="Int">1</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{08341E9D-4EB4-4467-B9A1-416C0C920C09}</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">GUI_Frog_HPD</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
@@ -654,6 +684,7 @@
 				<Property Name="App_copyErrors" Type="Bool">true</Property>
 				<Property Name="App_INI_aliasGUID" Type="Str">{D6A8885D-4AE3-4434-811B-89BC62E7F5A1}</Property>
 				<Property Name="App_INI_GUID" Type="Str">{DCA15895-52C4-4AE6-92E0-330C145C46ED}</Property>
+				<Property Name="App_serverType" Type="Int">1</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{98F45510-2188-4157-AA4D-221BDD7F5EE8}</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">GUI_Frog</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
@@ -671,18 +702,21 @@
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_cmdLineArgs" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{FE28365D-B894-48D2-8ACD-2E52BB98DC7D}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{AE07AF87-ED0F-48C2-AED4-05240B73DE02}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/GUI_Frog_HPD.vi</Property>
-				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="Source[2].Container.applyInclusion" Type="Bool">true</Property>
 				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[2].itemID" Type="Ref">/My Computer/GUI_Template</Property>
 				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[2].type" Type="Str">Container</Property>
-				<Property Name="SourceCount" Type="Int">3</Property>
+				<Property Name="Source[3].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[3].itemID" Type="Ref">/My Computer/GUI_Frog_HPD_Version 2.0.vi</Property>
+				<Property Name="Source[3].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[3].type" Type="Str">VI</Property>
+				<Property Name="SourceCount" Type="Int">4</Property>
 				<Property Name="TgtF_companyName" Type="Str">LBNL</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">GUI_Frog_HPD</Property>
 				<Property Name="TgtF_internalName" Type="Str">GUI_Frog_HPD</Property>
