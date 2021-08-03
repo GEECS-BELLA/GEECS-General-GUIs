@@ -25,6 +25,7 @@
 		<Item Name="get experiment lines.vi" Type="VI" URL="../../../../Shared/MySQL/get experiment lines.vi"/>
 		<Item Name="GUI_Cameras.ini" Type="Document" URL="../GUI_Cameras.ini"/>
 		<Item Name="GUI_Cameras.vi" Type="VI" URL="../GUI_Cameras.vi"/>
+		<Item Name="image string to array for Python.vi" Type="VI" URL="../for python dll/image string to array for Python.vi"/>
 		<Item Name="Read and write vision info.vi" Type="VI" URL="../Read and write vision info.vi"/>
 		<Item Name="RestartFGV.vi" Type="VI" URL="../../../shared/RestartFGV.vi"/>
 		<Item Name="supergui create stop queue.vi" Type="VI" URL="../../../../Shared/supergui create stop queue.vi"/>
@@ -383,6 +384,7 @@
 				<Item Name="IMAQ GetImageSize" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ GetImageSize"/>
 				<Item Name="IMAQ Image Bit Depth" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ Image Bit Depth"/>
 				<Item Name="IMAQ Image.ctl" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/IMAQ Image.ctl"/>
+				<Item Name="IMAQ ImageToArray" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ ImageToArray"/>
 				<Item Name="IMAQ Line" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/IMAQ Line"/>
 				<Item Name="IMAQ Overlay Line" Type="VI" URL="/&lt;vilib&gt;/vision/Overlay.llb/IMAQ Overlay Line"/>
 				<Item Name="IMAQ Overlay Oval" Type="VI" URL="/&lt;vilib&gt;/vision/Overlay.llb/IMAQ Overlay Oval"/>
