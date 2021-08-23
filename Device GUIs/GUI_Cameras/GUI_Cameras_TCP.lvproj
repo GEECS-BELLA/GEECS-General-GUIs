@@ -1,6 +1,7 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Project Type="Project" LVVersion="20008000">
 	<Item Name="My Computer" Type="My Computer">
+		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.control.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.tcp.enabled" Type="Bool">false</Property>
@@ -21,7 +22,7 @@
 		</Item>
 		<Item Name="Camera.ico" Type="Document" URL="../Camera.ico"/>
 		<Item Name="create imaq user palettes.vi" Type="VI" URL="../create imaq user palettes.vi"/>
-		<Item Name="Example png string to imaq image.vi" Type="VI" URL="../../../../Shared/Image/Example png string to imaq image.vi"/>
+		<Item Name="CreateExampleIMAQString.lvlib" Type="Library" URL="/&lt;userlib&gt;/CreateExampleIMAQString/CreateExampleIMAQString.lvlib"/>
 		<Item Name="get experiment lines.vi" Type="VI" URL="../../../../Shared/MySQL/get experiment lines.vi"/>
 		<Item Name="GUI_Cameras.ini" Type="Document" URL="../GUI_Cameras.ini"/>
 		<Item Name="GUI_Cameras.vi" Type="VI" URL="../GUI_Cameras.vi"/>
@@ -29,6 +30,7 @@
 		<Item Name="RestartFGV.vi" Type="VI" URL="../../../shared/RestartFGV.vi"/>
 		<Item Name="supergui create stop queue.vi" Type="VI" URL="../../../../Shared/supergui create stop queue.vi"/>
 		<Item Name="test imaq create string and string to array dlls.vi" Type="VI" URL="../for python dll/test imaq create string and string to array dlls.vi"/>
+		<Item Name="Example png string to imaq image.vi" Type="VI" URL="../../../../Shared/Image/Example png string to imaq image.vi"/>
 		<Item Name="test.rtm" Type="Document" URL="../test.rtm"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
@@ -460,6 +462,7 @@
 			<Item Name="Component Generator.vi" Type="VI" URL="../color tables/2008 Image manager.llb/Component Generator.vi"/>
 			<Item Name="connectUDP.vi" Type="VI" URL="../connectUDP.vi"/>
 			<Item Name="CreateError.vi" Type="VI" URL="../../../../Device Drivers/shared/CreateError.vi"/>
+			<Item Name="CreateExampleIMAQString.dll" Type="Document" URL="../../../../GEECS-Plugins/tcp client/CreateExampleIMAQString.dll"/>
 			<Item Name="database configuration.ctl" Type="VI" URL="../../../../Shared/MySQL/database configuration.ctl"/>
 			<Item Name="DataUpdateFrame.vi" Type="VI" URL="../../../../Shared/Device Driver/DataUpdateFrame.vi"/>
 			<Item Name="draw crosshair imaq.vi" Type="VI" URL="../../../../Shared/draw crosshair imaq.vi"/>
@@ -494,6 +497,7 @@
 			<Item Name="image color table presets.vi" Type="VI" URL="../color tables/image color table presets.vi"/>
 			<Item Name="imagebitDepth.vi" Type="VI" URL="../../../shared/imagebitDepth.vi"/>
 			<Item Name="IMAQ color table presets.vi" Type="VI" URL="../IMAQ color table presets.vi"/>
+			<Item Name="IMAQstringToArray.dll" Type="Document" URL="../../../../GEECS-Plugins/tcp client/IMAQstringToArray.dll"/>
 			<Item Name="IsControlNull.vi" Type="VI" URL="../../../shared/IsControlNull.vi"/>
 			<Item Name="Listen to slow UDP and parse error_in sendCommand.vi" Type="VI" URL="../../../../Shared/Listen to slow UDP and parse error_in sendCommand.vi"/>
 			<Item Name="lv_mysql_conn_check_packet_type.vi" Type="VI" URL="../../../../Shared/MySQL/subVIs/lv_mysql_conn_check_packet_type.vi"/>
@@ -579,7 +583,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">/C/GEECS/Developers Version/source/GEECS-Plugins/tcp client</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{EBC115E3-6EDD-42A7-9AB0-07E5B95DA7A9}</Property>
-				<Property Name="Bld_version.build" Type="Int">1</Property>
+				<Property Name="Bld_version.build" Type="Int">8</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">CreateExampleIMAQString.dll</Property>
 				<Property Name="Destination[0].path" Type="Path">/C/GEECS/Developers Version/source/GEECS-Plugins/tcp client/CreateExampleIMAQString.dll</Property>
@@ -595,7 +599,7 @@
 				<Property Name="Dll_headerGUID" Type="Str">{952ED577-28D6-4DF9-AFE4-518E9F4B82E2}</Property>
 				<Property Name="Dll_libGUID" Type="Str">{EA90FF4B-9644-4A88-9F0F-BCB08FC0CE18}</Property>
 				<Property Name="Dll_privateExecSys" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{50261A9C-FDF9-4041-94B7-9EA66F790EF7}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{BCF77391-0E55-4F53-B153-021E8067E77D}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].ExportedVI.VIProtoInfo[0]VIProtoDir" Type="Int">1</Property>
@@ -609,7 +613,7 @@
 				<Property Name="Source[1].ExportedVI.VIProtoInfo[1]VIProtoInputIdx" Type="Int">-1</Property>
 				<Property Name="Source[1].ExportedVI.VIProtoInfo[1]VIProtoLenInput" Type="Int">2</Property>
 				<Property Name="Source[1].ExportedVI.VIProtoInfo[1]VIProtoLenOutput" Type="Int">-1</Property>
-				<Property Name="Source[1].ExportedVI.VIProtoInfo[1]VIProtoName" Type="Str">DataString</Property>
+				<Property Name="Source[1].ExportedVI.VIProtoInfo[1]VIProtoName" Type="Str">U8StringImage</Property>
 				<Property Name="Source[1].ExportedVI.VIProtoInfo[1]VIProtoOutputIdx" Type="Int">3</Property>
 				<Property Name="Source[1].ExportedVI.VIProtoInfo[1]VIProtoPassBy" Type="Int">1</Property>
 				<Property Name="Source[1].ExportedVI.VIProtoInfo[2]CallingConv" Type="Int">0</Property>
@@ -621,7 +625,7 @@
 				<Property Name="Source[1].ExportedVI.VIProtoInfo[2]VIProtoName" Type="Str">len</Property>
 				<Property Name="Source[1].ExportedVI.VIProtoInfo[2]VIProtoOutputIdx" Type="Int">-1</Property>
 				<Property Name="Source[1].ExportedVI.VIProtoInfo[2]VIProtoPassBy" Type="Int">1</Property>
-				<Property Name="Source[1].ExportedVI.VIProtoInfoCPTM" Type="Bin">)!#!!!!!!!-!"!!!!"2!-0````],2'&amp;U93"4&gt;(*J&lt;G=!6!$Q!!Q!!!!!!!!!!1!!!!!!!!!!!!!!!!!!!!!$!!"Y!!!!!!!!!!!!!!!!!!!*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!1!#</Property>
+				<Property Name="Source[1].ExportedVI.VIProtoInfoCPTM" Type="Bin">)!#!!!!!!!1!"!!!!!5!"1!!'E"!!!(`````!!%.64B4&gt;(*J&lt;G&gt;*&lt;7&amp;H:1"5!0!!$!!!!!!!!!!#!!!!!!!!!!!!!!!!!!!!!!-!!(A!!!!!!!!!!!!!!!!!!!E!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"!!-</Property>
 				<Property Name="Source[1].ExportedVI.VIProtoInfoVIProtoItemCount" Type="Int">3</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Subvi/Create example IMAQ flattened string.vi</Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
@@ -704,7 +708,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">/C/GEECS/Developers Version/source/GEECS-Plugins/tcp client</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{F30CC55D-B47C-4A69-BB31-331F44E28A21}</Property>
-				<Property Name="Bld_version.build" Type="Int">1</Property>
+				<Property Name="Bld_version.build" Type="Int">3</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">IMAQstringToArray.dll</Property>
 				<Property Name="Destination[0].path" Type="Path">/C/GEECS/Developers Version/source/GEECS-Plugins/tcp client/IMAQstringToArray.dll</Property>
@@ -720,37 +724,11 @@
 				<Property Name="Dll_headerGUID" Type="Str">{2B1AE42D-1F76-4E7B-A5EC-7D7325B502D3}</Property>
 				<Property Name="Dll_libGUID" Type="Str">{27F347DE-25D1-4343-A498-BFF04F00D37D}</Property>
 				<Property Name="Dll_privateExecSys" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{50261A9C-FDF9-4041-94B7-9EA66F790EF7}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{B6C48FB1-AC1E-4F49-AF2C-9B8F8F79CCA1}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].ExportedVI.VIProtoInfo[0]VIProtoDir" Type="Int">1</Property>
-				<Property Name="Source[1].ExportedVI.VIProtoInfo[0]VIProtoInputIdx" Type="Int">-1</Property>
-				<Property Name="Source[1].ExportedVI.VIProtoInfo[0]VIProtoLenInput" Type="Int">-1</Property>
-				<Property Name="Source[1].ExportedVI.VIProtoInfo[0]VIProtoLenOutput" Type="Int">-1</Property>
-				<Property Name="Source[1].ExportedVI.VIProtoInfo[0]VIProtoName" Type="Str">return value</Property>
-				<Property Name="Source[1].ExportedVI.VIProtoInfo[0]VIProtoOutputIdx" Type="Int">-1</Property>
-				<Property Name="Source[1].ExportedVI.VIProtoInfo[0]VIProtoPassBy" Type="Int">0</Property>
-				<Property Name="Source[1].ExportedVI.VIProtoInfo[1]VIProtoDir" Type="Int">0</Property>
-				<Property Name="Source[1].ExportedVI.VIProtoInfo[1]VIProtoInputIdx" Type="Int">11</Property>
-				<Property Name="Source[1].ExportedVI.VIProtoInfo[1]VIProtoLenInput" Type="Int">-1</Property>
-				<Property Name="Source[1].ExportedVI.VIProtoInfo[1]VIProtoLenOutput" Type="Int">-1</Property>
-				<Property Name="Source[1].ExportedVI.VIProtoInfo[1]VIProtoName" Type="Str">FlattenedImageString</Property>
-				<Property Name="Source[1].ExportedVI.VIProtoInfo[1]VIProtoOutputIdx" Type="Int">-1</Property>
-				<Property Name="Source[1].ExportedVI.VIProtoInfo[1]VIProtoPassBy" Type="Int">1</Property>
-				<Property Name="Source[1].ExportedVI.VIProtoInfo[2]CallingConv" Type="Int">0</Property>
-				<Property Name="Source[1].ExportedVI.VIProtoInfo[2]Name" Type="Str">IMAQFlattenedStringToArray</Property>
-				<Property Name="Source[1].ExportedVI.VIProtoInfo[2]VIProtoDir" Type="Int">1</Property>
-				<Property Name="Source[1].ExportedVI.VIProtoInfo[2]VIProtoInputIdx" Type="Int">-1</Property>
-				<Property Name="Source[1].ExportedVI.VIProtoInfo[2]VIProtoLenInput" Type="Int">-1</Property>
-				<Property Name="Source[1].ExportedVI.VIProtoInfo[2]VIProtoLenOutput" Type="Int">-1</Property>
-				<Property Name="Source[1].ExportedVI.VIProtoInfo[2]VIProtoName" Type="Str">ImagePixelsU16</Property>
-				<Property Name="Source[1].ExportedVI.VIProtoInfo[2]VIProtoOutputIdx" Type="Int">3</Property>
-				<Property Name="Source[1].ExportedVI.VIProtoInfo[2]VIProtoPassBy" Type="Int">1</Property>
-				<Property Name="Source[1].ExportedVI.VIProtoInfoCPTM" Type="Bin">)!#!!!!!!!5!"!!!!!5!"A!!*%"!!!,``````````Q!"%EFN97&gt;F)&amp;"J?'6M=S!I64%W+1!!)%!Q`````R:'&lt;'&amp;U&gt;'6O:71A37VB:W5A5X2S;7ZH!!"5!0!!$!!!!!!!!!!#!!!!!!!!!!!!!!!!!!!!!Q-!!(A!!!!!!!!!!!!!!!!!!!E!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!#!!!!!!"!!1</Property>
-				<Property Name="Source[1].ExportedVI.VIProtoInfoVIProtoItemCount" Type="Int">3</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Subvi/IMAQ flattened string to array.vi</Property>
-				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
-				<Property Name="Source[1].type" Type="Str">ExportedVI</Property>
+				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="SourceCount" Type="Int">2</Property>
 				<Property Name="TgtF_companyName" Type="Str">Wakefield Engineering</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">IMAQstringToArray</Property>
