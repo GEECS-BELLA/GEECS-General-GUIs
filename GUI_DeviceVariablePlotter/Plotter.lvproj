@@ -1,5 +1,5 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
-<Project Type="Project" LVVersion="13008000">
+<Project Type="Project" LVVersion="20008000">
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
@@ -20,11 +20,11 @@
 		<Item Name="Subvi" Type="Folder" URL="../Subvi">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
+		<Item Name="Main-revision3.vi" Type="VI" URL="../Main-revision3.vi"/>
 		<Item Name="Main-revision2.vi" Type="VI" URL="../Main-revision2.vi"/>
 		<Item Name="Main.vi" Type="VI" URL="../Main.vi"/>
 		<Item Name="CommonGuiVarbiable--WithAlias--cluster.ctl" Type="VI" URL="../../Database Manager/CommonGuiVarbiable--WithAlias--cluster.ctl"/>
 		<Item Name="All Variables With Alias.ctl" Type="VI" URL="../../Database Manager/All Variables With Alias.ctl"/>
-		<Item Name="Main-revision3.vi" Type="VI" URL="../Main-revision3.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Index 1D Array Elements (Boolean)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Index 1D Array Elements (Boolean)__ogtk.vi"/>
@@ -306,7 +306,6 @@
 				<Item Name="Set String Value.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set String Value.vi"/>
 				<Item Name="TagReturnType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/TagReturnType.ctl"/>
 				<Item Name="Check Special Tags.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Check Special Tags.vi"/>
-				<Item Name="General Error Handler CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler CORE.vi"/>
 				<Item Name="DialogType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogType.ctl"/>
 				<Item Name="General Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler.vi"/>
 				<Item Name="Parse State Queue__jki_lib_state_machine.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/State Machine/_JKI_lib_State_Machine.llb/Parse State Queue__jki_lib_state_machine.vi"/>
@@ -315,6 +314,7 @@
 				<Item Name="Space Constant.vi" Type="VI" URL="/&lt;vilib&gt;/dlg_ctls.llb/Space Constant.vi"/>
 				<Item Name="Simple Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Simple Error Handler.vi"/>
 				<Item Name="System Exec.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/system.llb/System Exec.vi"/>
+				<Item Name="General Error Handler Core CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler Core CORE.vi"/>
 			</Item>
 			<Item Name="MC stop FGV.vi" Type="VI" URL="../../General-Controler/MC stop FGV.vi"/>
 			<Item Name="multi tcp tdms single shot no open.vi" Type="VI" URL="../../General-Controler/multi tcp tdms single shot no open.vi"/>
@@ -342,9 +342,9 @@
 			<Item Name="CommonGuiVariable4--cluster.ctl" Type="VI" URL="../../Database Manager/CommonGuiVariable4--cluster.ctl"/>
 			<Item Name="All Variables.ctl" Type="VI" URL="../../Database Manager/All Variables.ctl"/>
 			<Item Name="CommonGuiVariable--cluster.ctl" Type="VI" URL="../../Database Manager/CommonGuiVariable--cluster.ctl"/>
-			<Item Name="reentrant tcp data get sub vi.vi" Type="VI" URL="../../../../shared programs/GUI_Template/Reentrant Multiple Progress/reentrant tcp data get sub vi.vi"/>
-			<Item Name="generateEvent.vi" Type="VI" URL="../../../../Device Driver/shared/generateEvent.vi"/>
-			<Item Name="build tcp initialize message for process vis.vi" Type="VI" URL="../../../../shared programs/GUI_Template/Reentrant Multiple Progress/build tcp initialize message for process vis.vi"/>
+			<Item Name="reentrant tcp data get sub vi.vi" Type="VI" URL="../../../Shared/GUI_Template/Reentrant Multiple Progress/reentrant tcp data get sub vi.vi"/>
+			<Item Name="generateEvent.vi" Type="VI" URL="../../../Shared/Device Driver/generateEvent.vi"/>
+			<Item Name="build tcp initialize message for process vis.vi" Type="VI" URL="../../../Shared/GUI_Template/Reentrant Multiple Progress/build tcp initialize message for process vis.vi"/>
 			<Item Name="parse shot data udp response.vi" Type="VI" URL="../../../Shared/parse shot data udp response.vi"/>
 			<Item Name="variable tcp separator.vi" Type="VI" URL="../../../Shared/variable tcp separator.vi"/>
 			<Item Name="Value TCP Seperator.vi" Type="VI" URL="../../../Shared/Value TCP Seperator.vi"/>
@@ -387,6 +387,12 @@
 			<Item Name="parse subscribe command.vi" Type="VI" URL="../../../Shared/parse subscribe command.vi"/>
 			<Item Name="remove rows of duplicate col in 2d array.vi" Type="VI" URL="../../../Shared/remove rows of duplicate col in 2d array.vi"/>
 			<Item Name="scan data to receive to subscribe commands.vi" Type="VI" URL="../../../Shared/scan data to receive to subscribe commands.vi"/>
+			<Item Name="Allowed root paths.vi" Type="VI" URL="../../../Shared/Allowed root paths.vi"/>
+			<Item Name="any equal.vi" Type="VI" URL="../../General-Controler/any equal.vi"/>
+			<Item Name="tcp new data cluster.ctl" Type="VI" URL="../../../Shared/GUI_Template/GUI_master/tcp new data cluster.ctl"/>
+			<Item Name="tcp_new_data_event.ctl" Type="VI" URL="../../../Shared/GUI_Template/GUI_master/tcp_new_data_event.ctl"/>
+			<Item Name="parse tcp reply and replace all device var subset.vi" Type="VI" URL="../../../Shared/GUI_Template/Reentrant Multiple Progress/parse tcp reply and replace all device var subset.vi"/>
+			<Item Name="initialize process vis.vi" Type="VI" URL="../../../Shared/GUI_Template/Reentrant Multiple Progress/initialize process vis.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Main-revision2" Type="EXE">
@@ -394,6 +400,7 @@
 				<Property Name="App_INI_aliasGUID" Type="Str">{D2BC1C5B-1727-497D-B6D5-C7221EF671BF}</Property>
 				<Property Name="App_INI_GUID" Type="Str">{0D07F55D-67DB-4028-9A0C-27005787124B}</Property>
 				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="App_serverType" Type="Int">1</Property>
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{37C1B99A-866C-4C5C-B904-2CFAA9BF38D8}</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">Main-revision2</Property>
@@ -434,6 +441,7 @@
 				<Property Name="App_INI_aliasGUID" Type="Str">{92DB9AB0-FAFD-4F6D-9FBE-BDBE79E36108}</Property>
 				<Property Name="App_INI_GUID" Type="Str">{C8F600F6-2DF4-4C72-B281-04FDDAFDD741}</Property>
 				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="App_serverType" Type="Int">1</Property>
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{5232E53A-4CA0-4E7F-A1D3-2862DB0DF44B}</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">Main-revision3</Property>
@@ -443,7 +451,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">/C/GEECS/Developers Version/builds/Interface builds/General GUIs/GUI_GeneralPlotter</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{5D0A82CE-BDF7-4A1C-9A55-C86333B56206}</Property>
-				<Property Name="Bld_version.build" Type="Int">23</Property>
+				<Property Name="Bld_version.build" Type="Int">24</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">GUI_GeneralPlotter.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">/C/GEECS/Developers Version/builds/Interface builds/General GUIs/GUI_GeneralPlotter/GUI_GeneralPlotter.exe</Property>
@@ -454,7 +462,7 @@
 				<Property Name="Destination[1].path" Type="Path">/C/GEECS/Developers Version/builds/Interface builds/General GUIs/GUI_GeneralPlotter/data</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{BF890CF1-B722-43BB-8200-5BEC4F1B8DE1}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{5FF465D0-ACEB-47AE-96B2-1C01201321BF}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Main-revision2.vi</Property>
