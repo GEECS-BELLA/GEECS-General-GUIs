@@ -188,13 +188,13 @@
 			<Item Name="scan info file add preamble.vi" Type="VI" URL="../scan info file add preamble.vi"/>
 			<Item Name="Send Command.vi" Type="VI" URL="../Subvi/Send Command.vi"/>
 		</Item>
+		<Item Name="MC3.vi" Type="VI" URL="../MC3.vi"/>
+		<Item Name="Plotter_TDMS.vi" Type="VI" URL="../../Plotter/Plotter_TDMS.vi"/>
 		<Item Name="make 2d scan file.vi" Type="VI" URL="../make 2d scan file.vi"/>
 		<Item Name="Make single scan multivariable file.vi" Type="VI" URL="../Make single scan multivariable file.vi"/>
 		<Item Name="Make single scan multivariable array file.vi" Type="VI" URL="../Make single scan multivariable array file.vi"/>
 		<Item Name="Master Control.ini" Type="Document" URL="../Master Control.ini"/>
-		<Item Name="MC3.vi" Type="VI" URL="../MC3.vi"/>
 		<Item Name="AllDevicesAcquisitionRate.vi" Type="VI" URL="../AllDevicesAcquisitionRate.vi"/>
-		<Item Name="Plotter_General.vi" Type="VI" URL="../../Plotter/Plotter_General.vi"/>
 		<Item Name="is slow response a fire command.vi" Type="VI" URL="../Subvi/is slow response a fire command.vi"/>
 		<Item Name="TCP read example.vi" Type="VI" URL="../../../Shared/TCP/TCP read example.vi"/>
 		<Item Name="GEECS tcp open single variable.vi" Type="VI" URL="../../../Shared/TCP/GEECS tcp open single variable.vi"/>
@@ -209,6 +209,7 @@
 		<Item Name="scan type.ctl" Type="VI" URL="../scan type.ctl"/>
 		<Item Name="fill in mising device data.vi" Type="VI" URL="../Subvi/fill in mising device data.vi"/>
 		<Item Name="test parse tcp replies efficiency.vi" Type="VI" URL="../test parse tcp replies efficiency.vi"/>
+		<Item Name="Plotter_General.vi" Type="VI" URL="../../Plotter/Plotter_General.vi"/>
 		<Item Name="imagebitDepth.vi" Type="VI" URL="../../shared/imagebitDepth.vi"/>
 		<Item Name="Experiment Device Enable Status MC only.vi" Type="VI" URL="../../Database Manager/Experiment Device Enable Status MC only.vi"/>
 		<Item Name="get next scan value.vi" Type="VI" URL="../../../Shared/get next scan value.vi"/>
@@ -238,6 +239,7 @@
 		<Item Name="tcp shot sender wait add connection.vi" Type="VI" URL="../tcp shot sender wait add connection.vi"/>
 		<Item Name="tcp shot server send data.vi" Type="VI" URL="../tcp shot server send data.vi"/>
 		<Item Name="LV starter manual input.vi" Type="VI" URL="../LV starter manual input.vi"/>
+		<Item Name="get latest tdms path.vi" Type="VI" URL="../Subvi/get latest tdms path.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="1D Array to String__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/string/string.llb/1D Array to String__ogtk.vi"/>
@@ -594,6 +596,8 @@
 				<Item Name="MGI RWA Unprocess Array Elements.vi" Type="VI" URL="/&lt;userlib&gt;/_MGI/Read Write Anything/MGI RWA Unprocess Array Elements.vi"/>
 				<Item Name="MGI RWA Build Array Name.vi" Type="VI" URL="/&lt;userlib&gt;/_MGI/Read Write Anything/MGI RWA Build Array Name.vi"/>
 				<Item Name="MGI Hex Str to U8 Data.vi" Type="VI" URL="/&lt;userlib&gt;/_MGI/String/MGI Hex Str to U8 Data.vi"/>
+				<Item Name="Current VIs Parents Ref__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/appcontrol/appcontrol.llb/Current VIs Parents Ref__ogtk.vi"/>
+				<Item Name="Fit VI window to Largest Dec__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/appcontrol/appcontrol.llb/Fit VI window to Largest Dec__ogtk.vi"/>
 			</Item>
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
@@ -1240,13 +1244,16 @@
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_cmdLineArgs" Type="Bool">true</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/icons/Plotter.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{7419812F-D4C3-420D-8B18-C4B7D7C8A612}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{2ED870B0-4DDF-4404-8FA1-6783A6C77181}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Plotter_General.vi</Property>
-				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
-				<Property Name="SourceCount" Type="Int">2</Property>
+				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/My Computer/Plotter_TDMS.vi</Property>
+				<Property Name="Source[2].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[2].type" Type="Str">VI</Property>
+				<Property Name="SourceCount" Type="Int">3</Property>
 				<Property Name="TgtF_companyName" Type="Str">LBNL</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">Plotter</Property>
 				<Property Name="TgtF_internalName" Type="Str">Plotter</Property>
