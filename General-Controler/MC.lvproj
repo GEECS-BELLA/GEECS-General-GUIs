@@ -241,6 +241,7 @@
 		<Item Name="LV starter manual input.vi" Type="VI" URL="../LV starter manual input.vi"/>
 		<Item Name="get latest tdms path.vi" Type="VI" URL="../Subvi/get latest tdms path.vi"/>
 		<Item Name="create list of values to scan.vi" Type="VI" URL="../Subvi/create list of values to scan.vi"/>
+		<Item Name="Beampointing get motor position tcp.vi" Type="VI" URL="../../../Bella center GUIs/GUI_Beampointing_multi/Beampointing get motor position tcp.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="1D Array to String__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/string/string.llb/1D Array to String__ogtk.vi"/>
