@@ -37,6 +37,7 @@
 				<Item Name="Add Alarmed Variable to Experiment.vi" Type="VI" URL="../Add Alarmed Variable to Experiment.vi"/>
 				<Item Name="Experiment Device Enable Status.vi" Type="VI" URL="../Experiment Device Enable Status.vi"/>
 				<Item Name="Experiment Variables.vi" Type="VI" URL="../Experiment Variables.vi"/>
+				<Item Name="ScanDataGet Status.vi" Type="VI" URL="../ScanDataGet Status.vi"/>
 				<Item Name="AddExperiment.vi" Type="VI" URL="../AddExperiment.vi"/>
 			</Item>
 			<Item Name="Camera" Type="Folder">
@@ -567,6 +568,7 @@
 			<Item Name="array to strings and values for ring.vi" Type="VI" URL="../../General-Controler/array to strings and values for ring.vi"/>
 			<Item Name="parse variable parameter array.vi" Type="VI" URL="../../General-Controler/parse variable parameter array.vi"/>
 			<Item Name="variable parameters.ctl" Type="VI" URL="../../General-Controler/variable parameters.ctl"/>
+			<Item Name="get experiment lines.vi" Type="VI" URL="../../../Shared/MySQL/get experiment lines.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Database editor" Type="EXE">
