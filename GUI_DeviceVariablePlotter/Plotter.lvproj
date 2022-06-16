@@ -20,7 +20,7 @@
 		<Item Name="Subvi" Type="Folder" URL="../Subvi">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
-		<Item Name="Main-revision3.vi" Type="VI" URL="../Main-revision3.vi"/>
+		<Item Name="Main-revision think obsolete.vi" Type="VI" URL="../Main-revision think obsolete.vi"/>
 		<Item Name="Main-revision2.vi" Type="VI" URL="../Main-revision2.vi"/>
 		<Item Name="Main.vi" Type="VI" URL="../Main.vi"/>
 		<Item Name="CommonGuiVarbiable--WithAlias--cluster.ctl" Type="VI" URL="../../Database Manager/CommonGuiVarbiable--WithAlias--cluster.ctl"/>
@@ -393,6 +393,7 @@
 			<Item Name="tcp_new_data_event.ctl" Type="VI" URL="../../../Shared/GUI_Template/GUI_master/tcp_new_data_event.ctl"/>
 			<Item Name="parse tcp reply and replace all device var subset.vi" Type="VI" URL="../../../Shared/GUI_Template/Reentrant Multiple Progress/parse tcp reply and replace all device var subset.vi"/>
 			<Item Name="initialize process vis.vi" Type="VI" URL="../../../Shared/GUI_Template/Reentrant Multiple Progress/initialize process vis.vi"/>
+			<Item Name="clearTCPBuffer.vi" Type="VI" URL="../../Device GUIs/GUI_General_Camera/clearTCPBuffer.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Main-revision2" Type="EXE">
@@ -410,7 +411,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">/C/GEECS/Developers Version/builds/Interface builds/General GUIs/GUI_GeneralPlotter</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{799792E5-E80F-4047-95E2-74108BE12CB7}</Property>
-				<Property Name="Bld_version.build" Type="Int">23</Property>
+				<Property Name="Bld_version.build" Type="Int">24</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">GUI_GeneralPlotter.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">/C/GEECS/Developers Version/builds/Interface builds/General GUIs/GUI_GeneralPlotter/GUI_GeneralPlotter.exe</Property>

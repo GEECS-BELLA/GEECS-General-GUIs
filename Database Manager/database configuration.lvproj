@@ -596,7 +596,7 @@
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/Editors/SubVIs/Database_1.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{8449B575-9F2C-4EBF-A614-AB7F7BC89B9C}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{91A05977-D785-4013-B33B-E6CCE1CD5B59}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Editors/Device/Device Variables.vi</Property>
@@ -782,6 +782,10 @@
 				<Property Name="Source[50].itemID" Type="Ref">/My Computer/Editors/Experiment/Experiment Device Enable Status.vi</Property>
 				<Property Name="Source[50].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[50].type" Type="Str">VI</Property>
+				<Property Name="Source[51].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[51].itemID" Type="Ref">/My Computer/Editors/Experiment/ScanDataGet Status.vi</Property>
+				<Property Name="Source[51].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[51].type" Type="Str">VI</Property>
 				<Property Name="Source[6].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[6].itemID" Type="Ref">/My Computer/Editors/Computers/New Computer.vi</Property>
 				<Property Name="Source[6].sourceInclusion" Type="Str">Include</Property>
@@ -798,7 +802,7 @@
 				<Property Name="Source[9].itemID" Type="Ref">/My Computer/Editors/Experiment/AddExperiment.vi</Property>
 				<Property Name="Source[9].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[9].type" Type="Str">VI</Property>
-				<Property Name="SourceCount" Type="Int">51</Property>
+				<Property Name="SourceCount" Type="Int">52</Property>
 				<Property Name="TgtF_companyName" Type="Str">LBNL</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">Database editor</Property>
 				<Property Name="TgtF_internalName" Type="Str">Database editor</Property>
