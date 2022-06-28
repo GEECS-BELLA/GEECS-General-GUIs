@@ -1027,6 +1027,8 @@
 			<Item Name="NVIORef.dll" Type="Document" URL="NVIORef.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="Launch TCP data clients.vi" Type="VI" URL="../Launch TCP data clients.vi"/>
+			<Item Name="generateEvent.vi" Type="VI" URL="../../../Shared/Device Driver/generateEvent.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Master Control" Type="EXE">

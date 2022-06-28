@@ -22,9 +22,12 @@
 		</Item>
 		<Item Name="Main-revision think obsolete.vi" Type="VI" URL="../Main-revision think obsolete.vi"/>
 		<Item Name="Main-revision2.vi" Type="VI" URL="../Main-revision2.vi"/>
-		<Item Name="Main.vi" Type="VI" URL="../Main.vi"/>
 		<Item Name="CommonGuiVarbiable--WithAlias--cluster.ctl" Type="VI" URL="../../Database Manager/CommonGuiVarbiable--WithAlias--cluster.ctl"/>
 		<Item Name="All Variables With Alias.ctl" Type="VI" URL="../../Database Manager/All Variables With Alias.ctl"/>
+		<Item Name="Launch TCP data clients.vi" Type="VI" URL="../../General-Controler/Launch TCP data clients.vi"/>
+		<Item Name="Example tcp data collector.vi" Type="VI" URL="../../../Shared/GUI_Template/Example tcp data collector.vi"/>
+		<Item Name="TCP subscription info cluster.ctl" Type="VI" URL="../../../Shared/GUI_Template/TCP subscription info cluster.ctl"/>
+		<Item Name="tcp data queue to requested values.vi" Type="VI" URL="../../../Shared/GUI_Template/tcp data queue to requested values.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Index 1D Array Elements (Boolean)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Index 1D Array Elements (Boolean)__ogtk.vi"/>
@@ -343,7 +346,6 @@
 			<Item Name="All Variables.ctl" Type="VI" URL="../../Database Manager/All Variables.ctl"/>
 			<Item Name="CommonGuiVariable--cluster.ctl" Type="VI" URL="../../Database Manager/CommonGuiVariable--cluster.ctl"/>
 			<Item Name="reentrant tcp data get sub vi.vi" Type="VI" URL="../../../Shared/GUI_Template/Reentrant Multiple Progress/reentrant tcp data get sub vi.vi"/>
-			<Item Name="generateEvent.vi" Type="VI" URL="../../../Shared/Device Driver/generateEvent.vi"/>
 			<Item Name="build tcp initialize message for process vis.vi" Type="VI" URL="../../../Shared/GUI_Template/Reentrant Multiple Progress/build tcp initialize message for process vis.vi"/>
 			<Item Name="parse shot data udp response.vi" Type="VI" URL="../../../Shared/parse shot data udp response.vi"/>
 			<Item Name="variable tcp separator.vi" Type="VI" URL="../../../Shared/variable tcp separator.vi"/>
@@ -394,6 +396,9 @@
 			<Item Name="parse tcp reply and replace all device var subset.vi" Type="VI" URL="../../../Shared/GUI_Template/Reentrant Multiple Progress/parse tcp reply and replace all device var subset.vi"/>
 			<Item Name="initialize process vis.vi" Type="VI" URL="../../../Shared/GUI_Template/Reentrant Multiple Progress/initialize process vis.vi"/>
 			<Item Name="clearTCPBuffer.vi" Type="VI" URL="../../Device GUIs/GUI_General_Camera/clearTCPBuffer.vi"/>
+			<Item Name="generateEvent.vi" Type="VI" URL="../../../Shared/Device Driver/generateEvent.vi"/>
+			<Item Name="array to strings and values for ring.vi" Type="VI" URL="../../General-Controler/array to strings and values for ring.vi"/>
+			<Item Name="Get all devices core info.vi" Type="VI" URL="../../General-Controler/Subvi/Get all devices core info.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Main-revision2" Type="EXE">
@@ -411,7 +416,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">/C/GEECS/Developers Version/builds/Interface builds/General GUIs/GUI_GeneralPlotter</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{799792E5-E80F-4047-95E2-74108BE12CB7}</Property>
-				<Property Name="Bld_version.build" Type="Int">24</Property>
+				<Property Name="Bld_version.build" Type="Int">25</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">GUI_GeneralPlotter.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">/C/GEECS/Developers Version/builds/Interface builds/General GUIs/GUI_GeneralPlotter/GUI_GeneralPlotter.exe</Property>
