@@ -827,7 +827,6 @@
 			<Item Name="filter array based upon column value.vi" Type="VI" URL="../filter array based upon column value.vi"/>
 			<Item Name="Generate GUI List Commands for LVStarter-Modified.vi" Type="VI" URL="../Generate GUI List Commands for LVStarter-Modified.vi"/>
 			<Item Name="generate scan start command.vi" Type="VI" URL="../generate scan start command.vi"/>
-			<Item Name="generateEvent.vi" Type="VI" URL="../../../Device Drivers/shared/generateEvent.vi"/>
 			<Item Name="get buckets for graph averaging.vi" Type="VI" URL="../../Plotter/binning/get buckets for graph averaging.vi"/>
 			<Item Name="get date folder name.vi" Type="VI" URL="../get date folder name.vi"/>
 			<Item Name="get device groups.vi" Type="VI" URL="../get device groups.vi"/>
@@ -1028,7 +1027,7 @@
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="Launch TCP data clients.vi" Type="VI" URL="../Launch TCP data clients.vi"/>
-			<Item Name="generateEvent.vi" Type="VI" URL="../../../Shared/Device Driver/generateEvent.vi"/>
+			<Item Name="generateEvent.vi" Type="VI" URL="../../../Device Drivers/shared/generateEvent.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Master Control" Type="EXE">
@@ -1045,7 +1044,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">/C/GEECS/Developers Version/builds/Interface builds/General GUIs/NI_AB_PROJECTNAME/Master Control</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{C126A360-18F5-4B84-9B98-CDE1988BCE93}</Property>
-				<Property Name="Bld_version.build" Type="Int">229</Property>
+				<Property Name="Bld_version.build" Type="Int">231</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Master Control.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">/C/GEECS/Developers Version/builds/Interface builds/General GUIs/NI_AB_PROJECTNAME/Master Control/Master Control.exe</Property>
