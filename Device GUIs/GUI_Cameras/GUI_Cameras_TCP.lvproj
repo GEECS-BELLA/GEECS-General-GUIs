@@ -566,6 +566,14 @@
 			<Item Name="VariantToString.vi" Type="VI" URL="../../../../Shared/Device Driver/VariantToString.vi"/>
 			<Item Name="wholeRowToVAriant.vi" Type="VI" URL="../../../../Shared/MySQL/subVIs/wholeRowToVAriant.vi"/>
 			<Item Name="writeError.vi" Type="VI" URL="../../../shared/writeError.vi"/>
+			<Item Name="Launch TCP data clients.vi" Type="VI" URL="../../../General-Controler/Launch TCP data clients.vi"/>
+			<Item Name="generateEvent.vi" Type="VI" URL="../../../../Device Drivers/shared/generateEvent.vi"/>
+			<Item Name="Get all devices core info.vi" Type="VI" URL="../../../General-Controler/Subvi/Get all devices core info.vi"/>
+			<Item Name="array to strings and values for ring.vi" Type="VI" URL="../../../General-Controler/array to strings and values for ring.vi"/>
+			<Item Name="Logical String Array Sort.vi" Type="VI" URL="../../../Database Manager/SubVIs/logicalstringarraysort.llb/Logical String Array Sort.vi"/>
+			<Item Name="LogSort_Stack.vi" Type="VI" URL="../../../Database Manager/SubVIs/logicalstringarraysort.llb/LogSort_Stack.vi"/>
+			<Item Name="LogSort_Partition.vi" Type="VI" URL="../../../Database Manager/SubVIs/logicalstringarraysort.llb/LogSort_Partition.vi"/>
+			<Item Name="LogSort_StackHandler.vi" Type="VI" URL="../../../Database Manager/SubVIs/logicalstringarraysort.llb/LogSort_StackHandler.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="CreateExampleIMAQString" Type="DLL">
