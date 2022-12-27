@@ -1044,7 +1044,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">/C/GEECS/Developers Version/builds/Interface builds/General GUIs/NI_AB_PROJECTNAME/Master Control</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{C126A360-18F5-4B84-9B98-CDE1988BCE93}</Property>
-				<Property Name="Bld_version.build" Type="Int">235</Property>
+				<Property Name="Bld_version.build" Type="Int">236</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Master Control.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">/C/GEECS/Developers Version/builds/Interface builds/General GUIs/NI_AB_PROJECTNAME/Master Control/Master Control.exe</Property>
@@ -1283,7 +1283,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">/C/GEECS/Developers Version/builds/Interface builds/General GUIs/NI_AB_PROJECTNAME/MultiVariableScanPolynomial</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{EC20EA85-6869-4D7C-A104-3F7A3C2A94A2}</Property>
-				<Property Name="Bld_version.build" Type="Int">172</Property>
+				<Property Name="Bld_version.build" Type="Int">173</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">MultiVariableScanPolynomial.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">/C/GEECS/Developers Version/builds/Interface builds/General GUIs/NI_AB_PROJECTNAME/MultiVariableScanPolynomial/MultiVariableScanPolynomial.exe</Property>
@@ -1406,7 +1406,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">/C/GEECS/Developers Version/builds/Interface builds/General GUIs/NI_AB_PROJECTNAME/MakeScanFile2D</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{E9B359CA-68DE-4A6A-9BCC-CFE57685D85A}</Property>
-				<Property Name="Bld_version.build" Type="Int">3</Property>
+				<Property Name="Bld_version.build" Type="Int">4</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">MakeScanFile2D.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">/C/GEECS/Developers Version/builds/Interface builds/General GUIs/NI_AB_PROJECTNAME/MakeScanFile2D/MakeScanFile2D.exe</Property>
