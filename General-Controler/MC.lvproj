@@ -242,6 +242,7 @@
 		<Item Name="get latest tdms path.vi" Type="VI" URL="../Subvi/get latest tdms path.vi"/>
 		<Item Name="create list of values to scan.vi" Type="VI" URL="../Subvi/create list of values to scan.vi"/>
 		<Item Name="Beampointing get motor position tcp.vi" Type="VI" URL="../../../Bella center GUIs/GUI_Beampointing_multi/Beampointing get motor position tcp.vi"/>
+		<Item Name="check saved scan files.vi" Type="VI" URL="../check saved scan files/check saved scan files.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="1D Array to String__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/string/string.llb/1D Array to String__ogtk.vi"/>
@@ -1544,6 +1545,49 @@
 				<Property Name="TgtF_productName" Type="Str">LVstarter</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{C1BA2919-10A5-4975-8DA1-4085E23D3773}</Property>
 				<Property Name="TgtF_targetfileName" Type="Str">LVstarterManual.exe</Property>
+			</Item>
+			<Item Name="Check saved scan files" Type="EXE">
+				<Property Name="App_copyErrors" Type="Bool">true</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{5C6FDD06-E826-4301-8DD3-EDD3E9D2E376}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{E880F9AA-D5B6-4085-BA52-3B87126D40F3}</Property>
+				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="App_serverType" Type="Int">0</Property>
+				<Property Name="App_winsec.description" Type="Str">http://www.LBL.com</Property>
+				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{045D24AE-D12C-46F3-A4DE-108CC0899B4F}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">Check saved scan files</Property>
+				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
+				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_localDestDir" Type="Path">/C/GEECS/Developers Version/builds/Interface builds/General GUIs/NI_AB_PROJECTNAME/Check saved scan files</Property>
+				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{8C83C193-49DA-4659-AF38-4909D63950CE}</Property>
+				<Property Name="Bld_version.build" Type="Int">1</Property>
+				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Destination[0].destName" Type="Str">Check saved scan files.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">/C/GEECS/Developers Version/builds/Interface builds/General GUIs/NI_AB_PROJECTNAME/Check saved scan files/Check saved scan files.exe</Property>
+				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[0].type" Type="Str">App</Property>
+				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
+				<Property Name="Destination[1].path" Type="Path">/C/GEECS/Developers Version/builds/Interface builds/General GUIs/NI_AB_PROJECTNAME/Check saved scan files/data</Property>
+				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="Source[0].itemID" Type="Str">{A972407E-6139-4D5B-ACB3-3B09E683E116}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/check saved scan files.vi</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[1].type" Type="Str">VI</Property>
+				<Property Name="SourceCount" Type="Int">2</Property>
+				<Property Name="TgtF_companyName" Type="Str">LBL</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">Check saved scan files</Property>
+				<Property Name="TgtF_internalName" Type="Str">Check saved scan files</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2023 LBL</Property>
+				<Property Name="TgtF_productName" Type="Str">Check saved scan files</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{C1AF2465-92AE-427C-9DBE-7B3EC89153E1}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">Check saved scan files.exe</Property>
+				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
 			</Item>
 		</Item>
 	</Item>
