@@ -245,6 +245,9 @@
 		<Item Name="check saved scan files.vi" Type="VI" URL="../check saved scan files/check saved scan files.vi"/>
 		<Item Name="playing with luanching with system exec not use.vi" Type="VI" URL="../../../Shared/playing with luanching with system exec not use.vi"/>
 		<Item Name="launch application batch file etc system exec.vi" Type="VI" URL="../Subvi/launch application batch file etc system exec.vi"/>
+		<Item Name="MC collect shot data from tcp queue.vi" Type="VI" URL="../Subvi/scan shot data collection/MC collect shot data from tcp queue.vi"/>
+		<Item Name="MC shot collector tester.vi" Type="VI" URL="../Subvi/scan shot data collection/MC shot collector tester.vi"/>
+		<Item Name="tcp data queue array back to comma separated.vi" Type="VI" URL="../Subvi/scan shot data collection/tcp data queue array back to comma separated.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="1D Array to String__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/string/string.llb/1D Array to String__ogtk.vi"/>
