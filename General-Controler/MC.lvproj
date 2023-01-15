@@ -249,6 +249,7 @@
 		<Item Name="MC shot collector tester.vi" Type="VI" URL="../Subvi/scan shot data collection/MC shot collector tester.vi"/>
 		<Item Name="tcp data queue array back to comma separated.vi" Type="VI" URL="../Subvi/scan shot data collection/tcp data queue array back to comma separated.vi"/>
 		<Item Name="append variable for csv tdms.vi" Type="VI" URL="../Subvi/append variable for csv tdms.vi"/>
+		<Item Name="test parse tcp replies.vi" Type="VI" URL="../test parse tcp replies.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="1D Array to String__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/string/string.llb/1D Array to String__ogtk.vi"/>
@@ -1052,7 +1053,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">/C/GEECS/Developers Version/builds/Interface builds/General GUIs/NI_AB_PROJECTNAME/Master Control</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{C126A360-18F5-4B84-9B98-CDE1988BCE93}</Property>
-				<Property Name="Bld_version.build" Type="Int">242</Property>
+				<Property Name="Bld_version.build" Type="Int">244</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Master Control.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">/C/GEECS/Developers Version/builds/Interface builds/General GUIs/NI_AB_PROJECTNAME/Master Control/Master Control.exe</Property>
