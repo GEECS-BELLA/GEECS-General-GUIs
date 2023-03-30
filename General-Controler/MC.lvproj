@@ -252,6 +252,7 @@
 		<Item Name="test parse tcp replies.vi" Type="VI" URL="../test parse tcp replies.vi"/>
 		<Item Name="FGV MC Remote control.vi" Type="VI" URL="../FGV MC Remote control.vi"/>
 		<Item Name="example of controlling MC remotely.vi" Type="VI" URL="../example of controlling MC remotely.vi"/>
+		<Item Name="MC get remote commands.vi" Type="VI" URL="../Subvi/MC get remote commands.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="1D Array to String__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/string/string.llb/1D Array to String__ogtk.vi"/>
@@ -1055,7 +1056,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">/C/GEECS/Developers Version/builds/Interface builds/General GUIs/NI_AB_PROJECTNAME/Master Control</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{C126A360-18F5-4B84-9B98-CDE1988BCE93}</Property>
-				<Property Name="Bld_version.build" Type="Int">250</Property>
+				<Property Name="Bld_version.build" Type="Int">251</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Master Control.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">/C/GEECS/Developers Version/builds/Interface builds/General GUIs/NI_AB_PROJECTNAME/Master Control/Master Control.exe</Property>
@@ -1068,7 +1069,7 @@
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_cmdLineArgs" Type="Bool">true</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/icons/MC.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{C687D49A-BC9F-4137-887B-EC95434F38C4}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{05AB27A1-B36D-419E-8B0F-797AAB0A7B3F}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/MC3.vi</Property>
