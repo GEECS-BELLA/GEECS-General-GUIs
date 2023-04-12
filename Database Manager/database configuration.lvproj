@@ -570,6 +570,7 @@
 			<Item Name="parse variable parameter array.vi" Type="VI" URL="../../General-Controler/parse variable parameter array.vi"/>
 			<Item Name="variable parameters.ctl" Type="VI" URL="../../General-Controler/variable parameters.ctl"/>
 			<Item Name="get experiment lines.vi" Type="VI" URL="../../../Shared/MySQL/get experiment lines.vi"/>
+			<Item Name="get software root directory.vi" Type="VI" URL="../../../Shared/get software root directory.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Database editor" Type="EXE">
