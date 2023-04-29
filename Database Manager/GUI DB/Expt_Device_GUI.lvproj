@@ -11,8 +11,8 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="Expt_Devices_GUI_Main2.vi" Type="VI" URL="../Expt_Devices_GUI_Main2.vi"/>
 		<Item Name="Expt_Devices_GUI_Datagridview.vi" Type="VI" URL="../Expt_Devices_GUI_Datagridview.vi"/>
+		<Item Name="Expt_Devices_GUI_Main2.vi" Type="VI" URL="../Expt_Devices_GUI_Main2.vi"/>
 		<Item Name="Database_3.ico" Type="Document" URL="../Database_3.ico"/>
 		<Item Name="edit expt variable.vi" Type="VI" URL="../edit expt variable.vi"/>
 		<Item Name="getDeviceID.vi" Type="VI" URL="../../../../Shared/MySQL/getDeviceID.vi"/>
