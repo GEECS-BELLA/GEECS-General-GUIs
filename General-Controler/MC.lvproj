@@ -193,6 +193,7 @@
 		<Item Name="make 2d scan file.vi" Type="VI" URL="../make 2d scan file.vi"/>
 		<Item Name="Make single scan multivariable file.vi" Type="VI" URL="../Make single scan multivariable file.vi"/>
 		<Item Name="Make single scan multivariable array file.vi" Type="VI" URL="../Make single scan multivariable array file.vi"/>
+		<Item Name="Add aliases to tdms.vi" Type="VI" URL="../../../Shared/tdms/Add aliases to tdms.vi"/>
 		<Item Name="Master Control.ini" Type="Document" URL="../Master Control.ini"/>
 		<Item Name="AllDevicesAcquisitionRate.vi" Type="VI" URL="../AllDevicesAcquisitionRate.vi"/>
 		<Item Name="is slow response a fire command.vi" Type="VI" URL="../Subvi/is slow response a fire command.vi"/>
@@ -255,6 +256,9 @@
 		<Item Name="MC get remote commands.vi" Type="VI" URL="../Subvi/MC get remote commands.vi"/>
 		<Item Name="SQL get filtered device list cluster input.vi" Type="VI" URL="../../../Shared/MySQL/SQL get filtered device list cluster input.vi"/>
 		<Item Name="device filter cluster.ctl" Type="VI" URL="../../../Shared/MySQL/device filter cluster.ctl"/>
+		<Item Name="append alias to string.vi" Type="VI" URL="../../../Shared/tdms/append alias to string.vi"/>
+		<Item Name="get aliases and matching dev var name.vi" Type="VI" URL="../../../Shared/tdms/get aliases and matching dev var name.vi"/>
+		<Item Name="Read TDMS  numeric - LOASIS scan data.vi" Type="VI" URL="../../../Shared/tdms/Read TDMS  numeric - LOASIS scan data.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="1D Array to String__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/string/string.llb/1D Array to String__ogtk.vi"/>
@@ -745,7 +749,7 @@
 				<Item Name="_GetConfiguration.vi" Type="VI" URL="/&lt;vilib&gt;/sound2/lvsound2.llb/_GetConfiguration.vi"/>
 				<Item Name="Sound Output Info.vi" Type="VI" URL="/&lt;vilib&gt;/sound2/lvsound2.llb/Sound Output Info.vi"/>
 				<Item Name="Play Sound File.vi" Type="VI" URL="/&lt;vilib&gt;/sound2/lvsound2.llb/Play Sound File.vi"/>
-				<Item Name="Build State String with Arguments__JKI_lib_State_Machine.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/State Machine/_JKI_lib_State_Machine.llb/Build State String with Arguments__JKI_lib_State_Machine.vi"/>
+				<Item Name="Build State String with Arguments__jki_lib_state_machine.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/State Machine/_JKI_lib_State_Machine.llb/Build State String with Arguments__jki_lib_state_machine.vi"/>
 				<Item Name="Application Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Application Directory.vi"/>
 				<Item Name="IMAQ Image.ctl" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/IMAQ Image.ctl"/>
 				<Item Name="IMAQ Read Custom Data" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ Read Custom Data"/>
