@@ -22,7 +22,6 @@
 		</Item>
 		<Item Name="Camera.ico" Type="Document" URL="../Camera.ico"/>
 		<Item Name="create imaq user palettes.vi" Type="VI" URL="../create imaq user palettes.vi"/>
-		<Item Name="CreateExampleIMAQString.lvlib" Type="Library" URL="/&lt;userlib&gt;/CreateExampleIMAQString/CreateExampleIMAQString.lvlib"/>
 		<Item Name="get experiment lines.vi" Type="VI" URL="../../../../Shared/MySQL/get experiment lines.vi"/>
 		<Item Name="GUI_Cameras.ini" Type="Document" URL="../GUI_Cameras.ini"/>
 		<Item Name="GUI_Cameras.vi" Type="VI" URL="../GUI_Cameras.vi"/>
