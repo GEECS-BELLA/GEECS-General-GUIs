@@ -462,7 +462,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">/C/GEECS/Developers Version/builds/Interface builds/General GUIs/Database editor</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{038BAE34-1CA9-4C42-902C-7A97C7187EDC}</Property>
-				<Property Name="Bld_version.build" Type="Int">18</Property>
+				<Property Name="Bld_version.build" Type="Int">19</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Expt_Devices_GUI_Datagridview.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">/C/GEECS/Developers Version/builds/Interface builds/General GUIs/Database editor/Expt_Devices_GUI_Datagridview.exe</Property>
@@ -474,7 +474,7 @@
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/Database_3.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{B458E896-62EB-41DE-9C7B-1F1A12200B2E}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{D1D0F21B-B384-4DF4-B251-822BCCF6EB76}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Expt_Devices_GUI_Datagridview.vi</Property>

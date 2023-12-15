@@ -361,6 +361,7 @@
 			</Item>
 			<Item Name="Allowed root paths.vi" Type="VI" URL="../../../../Shared/Allowed root paths.vi"/>
 			<Item Name="any equal.vi" Type="VI" URL="../../../General-Controler/any equal.vi"/>
+			<Item Name="array to strings and values for ring.vi" Type="VI" URL="../../../General-Controler/array to strings and values for ring.vi"/>
 			<Item Name="ByteToVariant.vi" Type="VI" URL="../../../../Shared/MySQL/ByteToVariant.vi"/>
 			<Item Name="changePath.vi" Type="VI" URL="../../GUI_Cameras/changePath.vi"/>
 			<Item Name="ChnageControlLimits.vi" Type="VI" URL="../../../../Shared/Device Driver/ChnageControlLimits.vi"/>
@@ -380,10 +381,12 @@
 			<Item Name="enableEnumItems.vi" Type="VI" URL="../../../../Shared/Device Driver/enableEnumItems.vi"/>
 			<Item Name="FastSlowFGV.vi" Type="VI" URL="../../../shared/FastSlowFGV.vi"/>
 			<Item Name="GenerateControlUpdateQueue.vi" Type="VI" URL="../../../../Shared/Device Driver/GenerateControlUpdateQueue.vi"/>
+			<Item Name="generateEvent.vi" Type="VI" URL="../../../../Device Drivers/shared/generateEvent.vi"/>
 			<Item Name="GenerateQueues.vi" Type="VI" URL="../../../../Shared/Device Driver/GenerateQueues.vi"/>
 			<Item Name="generateStopQueue.vi" Type="VI" URL="../../../../Shared/Device Driver/generateStopQueue.vi"/>
 			<Item Name="generateTCPDataQueue.vi" Type="VI" URL="../../../../Shared/Device Driver/generateTCPDataQueue.vi"/>
 			<Item Name="genUDPQueue.vi" Type="VI" URL="../../../../Shared/Device Driver/genUDPQueue.vi"/>
+			<Item Name="Get all devices core info.vi" Type="VI" URL="../../../General-Controler/Subvi/Get all devices core info.vi"/>
 			<Item Name="Get Application Directory.vi" Type="VI" URL="../../../../Shared/Get Application Directory.vi"/>
 			<Item Name="Get Cluster Element by Name__ogtk_TS.vi" Type="VI" URL="../../../../Device Drivers/shared/Get Cluster Element by Name__ogtk_TS.vi"/>
 			<Item Name="Get Cluster Element Names__ogtk_TS.vi" Type="VI" URL="../../../../Device Drivers/shared/Get Cluster Element Names__ogtk_TS.vi"/>
@@ -409,7 +412,12 @@
 			<Item Name="GUIDeviceInfo_TypDEf.ctl" Type="VI" URL="../../../../Shared/Device Driver/GUIDeviceInfo_TypDEf.ctl"/>
 			<Item Name="imagebitDepth.vi" Type="VI" URL="../../../shared/imagebitDepth.vi"/>
 			<Item Name="IsControlNull.vi" Type="VI" URL="../../../shared/IsControlNull.vi"/>
+			<Item Name="Launch TCP data clients.vi" Type="VI" URL="../../../General-Controler/Launch TCP data clients.vi"/>
 			<Item Name="Listen to slow UDP and parse error_in sendCommand.vi" Type="VI" URL="../../../../Shared/Listen to slow UDP and parse error_in sendCommand.vi"/>
+			<Item Name="Logical String Array Sort.vi" Type="VI" URL="../../../Database Manager/SubVIs/logicalstringarraysort.llb/Logical String Array Sort.vi"/>
+			<Item Name="LogSort_Partition.vi" Type="VI" URL="../../../Database Manager/SubVIs/logicalstringarraysort.llb/LogSort_Partition.vi"/>
+			<Item Name="LogSort_Stack.vi" Type="VI" URL="../../../Database Manager/SubVIs/logicalstringarraysort.llb/LogSort_Stack.vi"/>
+			<Item Name="LogSort_StackHandler.vi" Type="VI" URL="../../../Database Manager/SubVIs/logicalstringarraysort.llb/LogSort_StackHandler.vi"/>
 			<Item Name="lv_mysql_conn_check_packet_type.vi" Type="VI" URL="../../../../Shared/MySQL/subVIs/lv_mysql_conn_check_packet_type.vi"/>
 			<Item Name="lv_mysql_conn_close.vi" Type="VI" URL="../../../../Shared/MySQL/lv_mysql_conn_close.vi"/>
 			<Item Name="lv_mysql_conn_encrypt_passwd.vi" Type="VI" URL="../../../../Shared/MySQL/subVIs/lv_mysql_conn_encrypt_passwd.vi"/>
@@ -454,6 +462,7 @@
 			<Item Name="scan data to receive to subscribe commands.vi" Type="VI" URL="../../../../Shared/scan data to receive to subscribe commands.vi"/>
 			<Item Name="scopeTrace_TypDef.ctl" Type="VI" URL="../../GUI_Scopes/scopeTrace_TypDef.ctl"/>
 			<Item Name="scopeTraceInfo_TypDEf.ctl" Type="VI" URL="../../../../Device Drivers/shared/scopeTraceInfo_TypDEf.ctl"/>
+			<Item Name="select requested data from MC tcp queue.vi" Type="VI" URL="../../../General-Controler/Subvi/select requested data from MC tcp queue.vi"/>
 			<Item Name="Send command and listen to fast UDP.vi" Type="VI" URL="../../../../Shared/Send command and listen to fast UDP.vi"/>
 			<Item Name="sendCommandAndListen.vi" Type="VI" URL="../../../../Shared/sendCommandAndListen.vi"/>
 			<Item Name="sendCommandAndListen_udpqueue.vi" Type="VI" URL="../../../../Shared/sendCommandAndListen_udpqueue.vi"/>
@@ -501,6 +510,7 @@
 				<Property Name="App_INI_aliasGUID" Type="Str">{92330108-2430-4293-8FE6-1F7262C04B24}</Property>
 				<Property Name="App_INI_GUID" Type="Str">{B2DE7A49-2F6A-4BAC-80A1-97AA555E4374}</Property>
 				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="App_serverType" Type="Int">1</Property>
 				<Property Name="App_winsec.description" Type="Str">http://www.LBNL.com</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{0678952D-C085-46E8-B4E5-4A8C486FCAD8}</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">GUI_HamamatsuSpectrometer</Property>
