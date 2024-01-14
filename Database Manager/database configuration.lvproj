@@ -26,6 +26,7 @@
 				<Item Name="Find Devices on Computer.vi" Type="VI" URL="../Find Devices on Computer.vi"/>
 				<Item Name="Rename Device.vi" Type="VI" URL="../Rename Device.vi"/>
 				<Item Name="Copy Devicetype.vi" Type="VI" URL="../Copy Devicetype.vi"/>
+				<Item Name="DefineVariableChoice.vi" Type="VI" URL="../DefineVariableChoice.vi"/>
 				<Item Name="Devicetype Variables.vi" Type="VI" URL="../Devicetype Variables.vi"/>
 				<Item Name="NewDeviceType.vi" Type="VI" URL="../NewDeviceType.vi"/>
 				<Item Name="Edit Device.vi" Type="VI" URL="../Edit Device.vi"/>
@@ -471,6 +472,7 @@
 				<Item Name="Conditional Auto-Indexing Tunnel (Variant)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Conditional Auto-Indexing Tunnel (Variant)__ogtk.vi"/>
 				<Item Name="Conditional Auto-Indexing Tunnel__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Conditional Auto-Indexing Tunnel__ogtk.vi"/>
 				<Item Name="Wait (ms)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/time/time.llb/Wait (ms)__ogtk.vi"/>
+				<Item Name="Fit VI window to Largest Dec__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/appcontrol/appcontrol.llb/Fit VI window to Largest Dec__ogtk.vi"/>
 			</Item>
 			<Item Name="Find Free UDP Port.vi" Type="VI" URL="../SubVIs/Find Free UDP Port.vi"/>
 			<Item Name="SQL Insert.vi" Type="VI" URL="../SubVIs/SQL Insert.vi"/>
