@@ -492,6 +492,8 @@
 			<Item Name="RingValueFromString.vi" Type="VI" URL="../../../Shared/Device Driver/UtilsLib/Rings/RingValueFromString.vi"/>
 			<Item Name="supergui create stop queue.vi" Type="VI" URL="../../../Shared/supergui create stop queue.vi"/>
 			<Item Name="get ip ports and subscribe commands for expt tcp data.vi" Type="VI" URL="../../General-Controler/get ip ports and subscribe commands for expt tcp data.vi"/>
+			<Item Name="generateEvent.vi" Type="VI" URL="../../../Device Drivers/shared/generateEvent.vi"/>
+			<Item Name="select requested data from MC tcp queue.vi" Type="VI" URL="../../General-Controler/Subvi/select requested data from MC tcp queue.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Main-revision2" Type="EXE">
@@ -509,7 +511,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">/C/GEECS/Developers Version/builds/Interface builds/General GUIs/GUI_GeneralPlotter</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{799792E5-E80F-4047-95E2-74108BE12CB7}</Property>
-				<Property Name="Bld_version.build" Type="Int">26</Property>
+				<Property Name="Bld_version.build" Type="Int">27</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">GUI_GeneralPlotter.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">/C/GEECS/Developers Version/builds/Interface builds/General GUIs/GUI_GeneralPlotter/GUI_GeneralPlotter.exe</Property>
