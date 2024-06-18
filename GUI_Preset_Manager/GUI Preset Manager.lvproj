@@ -14,9 +14,16 @@
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
 		<Item Name="Configuration_to_Array.vi" Type="VI" URL="../Configuration_to_Array.vi"/>
+		<Item Name="Devices Not On.vi" Type="VI" URL="../Devices Not On.vi"/>
 		<Item Name="Full Join.vi" Type="VI" URL="../Full Join.vi"/>
-		<Item Name="Get_Preset_File.vi" Type="VI" URL="../Get_Preset_File.vi"/>
 		<Item Name="Left Join.vi" Type="VI" URL="../Left Join.vi"/>
+		<Item Name="Preset Expt Device Comparison.vi" Type="VI" URL="../Preset Expt Device Comparison.vi"/>
+		<Item Name="Preset_Manager_Main.vi" Type="VI" URL="../Preset_Manager_Main.vi"/>
+		<Item Name="Preset_Manager_Main_Integrated.vi" Type="VI" URL="../Preset_Manager_Main_Integrated.vi"/>
+		<Item Name="Preset_Manager_Main_Integrated2.0.vi" Type="VI" URL="../Preset_Manager_Main_Integrated2.0.vi"/>
+		<Item Name="Preset_to_Array.vi" Type="VI" URL="../Preset_to_Array.vi"/>
+		<Item Name="PresetExecutionDataCluster.vi" Type="VI" URL="../PresetExecutionDataCluster.vi"/>
+		<Item Name="UPD Variable Init.vi" Type="VI" URL="../UPD Variable Init.vi"/>
 		<Item Name="Value_Selection_in_Table_GUI.vi" Type="VI" URL="../Value_Selection_in_Table_GUI.vi"/>
 		<Item Name="Value_Update_to_Preset.vi" Type="VI" URL="../Value_Update_to_Preset.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
@@ -105,6 +112,10 @@
 				<Item Name="Three Button Dialog CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog CORE.vi"/>
 				<Item Name="Three Button Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog.vi"/>
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
+				<Item Name="UDP Multicast Open.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tcp.llb/UDP Multicast Open.vi"/>
+				<Item Name="UDP Multicast Read-Only Open.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tcp.llb/UDP Multicast Read-Only Open.vi"/>
+				<Item Name="UDP Multicast Read-Write Open.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tcp.llb/UDP Multicast Read-Write Open.vi"/>
+				<Item Name="UDP Multicast Write-Only Open.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tcp.llb/UDP Multicast Write-Only Open.vi"/>
 				<Item Name="Unset Busy.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/cursorutil.llb/Unset Busy.vi"/>
 				<Item Name="VariantType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/VariantDataType/VariantType.lvlib"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
@@ -112,12 +123,28 @@
 			<Item Name="2 IPs same subnet check.vi" Type="VI" URL="../../../Shared/GUI_Template/IP and subnet/2 IPs same subnet check.vi"/>
 			<Item Name="Allowed root paths.vi" Type="VI" URL="../../../Shared/Allowed root paths.vi"/>
 			<Item Name="any equal.vi" Type="VI" URL="../../General-Controler/any equal.vi"/>
+			<Item Name="array to strings and values for ring.vi" Type="VI" URL="../../General-Controler/array to strings and values for ring.vi"/>
+			<Item Name="Check Active Preset.vi" Type="VI" URL="../../General-Controler/Check Active Preset.vi"/>
 			<Item Name="Convert Ascii Mac-Address to Hex Mac-Address.vi" Type="VI" URL="../../../Shared/Remote Startup/Convert Ascii Mac-Address to Hex Mac-Address.vi"/>
+			<Item Name="Get all devices core info.vi" Type="VI" URL="../../General-Controler/Subvi/Get all devices core info.vi"/>
 			<Item Name="Get Application Directory.vi" Type="VI" URL="../../../Shared/Get Application Directory.vi"/>
+			<Item Name="get arguments of jki state.vi" Type="VI" URL="../../../Shared/GUI_Template/get arguments of jki state.vi"/>
 			<Item Name="Get database IP.vi" Type="VI" URL="../../../Shared/GUI_Template/IP and subnet/Get database IP.vi"/>
+			<Item Name="get device status from tcp data array.vi" Type="VI" URL="../../General-Controler/get device status from tcp data array.vi"/>
+			<Item Name="get info from core device data.vi" Type="VI" URL="../../General-Controler/get info from core device data.vi"/>
 			<Item Name="Get IPs and subnet masks.vi" Type="VI" URL="../../../Shared/GUI_Template/IP and subnet/Get IPs and subnet masks.vi"/>
+			<Item Name="Get MC ports.vi" Type="VI" URL="../../General-Controler/Get MC ports.vi"/>
+			<Item Name="get subscr value from tcp data array.vi" Type="VI" URL="../../General-Controler/get subscr value from tcp data array.vi"/>
 			<Item Name="getIP.vi" Type="VI" URL="../../../Shared/Device Driver/getIP.vi"/>
+			<Item Name="Logical String Array Sort.vi" Type="VI" URL="../../Database Manager/SubVIs/logicalstringarraysort.llb/Logical String Array Sort.vi"/>
+			<Item Name="LogSort_Partition.vi" Type="VI" URL="../../Database Manager/SubVIs/logicalstringarraysort.llb/LogSort_Partition.vi"/>
+			<Item Name="LogSort_Stack.vi" Type="VI" URL="../../Database Manager/SubVIs/logicalstringarraysort.llb/LogSort_Stack.vi"/>
+			<Item Name="LogSort_StackHandler.vi" Type="VI" URL="../../Database Manager/SubVIs/logicalstringarraysort.llb/LogSort_StackHandler.vi"/>
+			<Item Name="MC stop FGV.vi" Type="VI" URL="../../General-Controler/MC stop FGV.vi"/>
+			<Item Name="MCports.ctl" Type="VI" URL="../../General-Controler/MCports.ctl"/>
+			<Item Name="preset diagnostics.ctl" Type="VI" URL="../../General-Controler/preset diagnostics.ctl"/>
 			<Item Name="Replace empty string with NULL.vi" Type="VI" URL="../../Database Manager/SubVIs/Replace empty string with NULL.vi"/>
+			<Item Name="search string array for elements in 2nd string array.vi" Type="VI" URL="../../General-Controler/search string array for elements in 2nd string array.vi"/>
 			<Item Name="SQL Insert null.vi" Type="VI" URL="../../Database Manager/SubVIs/SQL Insert null.vi"/>
 			<Item Name="SQL Update.vi" Type="VI" URL="../../Database Manager/SubVIs/SQL Update.vi"/>
 		</Item>
