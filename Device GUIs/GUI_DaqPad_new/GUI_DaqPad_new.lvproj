@@ -1,5 +1,5 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
-<Project Type="Project" LVVersion="13008000">
+<Project Type="Project" LVVersion="20008000">
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
@@ -293,7 +293,6 @@
 				<Item Name="DialogType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogType.ctl"/>
 				<Item Name="General Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler.vi"/>
 				<Item Name="DialogTypeEnum.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogTypeEnum.ctl"/>
-				<Item Name="General Error Handler CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler CORE.vi"/>
 				<Item Name="Check Special Tags.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Check Special Tags.vi"/>
 				<Item Name="TagReturnType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/TagReturnType.ctl"/>
 				<Item Name="Set String Value.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set String Value.vi"/>
@@ -342,6 +341,7 @@
 				<Item Name="Image Type" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/Image Type"/>
 				<Item Name="IMAQ Image Bit Depth" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ Image Bit Depth"/>
 				<Item Name="Waveform Scale and Offset.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/WDTOps.llb/Waveform Scale and Offset.vi"/>
+				<Item Name="General Error Handler Core CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler Core CORE.vi"/>
 			</Item>
 			<Item Name="TemplateMenu.rtm" Type="Document" URL="../../GUI_Template/Developers Version/Interface/GUI_Template/TemplateMenu.rtm"/>
 			<Item Name="getDevices.vi" Type="VI" URL="../../GUI_Cameras/getDevices.vi"/>
@@ -447,6 +447,16 @@
 			<Item Name="Allowed root paths.vi" Type="VI" URL="../../../../Shared/Allowed root paths.vi"/>
 			<Item Name="any equal.vi" Type="VI" URL="../../../General-Controler/any equal.vi"/>
 			<Item Name="Get Cluster Element by Name__ogtk_TS.vi" Type="VI" URL="../../../../Device Drivers/shared/Get Cluster Element by Name__ogtk_TS.vi"/>
+			<Item Name="clearTCPBufferSerial.vi" Type="VI" URL="../../../../Shared/TCP/clearTCPBufferSerial.vi"/>
+			<Item Name="Launch TCP data clients.vi" Type="VI" URL="../../../General-Controler/Launch TCP data clients.vi"/>
+			<Item Name="Get all devices core info.vi" Type="VI" URL="../../../General-Controler/Subvi/Get all devices core info.vi"/>
+			<Item Name="array to strings and values for ring.vi" Type="VI" URL="../../../General-Controler/array to strings and values for ring.vi"/>
+			<Item Name="Logical String Array Sort.vi" Type="VI" URL="../../../Database Manager/SubVIs/logicalstringarraysort.llb/Logical String Array Sort.vi"/>
+			<Item Name="LogSort_Stack.vi" Type="VI" URL="../../../Database Manager/SubVIs/logicalstringarraysort.llb/LogSort_Stack.vi"/>
+			<Item Name="LogSort_Partition.vi" Type="VI" URL="../../../Database Manager/SubVIs/logicalstringarraysort.llb/LogSort_Partition.vi"/>
+			<Item Name="LogSort_StackHandler.vi" Type="VI" URL="../../../Database Manager/SubVIs/logicalstringarraysort.llb/LogSort_StackHandler.vi"/>
+			<Item Name="generateEvent.vi" Type="VI" URL="../../../../Device Drivers/shared/generateEvent.vi"/>
+			<Item Name="select requested data from MC tcp queue.vi" Type="VI" URL="../../../General-Controler/Subvi/select requested data from MC tcp queue.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="GUI_DaqPad" Type="EXE">
@@ -454,6 +464,7 @@
 				<Property Name="App_INI_aliasGUID" Type="Str">{E3B5BB30-47C6-40AC-AC02-B945C6854C83}</Property>
 				<Property Name="App_INI_GUID" Type="Str">{528B0E1C-E93B-43DE-AC14-17960CCEC532}</Property>
 				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="App_serverType" Type="Int">1</Property>
 				<Property Name="App_winsec.description" Type="Str">http://www.LBNL.com</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{E7453454-18AB-4AB5-AC65-F8A0FD56927E}</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">GUI_DaqPad</Property>
@@ -473,7 +484,7 @@
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/NI_DAQ.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{BDD206E6-98D0-4532-9DC9-119DF92FC4E4}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{15785C53-9C3B-4D32-A751-55B63F030640}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/GUI_DaqPad_new.vi</Property>
