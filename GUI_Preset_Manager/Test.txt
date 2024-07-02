@@ -1,0 +1,23 @@
+[Experiment]
+Expt Name = "Bella"
+No of Devices = "43"
+
+[Device 1]
+Device Name = "CAM-1BL-Ghost"
+shot # = "0"
+AnalysisThreshold = "0.600000"
+
+[Device 2]
+Device Name = "CAM-1BL-M1"
+shot # = "0"
+trigger = "on"
+
+[Device 3]
+Device Name = "CAM-1BL-M5"
+shot # = "0"
+
+[Device 4]
+Device Name = "FW-BELLA-General"
+pos.Channel0= "2000"
+pos.Channel1= "3000"
+pos.Channel2= "4000"
