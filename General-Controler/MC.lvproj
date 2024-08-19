@@ -259,6 +259,8 @@
 		<Item Name="append alias to string.vi" Type="VI" URL="../../../Shared/tdms/append alias to string.vi"/>
 		<Item Name="get aliases and matching dev var name.vi" Type="VI" URL="../../../Shared/tdms/get aliases and matching dev var name.vi"/>
 		<Item Name="Read TDMS  numeric - LOASIS scan data.vi" Type="VI" URL="../../../Shared/tdms/Read TDMS  numeric - LOASIS scan data.vi"/>
+		<Item Name="CheckDeviceExptDefaultExpt.vi" Type="VI" URL="../Subvi/CheckDeviceExptDefaultExpt.vi"/>
+		<Item Name="RemoveDuplicates_2DArray.vi" Type="VI" URL="../RemoveDuplicates_2DArray.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="1D Array to String__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/string/string.llb/1D Array to String__ogtk.vi"/>
@@ -1088,6 +1090,8 @@
 			<Item Name="UPD Variable Init.vi" Type="VI" URL="../../GUI_Preset_Manager/UPD Variable Init.vi"/>
 			<Item Name="PresetExecutionDataCluster.vi" Type="VI" URL="../../GUI_Preset_Manager/PresetExecutionDataCluster.vi"/>
 			<Item Name="Preset_Manager_Main.vi" Type="VI" URL="../../GUI_Preset_Manager/Preset_Manager_Main.vi"/>
+			<Item Name="Preset Builder.vi" Type="VI" URL="../../GUI_Preset_Manager/Preset Builder.vi"/>
+			<Item Name="Dialog with Timeout.vi" Type="VI" URL="../../../../../../Users/loasis/Downloads/Dialog with Timeout.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Master Control" Type="EXE">
@@ -1104,7 +1108,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">/C/GEECS/Developers Version/builds/Interface builds/General GUIs/NI_AB_PROJECTNAME/Master Control</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{C126A360-18F5-4B84-9B98-CDE1988BCE93}</Property>
-				<Property Name="Bld_version.build" Type="Int">265</Property>
+				<Property Name="Bld_version.build" Type="Int">266</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Master Control.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">/C/GEECS/Developers Version/builds/Interface builds/General GUIs/NI_AB_PROJECTNAME/Master Control/Master Control.exe</Property>

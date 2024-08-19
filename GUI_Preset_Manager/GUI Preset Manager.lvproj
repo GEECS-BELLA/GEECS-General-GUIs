@@ -16,11 +16,14 @@
 		<Item Name="Configuration_to_Array.vi" Type="VI" URL="../Configuration_to_Array.vi"/>
 		<Item Name="Devices Not On.vi" Type="VI" URL="../Devices Not On.vi"/>
 		<Item Name="Full Join.vi" Type="VI" URL="../Full Join.vi"/>
+		<Item Name="GetExptDevices.vi" Type="VI" URL="../GetExptDevices.vi"/>
 		<Item Name="Left Join.vi" Type="VI" URL="../Left Join.vi"/>
+		<Item Name="Preset Builder.vi" Type="VI" URL="../Preset Builder.vi"/>
 		<Item Name="Preset Expt Device Comparison.vi" Type="VI" URL="../Preset Expt Device Comparison.vi"/>
 		<Item Name="Preset_Manager_Main.vi" Type="VI" URL="../Preset_Manager_Main.vi"/>
 		<Item Name="Preset_to_Array.vi" Type="VI" URL="../Preset_to_Array.vi"/>
 		<Item Name="PresetExecutionDataCluster.vi" Type="VI" URL="../PresetExecutionDataCluster.vi"/>
+		<Item Name="RemoveDuplicates_2DArray.vi" Type="VI" URL="../RemoveDuplicates_2DArray.vi"/>
 		<Item Name="UPD Variable Init.vi" Type="VI" URL="../UPD Variable Init.vi"/>
 		<Item Name="Value_Selection_in_Table_GUI.vi" Type="VI" URL="../Value_Selection_in_Table_GUI.vi"/>
 		<Item Name="Value_Update_to_Preset.vi" Type="VI" URL="../Value_Update_to_Preset.vi"/>
@@ -335,6 +338,7 @@
 			<Item Name="MC stop FGV.vi" Type="VI" URL="../../General-Controler/MC stop FGV.vi"/>
 			<Item Name="MCports.ctl" Type="VI" URL="../../General-Controler/MCports.ctl"/>
 			<Item Name="preset diagnostics.ctl" Type="VI" URL="../../General-Controler/preset diagnostics.ctl"/>
+			<Item Name="RemoveDuplicates_2DArray.vi" Type="VI" URL="../../General-Controler/RemoveDuplicates_2DArray.vi"/>
 			<Item Name="Replace empty string with NULL.vi" Type="VI" URL="../../Database Manager/SubVIs/Replace empty string with NULL.vi"/>
 			<Item Name="search string array for elements in 2nd string array.vi" Type="VI" URL="../../General-Controler/search string array for elements in 2nd string array.vi"/>
 			<Item Name="SQL Insert null.vi" Type="VI" URL="../../Database Manager/SubVIs/SQL Insert null.vi"/>
@@ -358,7 +362,7 @@
 				<Property Name="Bld_excludedDirectoryCount" Type="Int">6</Property>
 				<Property Name="Bld_localDestDir" Type="Path">/C/GEECS/Developers Version/builds/Interface builds/General GUIs/GUI_PresetManager</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{C971D577-9399-408A-97F1-BA67997D96AF}</Property>
-				<Property Name="Bld_version.build" Type="Int">3</Property>
+				<Property Name="Bld_version.build" Type="Int">4</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
 				<Property Name="Destination[0].path" Type="Path">/C/GEECS/Developers Version/builds/Interface builds/General GUIs/GUI_PresetManager</Property>
