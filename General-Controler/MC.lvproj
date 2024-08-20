@@ -36,6 +36,7 @@
 		</Item>
 		<Item Name="CheckDefaultExperiment" Type="Folder">
 			<Item Name="RemoveDuplicates_2DArray.vi" Type="VI" URL="../RemoveDuplicates_2DArray.vi"/>
+			<Item Name="TimeoutDialog.vi" Type="VI" URL="../TimeoutDialog.vi"/>
 			<Item Name="Dialog with Timeout.vi" Type="VI" URL="../../../../../../Users/loasis/Downloads/Dialog with Timeout.vi"/>
 			<Item Name="CheckDeviceExptDefaultExpt.vi" Type="VI" URL="../Subvi/CheckDeviceExptDefaultExpt.vi"/>
 		</Item>
@@ -1110,7 +1111,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">/C/GEECS/Developers Version/builds/Interface builds/General GUIs/NI_AB_PROJECTNAME/Master Control</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{C126A360-18F5-4B84-9B98-CDE1988BCE93}</Property>
-				<Property Name="Bld_version.build" Type="Int">267</Property>
+				<Property Name="Bld_version.build" Type="Int">268</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Master Control.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">/C/GEECS/Developers Version/builds/Interface builds/General GUIs/NI_AB_PROJECTNAME/Master Control/Master Control.exe</Property>
