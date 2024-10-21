@@ -14,6 +14,7 @@
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
 		<Item Name="Configuration_to_Array.vi" Type="VI" URL="../Configuration_to_Array.vi"/>
+		<Item Name="Control 1.ctl" Type="VI" URL="../Control 1.ctl"/>
 		<Item Name="Devices Not On.vi" Type="VI" URL="../Devices Not On.vi"/>
 		<Item Name="Full Join.vi" Type="VI" URL="../Full Join.vi"/>
 		<Item Name="GetExptDevices.vi" Type="VI" URL="../GetExptDevices.vi"/>
@@ -343,6 +344,14 @@
 			<Item Name="preset diagnostics.ctl" Type="VI" URL="../../General-Controler/preset diagnostics.ctl"/>
 			<Item Name="RemoveDuplicates_2DArray.vi" Type="VI" URL="../../General-Controler/RemoveDuplicates_2DArray.vi"/>
 			<Item Name="Replace empty string with NULL.vi" Type="VI" URL="../../Database Manager/SubVIs/Replace empty string with NULL.vi"/>
+			<Item Name="Search 2D Array (Bool).vi" Type="VI" URL="../Search 2D Array 2012NIVerified/Search 2D Array (Bool).vi"/>
+			<Item Name="Search 2D Array (DBL).vi" Type="VI" URL="../Search 2D Array 2012NIVerified/Search 2D Array (DBL).vi"/>
+			<Item Name="Search 2D Array (I16).vi" Type="VI" URL="../Search 2D Array 2012NIVerified/Search 2D Array (I16).vi"/>
+			<Item Name="Search 2D Array (I32).vi" Type="VI" URL="../Search 2D Array 2012NIVerified/Search 2D Array (I32).vi"/>
+			<Item Name="Search 2D Array (String).vi" Type="VI" URL="../Search 2D Array 2012NIVerified/Search 2D Array (String).vi"/>
+			<Item Name="Search 2D Array (U16).vi" Type="VI" URL="../Search 2D Array 2012NIVerified/Search 2D Array (U16).vi"/>
+			<Item Name="Search 2D Array (U32).vi" Type="VI" URL="../Search 2D Array 2012NIVerified/Search 2D Array (U32).vi"/>
+			<Item Name="Search 2D Array 2012NIVerified.vi" Type="VI" URL="../Search 2D Array 2012NIVerified/Search 2D Array 2012NIVerified.vi"/>
 			<Item Name="search string array for elements in 2nd string array.vi" Type="VI" URL="../../General-Controler/search string array for elements in 2nd string array.vi"/>
 			<Item Name="SQL Insert null.vi" Type="VI" URL="../../Database Manager/SubVIs/SQL Insert null.vi"/>
 			<Item Name="SQL Update.vi" Type="VI" URL="../../Database Manager/SubVIs/SQL Update.vi"/>
