@@ -31,6 +31,7 @@
 		<Item Name="test imaq create string and string to array dlls.vi" Type="VI" URL="../for python dll/test imaq create string and string to array dlls.vi"/>
 		<Item Name="Example png string to imaq image.vi" Type="VI" URL="../../../../Shared/Image/Example png string to imaq image.vi"/>
 		<Item Name="test.rtm" Type="Document" URL="../test.rtm"/>
+		<Item Name="Get max counts all cameras.vi" Type="VI" URL="../Get max counts all cameras.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="1D Array to String__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/string/string.llb/1D Array to String__ogtk.vi"/>
@@ -575,6 +576,13 @@
 			<Item Name="LogSort_StackHandler.vi" Type="VI" URL="../../../Database Manager/SubVIs/logicalstringarraysort.llb/LogSort_StackHandler.vi"/>
 			<Item Name="compress to 8 bit imaq cast.vi" Type="VI" URL="../../../../Shared/Image/compress to 8 bit imaq cast.vi"/>
 			<Item Name="select requested data from MC tcp queue.vi" Type="VI" URL="../../../General-Controler/Subvi/select requested data from MC tcp queue.vi"/>
+			<Item Name="get variable value from udp get response.vi" Type="VI" URL="../../../General-Controler/get variable value from udp get response.vi"/>
+			<Item Name="GEECS tcp parse single variable.vi" Type="VI" URL="../../../../Shared/TCP/GEECS tcp parse single variable.vi"/>
+			<Item Name="GEECS tcp read single variable.vi" Type="VI" URL="../../../../Shared/TCP/GEECS tcp read single variable.vi"/>
+			<Item Name="tcp open connection from subscription messag.vi" Type="VI" URL="../../../shared/subscribe to images no super gui/tcp open connection from subscription messag.vi"/>
+			<Item Name="UDP send cluster.ctl" Type="VI" URL="../../../General-Controler/UDP send cluster.ctl"/>
+			<Item Name="create udp send cluster.vi" Type="VI" URL="../../../General-Controler/create udp send cluster.vi"/>
+			<Item Name="GEECS tcp open single variable.vi" Type="VI" URL="../../../../Shared/TCP/GEECS tcp open single variable.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="CreateExampleIMAQString" Type="DLL">
