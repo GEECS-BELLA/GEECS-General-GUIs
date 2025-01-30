@@ -1,5 +1,5 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
-<Project Type="Project" LVVersion="13008000">
+<Project Type="Project" LVVersion="20008000">
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.control.propertiesEnabled" Type="Bool">true</Property>
@@ -304,7 +304,7 @@
 				<Item Name="eventvkey.ctl" Type="VI" URL="/&lt;vilib&gt;/event_ctls.llb/eventvkey.ctl"/>
 				<Item Name="Find Tag.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Find Tag.vi"/>
 				<Item Name="Format Message String.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Format Message String.vi"/>
-				<Item Name="General Error Handler CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler CORE.vi"/>
+				<Item Name="General Error Handler Core CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler Core CORE.vi"/>
 				<Item Name="General Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler.vi"/>
 				<Item Name="Get String Text Bounds.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Get String Text Bounds.vi"/>
 				<Item Name="Get Text Rect.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Get Text Rect.vi"/>
@@ -353,6 +353,7 @@
 			<Item Name="Allowed root paths.vi" Type="VI" URL="../../../../Shared/Allowed root paths.vi"/>
 			<Item Name="AmpPolNames_DG535.vi" Type="VI" URL="../AmpPolNames_DG535.vi"/>
 			<Item Name="any equal.vi" Type="VI" URL="../../../General-Controler/any equal.vi"/>
+			<Item Name="array to strings and values for ring.vi" Type="VI" URL="../../../General-Controler/array to strings and values for ring.vi"/>
 			<Item Name="ByteToVariant.vi" Type="VI" URL="../../../../Shared/MySQL/ByteToVariant.vi"/>
 			<Item Name="changePath.vi" Type="VI" URL="../../GUI_Cameras/changePath.vi"/>
 			<Item Name="channels_TypDef.ctl" Type="VI" URL="../../../../../Device Driver/DG645/subVIs/channels_TypDef.ctl"/>
@@ -360,6 +361,7 @@
 			<Item Name="ChnageControlLimits.vi" Type="VI" URL="../../../../Shared/Device Driver/ChnageControlLimits.vi"/>
 			<Item Name="ClearBufferFGV.vi" Type="VI" URL="../../../shared/ClearBufferFGV.vi"/>
 			<Item Name="clearTCPBuffer.vi" Type="VI" URL="../../GUI_General_Camera/clearTCPBuffer.vi"/>
+			<Item Name="clearTCPBufferSerial.vi" Type="VI" URL="../../../../Shared/TCP/clearTCPBufferSerial.vi"/>
 			<Item Name="Close UDP AND TCP connections.vi" Type="VI" URL="../../GUI_Cameras/Close UDP AND TCP connections.vi"/>
 			<Item Name="closeQueues.vi" Type="VI" URL="../../../../Shared/Device Driver/closeQueues.vi"/>
 			<Item Name="ConnectionFGV.vi" Type="VI" URL="../../../shared/ConnectionFGV.vi"/>
@@ -376,10 +378,12 @@
 			<Item Name="enableEnumItems.vi" Type="VI" URL="../../../../Shared/Device Driver/enableEnumItems.vi"/>
 			<Item Name="FastSlowFGV.vi" Type="VI" URL="../../../shared/FastSlowFGV.vi"/>
 			<Item Name="GenerateControlUpdateQueue.vi" Type="VI" URL="../../../../Shared/Device Driver/GenerateControlUpdateQueue.vi"/>
+			<Item Name="generateEvent.vi" Type="VI" URL="../../../../Device Drivers/shared/generateEvent.vi"/>
 			<Item Name="GenerateQueues.vi" Type="VI" URL="../../../../Shared/Device Driver/GenerateQueues.vi"/>
 			<Item Name="generateStopQueue.vi" Type="VI" URL="../../../../Shared/Device Driver/generateStopQueue.vi"/>
 			<Item Name="generateTCPDataQueue.vi" Type="VI" URL="../../../../Shared/Device Driver/generateTCPDataQueue.vi"/>
 			<Item Name="genUDPQueue.vi" Type="VI" URL="../../../../Shared/Device Driver/genUDPQueue.vi"/>
+			<Item Name="Get all devices core info.vi" Type="VI" URL="../../../General-Controler/Subvi/Get all devices core info.vi"/>
 			<Item Name="Get Application Directory.vi" Type="VI" URL="../../../../Shared/Get Application Directory.vi"/>
 			<Item Name="Get Cluster Element by Name__ogtk_TS.vi" Type="VI" URL="../../../../Device Drivers/shared/Get Cluster Element by Name__ogtk_TS.vi"/>
 			<Item Name="Get Cluster Element Names__ogtk_TS.vi" Type="VI" URL="../../../../Device Drivers/shared/Get Cluster Element Names__ogtk_TS.vi"/>
@@ -408,8 +412,13 @@
 			<Item Name="imagebitDepth.vi" Type="VI" URL="../../../shared/imagebitDepth.vi"/>
 			<Item Name="Impedance_Dg535_TypDef.ctl" Type="VI" URL="../../../../Device Drivers/DG535/SubVis/Impedance_Dg535_TypDef.ctl"/>
 			<Item Name="IsControlNull.vi" Type="VI" URL="../../../shared/IsControlNull.vi"/>
+			<Item Name="Launch TCP data clients.vi" Type="VI" URL="../../../General-Controler/Launch TCP data clients.vi"/>
 			<Item Name="Listen to slow UDP and parse error_in sendCommand.vi" Type="VI" URL="../../../../Shared/Listen to slow UDP and parse error_in sendCommand.vi"/>
 			<Item Name="load_typdef.ctl" Type="VI" URL="../../../../Device Drivers/DG535/SubVis/load_typdef.ctl"/>
+			<Item Name="Logical String Array Sort.vi" Type="VI" URL="../../../Database Manager/SubVIs/logicalstringarraysort.llb/Logical String Array Sort.vi"/>
+			<Item Name="LogSort_Partition.vi" Type="VI" URL="../../../Database Manager/SubVIs/logicalstringarraysort.llb/LogSort_Partition.vi"/>
+			<Item Name="LogSort_Stack.vi" Type="VI" URL="../../../Database Manager/SubVIs/logicalstringarraysort.llb/LogSort_Stack.vi"/>
+			<Item Name="LogSort_StackHandler.vi" Type="VI" URL="../../../Database Manager/SubVIs/logicalstringarraysort.llb/LogSort_StackHandler.vi"/>
 			<Item Name="lv_mysql_conn_check_packet_type.vi" Type="VI" URL="../../../../Shared/MySQL/subVIs/lv_mysql_conn_check_packet_type.vi"/>
 			<Item Name="lv_mysql_conn_close.vi" Type="VI" URL="../../../../Shared/MySQL/lv_mysql_conn_close.vi"/>
 			<Item Name="lv_mysql_conn_encrypt_passwd.vi" Type="VI" URL="../../../../Shared/MySQL/subVIs/lv_mysql_conn_encrypt_passwd.vi"/>
@@ -456,6 +465,7 @@
 			<Item Name="scan data to receive to subscribe commands.vi" Type="VI" URL="../../../../Shared/scan data to receive to subscribe commands.vi"/>
 			<Item Name="scopeTrace_TypDef.ctl" Type="VI" URL="../../GUI_Scopes/scopeTrace_TypDef.ctl"/>
 			<Item Name="scopeTraceInfo_TypDEf.ctl" Type="VI" URL="../../../../Device Drivers/shared/scopeTraceInfo_TypDEf.ctl"/>
+			<Item Name="select requested data from MC tcp queue.vi" Type="VI" URL="../../../General-Controler/Subvi/select requested data from MC tcp queue.vi"/>
 			<Item Name="Send command and listen to fast UDP.vi" Type="VI" URL="../../../../Shared/Send command and listen to fast UDP.vi"/>
 			<Item Name="sendCommandAndListen.vi" Type="VI" URL="../../../../Shared/sendCommandAndListen.vi"/>
 			<Item Name="sendCommandAndListen_udpqueue.vi" Type="VI" URL="../../../../Shared/sendCommandAndListen_udpqueue.vi"/>
@@ -502,6 +512,7 @@
 				<Property Name="App_INI_aliasGUID" Type="Str">{D7BC9E96-D199-4E08-A6F0-36ECEF1D7FF6}</Property>
 				<Property Name="App_INI_GUID" Type="Str">{BE77EA9F-17E7-4D2B-8CEA-4A4E02C0A499}</Property>
 				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="App_serverType" Type="Int">1</Property>
 				<Property Name="App_winsec.description" Type="Str">http://www.LBNL.com</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{709AF80B-4FD4-4795-B9D8-3B2FD88B9290}</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">GUI_DG535</Property>
@@ -521,18 +532,21 @@
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/DGIcon.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{1C914F50-0B4F-4998-B4D9-4D1E260E7414}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{06CBD949-EF67-4DF3-801D-0968D5BDE99A}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/GUI_DG535_v1.0.0.vi</Property>
-				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="Source[2].Container.applyInclusion" Type="Bool">true</Property>
 				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[2].itemID" Type="Ref">/My Computer/GUI_Template</Property>
 				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[2].type" Type="Str">Container</Property>
-				<Property Name="SourceCount" Type="Int">3</Property>
+				<Property Name="Source[3].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[3].itemID" Type="Ref">/My Computer/GUI_DG535_v2.0.0.vi</Property>
+				<Property Name="Source[3].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[3].type" Type="Str">VI</Property>
+				<Property Name="SourceCount" Type="Int">4</Property>
 				<Property Name="TgtF_companyName" Type="Str">LBNL</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">GUI_DG535</Property>
 				<Property Name="TgtF_internalName" Type="Str">GUI_DG535</Property>
