@@ -174,9 +174,7 @@
 			<Item Name="tcp tdms single shot.vi" Type="VI" URL="../tcp tdms single shot.vi"/>
 			<Item Name="tcp tdms.vi" Type="VI" URL="../tcp tdms.vi"/>
 			<Item Name="tcp time array create.vi" Type="VI" URL="../tcp time array create.vi"/>
-			<Item Name="tdms end scan procedure.vi" Type="VI" URL="../tdms end scan procedure.vi"/>
 			<Item Name="tdms path to plotter png path.vi" Type="VI" URL="../../Plotter/tdms path to plotter png path.vi"/>
-			<Item Name="tdms to spreadsheet.vi" Type="VI" URL="../tdms to spreadsheet.vi"/>
 			<Item Name="tdms write for tcp wait all.vi" Type="VI" URL="../tdms write for tcp wait all.vi"/>
 			<Item Name="Test alarms and traces DSC.vi" Type="VI" URL="../Test alarms and traces DSC.vi"/>
 			<Item Name="udp alive and logic.vi" Type="VI" URL="../udp alive and logic.vi"/>
@@ -198,6 +196,7 @@
 			<Item Name="Send Command.vi" Type="VI" URL="../Subvi/Send Command.vi"/>
 		</Item>
 		<Item Name="MC3.vi" Type="VI" URL="../MC3.vi"/>
+		<Item Name="tdms end scan procedure.vi" Type="VI" URL="../tdms end scan procedure.vi"/>
 		<Item Name="Plotter_TDMS.vi" Type="VI" URL="../../Plotter/Plotter_TDMS.vi"/>
 		<Item Name="make 2d scan file.vi" Type="VI" URL="../make 2d scan file.vi"/>
 		<Item Name="Make single scan multivariable file.vi" Type="VI" URL="../Make single scan multivariable file.vi"/>
@@ -211,6 +210,7 @@
 		<Item Name="GEECS tcp parse single variable.vi" Type="VI" URL="../../../Shared/TCP/GEECS tcp parse single variable.vi"/>
 		<Item Name="GEECS tcp read single variable.vi" Type="VI" URL="../../../Shared/TCP/GEECS tcp read single variable.vi"/>
 		<Item Name="get software root directory.vi" Type="VI" URL="../../../Shared/get software root directory.vi"/>
+		<Item Name="tdms to spreadsheet.vi" Type="VI" URL="../tdms to spreadsheet.vi"/>
 		<Item Name="Read File scan.vi" Type="VI" URL="../Subvi/Read File scan.vi"/>
 		<Item Name="File scan info.ctl" Type="VI" URL="../File scan info.ctl"/>
 		<Item Name="parse file scan single scan.vi" Type="VI" URL="../Subvi/parse file scan single scan.vi"/>
@@ -875,8 +875,21 @@
 				<Item Name="Sort 2D Array - Push Stack.vi" Type="VI" URL="/&lt;vilib&gt;/Array/Sort 2D Array - Push Stack.vi"/>
 				<Item Name="Assert Block Data Type.vim" Type="VI" URL="/&lt;vilib&gt;/Utility/TypeAssert/Assert Block Data Type.vim"/>
 				<Item Name="Sort 2D Array.vim" Type="VI" URL="/&lt;vilib&gt;/Array/Sort 2D Array.vim"/>
-				<Item Name="Read Alarms.vi" Type="VI" URL="/&lt;vilib&gt;/lvdsc/alarm/Read Alarms.vi"/>
 				<Item Name="Delimited String to 1D String Array.vi" Type="VI" URL="/&lt;vilib&gt;/AdvancedString/Delimited String to 1D String Array.vi"/>
+				<Item Name="NI_DSC.lvlib" Type="Library" URL="/&lt;vilib&gt;/lvdsc/NI_DSC.lvlib"/>
+				<Item Name="ALM_Get_Alarms.vi" Type="VI" URL="/&lt;vilib&gt;/lvdsc/alarm/internal/ALM_Get_Alarms.vi"/>
+				<Item Name="nialarms.dll" Type="Document" URL="/&lt;vilib&gt;/lvdsc/alarm/internal/nialarms.dll"/>
+				<Item Name="ALM_GetTagURLs.vi" Type="VI" URL="/&lt;vilib&gt;/lvdsc/alarm/internal/ALM_GetTagURLs.vi"/>
+				<Item Name="HIST_FormatTagname&amp;ProcessFilterSpec.vi" Type="VI" URL="/&lt;vilib&gt;/lvdsc/historical/internal/alarm/HIST_FormatTagname&amp;ProcessFilterSpec.vi"/>
+				<Item Name="NET_GetHostName.vi" Type="VI" URL="/&lt;vilib&gt;/lvdsc/common/net/NET_GetHostName.vi"/>
+				<Item Name="dscCommn.dll" Type="Document" URL="/&lt;vilib&gt;/lvdsc/common/dscCommn.dll"/>
+				<Item Name="ERR_MergeErrors.vi" Type="VI" URL="/&lt;vilib&gt;/lvdsc/common/error/ERR_MergeErrors.vi"/>
+				<Item Name="CTL_defaultProcessName.vi" Type="VI" URL="/&lt;vilib&gt;/lvdsc/historical/internal/cittools/CTL_defaultProcessName.vi"/>
+				<Item Name="PTH_ConstructCustomURL.vi" Type="VI" URL="/&lt;vilib&gt;/lvdsc/common/path/PTH_ConstructCustomURL.vi"/>
+				<Item Name="NET_resolveNVIORef.vi" Type="VI" URL="/&lt;vilib&gt;/lvdsc/common/net/NET_resolveNVIORef.vi"/>
+				<Item Name="NET_tagURLdecode.vi" Type="VI" URL="/&lt;vilib&gt;/lvdsc/common/net/NET_tagURLdecode.vi"/>
+				<Item Name="ERR_ErrorClusterFromErrorCode.vi" Type="VI" URL="/&lt;vilib&gt;/lvdsc/common/error/ERR_ErrorClusterFromErrorCode.vi"/>
+				<Item Name="ALM_Error_Resolve.vi" Type="VI" URL="/&lt;vilib&gt;/lvdsc/alarm/internal/ALM_Error_Resolve.vi"/>
 			</Item>
 			<Item Name="add to array if.vi" Type="VI" URL="../add to array if.vi"/>
 			<Item Name="Alarms FP FGV.vi" Type="VI" URL="../Alarms FP FGV.vi"/>
@@ -1118,6 +1131,9 @@
 			<Item Name="Search 2D Array 2012NIVerified.vi" Type="VI" URL="../../GUI_Preset_Manager/Search 2D Array 2012NIVerified/Search 2D Array 2012NIVerified.vi"/>
 			<Item Name="Search 2D Array (String).vi" Type="VI" URL="../../GUI_Preset_Manager/Search 2D Array 2012NIVerified/Search 2D Array (String).vi"/>
 			<Item Name="Control 1.ctl" Type="VI" URL="../../GUI_Preset_Manager/Control 1.ctl"/>
+			<Item Name="NVIORef.dll" Type="Document" URL="NVIORef.dll">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Master Control" Type="EXE">
