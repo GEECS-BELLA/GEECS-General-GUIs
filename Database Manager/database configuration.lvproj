@@ -132,6 +132,7 @@
 		<Item Name="get experiment save on off list.vi" Type="VI" URL="../SubVIs/get experiment save on off list.vi"/>
 		<Item Name="delete device group name.vi" Type="VI" URL="../SubVIs/delete device group name.vi"/>
 		<Item Name="Database editor.ini" Type="Document" URL="../Database editor.ini"/>
+		<Item Name="SetScanDataGetStatusToYes.vi" Type="VI" URL="../SubVIs/SetScanDataGetStatusToYes.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Simple Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Simple Error Handler.vi"/>
@@ -581,6 +582,7 @@
 				<Property Name="App_INI_GUID" Type="Str">{836C6E44-DD10-4EB7-8F83-7D5578CB1856}</Property>
 				<Property Name="App_INI_itemID" Type="Ref">/My Computer/Database editor.ini</Property>
 				<Property Name="App_serverType" Type="Int">1</Property>
+				<Property Name="App_waitDebugging" Type="Bool">true</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{95ACF120-600A-4507-9B10-5CC9136B0FD1}</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">Database editor</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
@@ -601,7 +603,7 @@
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/Editors/SubVIs/Database_1.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{506CCFAE-39FE-4DFF-B21B-705946B525AA}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{85D9A671-422A-4557-A6FF-3A14DE65CB06}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Editors/Device/Device Variables.vi</Property>
