@@ -174,7 +174,9 @@
 			<Item Name="tcp tdms single shot.vi" Type="VI" URL="../tcp tdms single shot.vi"/>
 			<Item Name="tcp tdms.vi" Type="VI" URL="../tcp tdms.vi"/>
 			<Item Name="tcp time array create.vi" Type="VI" URL="../tcp time array create.vi"/>
+			<Item Name="tdms end scan procedure.vi" Type="VI" URL="../tdms end scan procedure.vi"/>
 			<Item Name="tdms path to plotter png path.vi" Type="VI" URL="../../Plotter/tdms path to plotter png path.vi"/>
+			<Item Name="tdms to spreadsheet.vi" Type="VI" URL="../tdms to spreadsheet.vi"/>
 			<Item Name="tdms write for tcp wait all.vi" Type="VI" URL="../tdms write for tcp wait all.vi"/>
 			<Item Name="Test alarms and traces DSC.vi" Type="VI" URL="../Test alarms and traces DSC.vi"/>
 			<Item Name="udp alive and logic.vi" Type="VI" URL="../udp alive and logic.vi"/>
@@ -196,7 +198,6 @@
 			<Item Name="Send Command.vi" Type="VI" URL="../Subvi/Send Command.vi"/>
 		</Item>
 		<Item Name="MC3.vi" Type="VI" URL="../MC3.vi"/>
-		<Item Name="tdms end scan procedure.vi" Type="VI" URL="../tdms end scan procedure.vi"/>
 		<Item Name="Plotter_TDMS.vi" Type="VI" URL="../../Plotter/Plotter_TDMS.vi"/>
 		<Item Name="make 2d scan file.vi" Type="VI" URL="../make 2d scan file.vi"/>
 		<Item Name="Make single scan multivariable file.vi" Type="VI" URL="../Make single scan multivariable file.vi"/>
@@ -210,7 +211,6 @@
 		<Item Name="GEECS tcp parse single variable.vi" Type="VI" URL="../../../Shared/TCP/GEECS tcp parse single variable.vi"/>
 		<Item Name="GEECS tcp read single variable.vi" Type="VI" URL="../../../Shared/TCP/GEECS tcp read single variable.vi"/>
 		<Item Name="get software root directory.vi" Type="VI" URL="../../../Shared/get software root directory.vi"/>
-		<Item Name="tdms to spreadsheet.vi" Type="VI" URL="../tdms to spreadsheet.vi"/>
 		<Item Name="Read File scan.vi" Type="VI" URL="../Subvi/Read File scan.vi"/>
 		<Item Name="File scan info.ctl" Type="VI" URL="../File scan info.ctl"/>
 		<Item Name="parse file scan single scan.vi" Type="VI" URL="../Subvi/parse file scan single scan.vi"/>
