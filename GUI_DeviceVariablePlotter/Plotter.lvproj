@@ -28,6 +28,7 @@
 		<Item Name="CommonGuiVarbiable--WithAlias--cluster.ctl" Type="VI" URL="../../Database Manager/CommonGuiVarbiable--WithAlias--cluster.ctl"/>
 		<Item Name="All Variables With Alias.ctl" Type="VI" URL="../../Database Manager/All Variables With Alias.ctl"/>
 		<Item Name="Launch TCP data clients.vi" Type="VI" URL="../../General-Controler/Launch TCP data clients.vi"/>
+		<Item Name="GUI_GeneralPlotter.ini" Type="Document" URL="../GUI_GeneralPlotter.ini"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Index 1D Array Elements (Boolean)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Index 1D Array Elements (Boolean)__ogtk.vi"/>
@@ -500,6 +501,7 @@
 				<Property Name="App_copyErrors" Type="Bool">true</Property>
 				<Property Name="App_INI_aliasGUID" Type="Str">{D2BC1C5B-1727-497D-B6D5-C7221EF671BF}</Property>
 				<Property Name="App_INI_GUID" Type="Str">{0D07F55D-67DB-4028-9A0C-27005787124B}</Property>
+				<Property Name="App_INI_itemID" Type="Ref">/My Computer/GUI_GeneralPlotter.ini</Property>
 				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
 				<Property Name="App_serverType" Type="Int">1</Property>
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
@@ -511,7 +513,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">/C/GEECS/Developers Version/builds/Interface builds/General GUIs/GUI_GeneralPlotter</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{799792E5-E80F-4047-95E2-74108BE12CB7}</Property>
-				<Property Name="Bld_version.build" Type="Int">27</Property>
+				<Property Name="Bld_version.build" Type="Int">28</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">GUI_GeneralPlotter.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">/C/GEECS/Developers Version/builds/Interface builds/General GUIs/GUI_GeneralPlotter/GUI_GeneralPlotter.exe</Property>
@@ -522,7 +524,7 @@
 				<Property Name="Destination[1].path" Type="Path">/C/GEECS/Developers Version/builds/Interface builds/General GUIs/GUI_GeneralPlotter/data</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{B8A356F9-CF40-4898-A799-121BA6028B54}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{5C3C3669-E05E-4DAB-8A48-AB0849EB2852}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Main-revision2.vi</Property>
