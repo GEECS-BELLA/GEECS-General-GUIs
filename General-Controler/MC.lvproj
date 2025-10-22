@@ -1122,6 +1122,7 @@
 			<Item Name="Search 2D Array 2012NIVerified.vi" Type="VI" URL="../../GUI_Preset_Manager/Search 2D Array 2012NIVerified/Search 2D Array 2012NIVerified.vi"/>
 			<Item Name="Search 2D Array (String).vi" Type="VI" URL="../../GUI_Preset_Manager/Search 2D Array 2012NIVerified/Search 2D Array (String).vi"/>
 			<Item Name="Control 1.ctl" Type="VI" URL="../../GUI_Preset_Manager/Control 1.ctl"/>
+			<Item Name="TCPDeviceNameRead.vi" Type="VI" URL="../TCPDeviceNameRead.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Master Control" Type="EXE">
@@ -1138,7 +1139,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">/C/GEECS/Developers Version/builds/Interface builds/General GUIs/NI_AB_PROJECTNAME/Master Control</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{C126A360-18F5-4B84-9B98-CDE1988BCE93}</Property>
-				<Property Name="Bld_version.build" Type="Int">291</Property>
+				<Property Name="Bld_version.build" Type="Int">292</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Master Control.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">/C/GEECS/Developers Version/builds/Interface builds/General GUIs/NI_AB_PROJECTNAME/Master Control/Master Control.exe</Property>
