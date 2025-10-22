@@ -269,6 +269,7 @@
 		<Item Name="get aliases and matching dev var name.vi" Type="VI" URL="../../../Shared/tdms/get aliases and matching dev var name.vi"/>
 		<Item Name="Read TDMS  numeric - LOASIS scan data.vi" Type="VI" URL="../../../Shared/tdms/Read TDMS  numeric - LOASIS scan data.vi"/>
 		<Item Name="Common Array Elements.vi" Type="VI" URL="../../../Shared/Common Array Elements.vi"/>
+		<Item Name="read tcp devs loop.vi" Type="VI" URL="../read tcp devs loop.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="1D Array to String__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/string/string.llb/1D Array to String__ogtk.vi"/>
