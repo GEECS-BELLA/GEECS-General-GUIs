@@ -196,6 +196,18 @@
 			<Item Name="MC rep rate.vi" Type="VI" URL="../Subvi/MC rep rate.vi"/>
 			<Item Name="scan info file add preamble.vi" Type="VI" URL="../scan info file add preamble.vi"/>
 			<Item Name="Send Command.vi" Type="VI" URL="../Subvi/Send Command.vi"/>
+			<Item Name="GEECS tcp open single variable.vi" Type="VI" URL="../../../Shared/TCP/GEECS tcp open single variable.vi"/>
+			<Item Name="GEECS tcp parse single variable.vi" Type="VI" URL="../../../Shared/TCP/GEECS tcp parse single variable.vi"/>
+			<Item Name="GEECS tcp read single variable.vi" Type="VI" URL="../../../Shared/TCP/GEECS tcp read single variable.vi"/>
+			<Item Name="get software root directory.vi" Type="VI" URL="../../../Shared/get software root directory.vi"/>
+			<Item Name="Read File scan.vi" Type="VI" URL="../Subvi/Read File scan.vi"/>
+			<Item Name="File scan info.ctl" Type="VI" URL="../File scan info.ctl"/>
+			<Item Name="parse file scan single scan.vi" Type="VI" URL="../Subvi/parse file scan single scan.vi"/>
+			<Item Name="parse simple scan cluster.vi" Type="VI" URL="../Subvi/parse simple scan cluster.vi"/>
+			<Item Name="mc device cluster.ctl" Type="VI" URL="../mc device cluster.ctl"/>
+			<Item Name="scan type.ctl" Type="VI" URL="../scan type.ctl"/>
+			<Item Name="fill in mising device data.vi" Type="VI" URL="../Subvi/fill in mising device data.vi"/>
+			<Item Name="test parse tcp replies efficiency.vi" Type="VI" URL="../test parse tcp replies efficiency.vi"/>
 		</Item>
 		<Item Name="MC3.vi" Type="VI" URL="../MC3.vi"/>
 		<Item Name="Plotter_TDMS.vi" Type="VI" URL="../../Plotter/Plotter_TDMS.vi"/>
@@ -207,18 +219,6 @@
 		<Item Name="AllDevicesAcquisitionRate.vi" Type="VI" URL="../AllDevicesAcquisitionRate.vi"/>
 		<Item Name="is slow response a fire command.vi" Type="VI" URL="../Subvi/is slow response a fire command.vi"/>
 		<Item Name="TCP read example.vi" Type="VI" URL="../../../Shared/TCP/TCP read example.vi"/>
-		<Item Name="GEECS tcp open single variable.vi" Type="VI" URL="../../../Shared/TCP/GEECS tcp open single variable.vi"/>
-		<Item Name="GEECS tcp parse single variable.vi" Type="VI" URL="../../../Shared/TCP/GEECS tcp parse single variable.vi"/>
-		<Item Name="GEECS tcp read single variable.vi" Type="VI" URL="../../../Shared/TCP/GEECS tcp read single variable.vi"/>
-		<Item Name="get software root directory.vi" Type="VI" URL="../../../Shared/get software root directory.vi"/>
-		<Item Name="Read File scan.vi" Type="VI" URL="../Subvi/Read File scan.vi"/>
-		<Item Name="File scan info.ctl" Type="VI" URL="../File scan info.ctl"/>
-		<Item Name="parse file scan single scan.vi" Type="VI" URL="../Subvi/parse file scan single scan.vi"/>
-		<Item Name="parse simple scan cluster.vi" Type="VI" URL="../Subvi/parse simple scan cluster.vi"/>
-		<Item Name="mc device cluster.ctl" Type="VI" URL="../mc device cluster.ctl"/>
-		<Item Name="scan type.ctl" Type="VI" URL="../scan type.ctl"/>
-		<Item Name="fill in mising device data.vi" Type="VI" URL="../Subvi/fill in mising device data.vi"/>
-		<Item Name="test parse tcp replies efficiency.vi" Type="VI" URL="../test parse tcp replies efficiency.vi"/>
 		<Item Name="Plotter_General.vi" Type="VI" URL="../../Plotter/Plotter_General.vi"/>
 		<Item Name="imagebitDepth.vi" Type="VI" URL="../../shared/imagebitDepth.vi"/>
 		<Item Name="Experiment Device Enable Status MC only.vi" Type="VI" URL="../../Database Manager/Experiment Device Enable Status MC only.vi"/>
@@ -268,6 +268,9 @@
 		<Item Name="append alias to string.vi" Type="VI" URL="../../../Shared/tdms/append alias to string.vi"/>
 		<Item Name="get aliases and matching dev var name.vi" Type="VI" URL="../../../Shared/tdms/get aliases and matching dev var name.vi"/>
 		<Item Name="Read TDMS  numeric - LOASIS scan data.vi" Type="VI" URL="../../../Shared/tdms/Read TDMS  numeric - LOASIS scan data.vi"/>
+		<Item Name="create s file from tdms of failed scan.vi" Type="VI" URL="../create s file from tdms of failed scan.vi"/>
+		<Item Name="tdms MC append shot numbers etc.vi" Type="VI" URL="../Subvi/tdms MC append shot numbers etc.vi"/>
+		<Item Name="MC tdms path to scan data and info path.vi" Type="VI" URL="../Subvi/MC tdms path to scan data and info path.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="1D Array to String__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/string/string.llb/1D Array to String__ogtk.vi"/>
@@ -881,7 +884,20 @@
 				<Item Name="Write Delimited Spreadsheet (DBL).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Delimited Spreadsheet (DBL).vi"/>
 				<Item Name="Write Delimited Spreadsheet (I64).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Delimited Spreadsheet (I64).vi"/>
 				<Item Name="Write Delimited Spreadsheet (string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Delimited Spreadsheet (string).vi"/>
-				<Item Name="Read Alarms.vi" Type="VI" URL="/&lt;vilib&gt;/lvdsc/alarm/Read Alarms.vi"/>
+				<Item Name="NI_DSC.lvlib" Type="Library" URL="/&lt;vilib&gt;/lvdsc/NI_DSC.lvlib"/>
+				<Item Name="ALM_Get_Alarms.vi" Type="VI" URL="/&lt;vilib&gt;/lvdsc/alarm/internal/ALM_Get_Alarms.vi"/>
+				<Item Name="nialarms.dll" Type="Document" URL="/&lt;vilib&gt;/lvdsc/alarm/internal/nialarms.dll"/>
+				<Item Name="ALM_GetTagURLs.vi" Type="VI" URL="/&lt;vilib&gt;/lvdsc/alarm/internal/ALM_GetTagURLs.vi"/>
+				<Item Name="HIST_FormatTagname&amp;ProcessFilterSpec.vi" Type="VI" URL="/&lt;vilib&gt;/lvdsc/historical/internal/alarm/HIST_FormatTagname&amp;ProcessFilterSpec.vi"/>
+				<Item Name="NET_GetHostName.vi" Type="VI" URL="/&lt;vilib&gt;/lvdsc/common/net/NET_GetHostName.vi"/>
+				<Item Name="dscCommn.dll" Type="Document" URL="/&lt;vilib&gt;/lvdsc/common/dscCommn.dll"/>
+				<Item Name="ERR_MergeErrors.vi" Type="VI" URL="/&lt;vilib&gt;/lvdsc/common/error/ERR_MergeErrors.vi"/>
+				<Item Name="CTL_defaultProcessName.vi" Type="VI" URL="/&lt;vilib&gt;/lvdsc/historical/internal/cittools/CTL_defaultProcessName.vi"/>
+				<Item Name="PTH_ConstructCustomURL.vi" Type="VI" URL="/&lt;vilib&gt;/lvdsc/common/path/PTH_ConstructCustomURL.vi"/>
+				<Item Name="NET_resolveNVIORef.vi" Type="VI" URL="/&lt;vilib&gt;/lvdsc/common/net/NET_resolveNVIORef.vi"/>
+				<Item Name="NET_tagURLdecode.vi" Type="VI" URL="/&lt;vilib&gt;/lvdsc/common/net/NET_tagURLdecode.vi"/>
+				<Item Name="ERR_ErrorClusterFromErrorCode.vi" Type="VI" URL="/&lt;vilib&gt;/lvdsc/common/error/ERR_ErrorClusterFromErrorCode.vi"/>
+				<Item Name="ALM_Error_Resolve.vi" Type="VI" URL="/&lt;vilib&gt;/lvdsc/alarm/internal/ALM_Error_Resolve.vi"/>
 			</Item>
 			<Item Name="add to array if.vi" Type="VI" URL="../add to array if.vi"/>
 			<Item Name="Alarms FP FGV.vi" Type="VI" URL="../Alarms FP FGV.vi"/>
@@ -1124,6 +1140,9 @@
 			<Item Name="Search 2D Array (String).vi" Type="VI" URL="../../GUI_Preset_Manager/Search 2D Array 2012NIVerified/Search 2D Array (String).vi"/>
 			<Item Name="Control 1.ctl" Type="VI" URL="../../GUI_Preset_Manager/Control 1.ctl"/>
 			<Item Name="TCPDeviceNameRead.vi" Type="VI" URL="../TCPDeviceNameRead.vi"/>
+			<Item Name="NVIORef.dll" Type="Document" URL="NVIORef.dll">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Master Control" Type="EXE">
@@ -1682,6 +1701,51 @@
 				<Property Name="TgtF_productName" Type="Str">Check saved scan files</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{C1AF2465-92AE-427C-9DBE-7B3EC89153E1}</Property>
 				<Property Name="TgtF_targetfileName" Type="Str">Check saved scan files.exe</Property>
+				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
+			</Item>
+			<Item Name="GEECS_tdms_to_sfile" Type="EXE">
+				<Property Name="App_copyErrors" Type="Bool">true</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{4E214C2A-1715-4D5A-B3EC-66AC071F6F0B}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{FA9CA324-598E-40C9-895A-E64BFBCDC213}</Property>
+				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="App_serverType" Type="Int">0</Property>
+				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{BCFA8F65-2C02-498F-A294-1047DAC1F1B9}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">GEECS_tdms_to_sfile</Property>
+				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
+				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_localDestDir" Type="Path">/Y/10_Software/ajg builds/tdms_to_sfile</Property>
+				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{6527AD08-5CBD-43D4-A011-55EDB5CA9329}</Property>
+				<Property Name="Bld_version.build" Type="Int">1</Property>
+				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Destination[0].destName" Type="Str">GEECS_tdms_to_sfile.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">/Y/10_Software/ajg builds/tdms_to_sfile/GEECS_tdms_to_sfile.exe</Property>
+				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[0].type" Type="Str">App</Property>
+				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
+				<Property Name="Destination[1].path" Type="Path">/Y/10_Software/ajg builds/tdms_to_sfile/data</Property>
+				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="Source[0].itemID" Type="Str">{B3054A36-704B-4E95-B160-FAB5037D6C5D}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/create s file from tdms of failed scan.vi</Property>
+				<Property Name="Source[1].properties[0].type" Type="Str">Run when opened</Property>
+				<Property Name="Source[1].properties[0].value" Type="Bool">false</Property>
+				<Property Name="Source[1].propertiesCount" Type="Int">1</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[1].type" Type="Str">VI</Property>
+				<Property Name="SourceCount" Type="Int">2</Property>
+				<Property Name="TgtF_companyName" Type="Str">LBL</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">GEECS_tdms_to_sfile</Property>
+				<Property Name="TgtF_internalName" Type="Str">GEECS_tdms_to_sfile</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2025 LBL</Property>
+				<Property Name="TgtF_productName" Type="Str">GEECS_tdms_to_sfile</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{F64A91F0-7F7C-487A-8CFA-1FE067762E88}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">GEECS_tdms_to_sfile.exe</Property>
 				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
 			</Item>
 		</Item>

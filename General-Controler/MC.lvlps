@@ -1,5 +1,5 @@
 [ProjectWindow_Data]
-ProjectExplorer.ClassicPosition[String] = "925,1718,1888,2251"
+ProjectExplorer.ClassicPosition[String] = "25,2,2118,3838"
 
 [AB_Cache_{3EEC40CB-0BA5-4939-B2D6-AA11A72E2F00}]
 Cache_ProjSymbolChksum[String] = "7dea362b3fac8e00956a4952a3d4f474"
@@ -162,4 +162,12 @@ Cache_Path[Path] Line0002 = "965-E02F-46A1-9D82-1A6E647CBD03}.txt"
 [AB_Cache_{C126A360-18F5-4B84-9B98-CDE1988BCE93}]
 Cache_Path[Path] Line0001 = "/C/Users/loasis/AppData/Local/Temp/AB_Cache_{C126A"
 Cache_Path[Path] Line0002 = "360-18F5-4B84-9B98-CDE1988BCE93}.txt"
+
+[AB_Cache_{BCFA8F65-2C02-498F-A294-1047DAC1F1B9}]
+Cache_Path[Path] Line0001 = "/C/Users/loasis/AppData/Local/Temp/AB_Cache_{BCFA8"
+Cache_Path[Path] Line0002 = "F65-2C02-498F-A294-1047DAC1F1B9}.txt"
+
+[AB_Cache_{6527AD08-5CBD-43D4-A011-55EDB5CA9329}]
+Cache_Path[Path] Line0001 = "/C/Users/loasis/AppData/Local/Temp/AB_Cache_{6527A"
+Cache_Path[Path] Line0002 = "D08-5CBD-43D4-A011-55EDB5CA9329}.txt"
 
