@@ -134,6 +134,7 @@
 		<Item Name="Database editor.ini" Type="Document" URL="../Database editor.ini"/>
 		<Item Name="SetScanDataGetStatusToYes.vi" Type="VI" URL="../SubVIs/SetScanDataGetStatusToYes.vi"/>
 		<Item Name="Plotter_Manager.vi" Type="VI" URL="../SubVIs/Plotter_Manager.vi"/>
+		<Item Name="EnabledState_Plotter.ctl" Type="VI" URL="../Controls/EnabledState_Plotter.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Simple Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Simple Error Handler.vi"/>
