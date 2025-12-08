@@ -135,6 +135,7 @@
 		<Item Name="SetScanDataGetStatusToYes.vi" Type="VI" URL="../SubVIs/SetScanDataGetStatusToYes.vi"/>
 		<Item Name="Plotter_Manager.vi" Type="VI" URL="../SubVIs/Plotter_Manager.vi"/>
 		<Item Name="EnabledState_Plotter.ctl" Type="VI" URL="../Controls/EnabledState_Plotter.ctl"/>
+		<Item Name="Plotter_Variable_Combobox.ctl" Type="VI" URL="../Controls/Plotter_Variable_Combobox.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Simple Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Simple Error Handler.vi"/>
@@ -212,6 +213,17 @@
 				<Item Name="Sort 2D Array - Pop Stack.vi" Type="VI" URL="/&lt;vilib&gt;/Array/Sort 2D Array - Pop Stack.vi"/>
 				<Item Name="Assert Block Data Type.vim" Type="VI" URL="/&lt;vilib&gt;/Utility/TypeAssert/Assert Block Data Type.vim"/>
 				<Item Name="Sort 2D Array.vim" Type="VI" URL="/&lt;vilib&gt;/Array/Sort 2D Array.vim"/>
+				<Item Name="Build State String with Arguments__JKI_lib_State_Machine.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/State Machine/_JKI_lib_State_Machine.llb/Build State String with Arguments__JKI_lib_State_Machine.vi"/>
+				<Item Name="Convert Thermocouple Reading.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/TradDaqScaling.llb/Convert Thermocouple Reading.vi"/>
+				<Item Name="Convert Thermocouple Reading (waveform).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/TradDaqScaling.llb/Convert Thermocouple Reading (waveform).vi"/>
+				<Item Name="Convert Thermistor Reading.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/TradDaqScaling.llb/Convert Thermistor Reading.vi"/>
+				<Item Name="Convert Thermistor Reading (waveform).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/TradDaqScaling.llb/Convert Thermistor Reading (waveform).vi"/>
+				<Item Name="Convert Thermistor Reading (scaler).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/TradDaqScaling.llb/Convert Thermistor Reading (scaler).vi"/>
+				<Item Name="Temperature to Volts.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/TradDaqScaling.llb/Temperature to Volts.vi"/>
+				<Item Name="Volts to Temperature.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/TradDaqScaling.llb/Volts to Temperature.vi"/>
+				<Item Name="Convert Thermocouple Reading (array).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/TradDaqScaling.llb/Convert Thermocouple Reading (array).vi"/>
+				<Item Name="Convert Thermocouple Reading (scaler).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/TradDaqScaling.llb/Convert Thermocouple Reading (scaler).vi"/>
+				<Item Name="Space Constant.vi" Type="VI" URL="/&lt;vilib&gt;/dlg_ctls.llb/Space Constant.vi"/>
 			</Item>
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Filter 1D Array__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Filter 1D Array__ogtk.vi"/>
