@@ -14,8 +14,8 @@
 		<Item Name="GUI_Template" Type="Folder" URL="../../../../Shared/GUI_Template">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
-		<Item Name="GUI_Frog_HPD.vi" Type="VI" URL="../GUI_Frog_HPD.vi"/>
 		<Item Name="GUI_Frog_HPD_Version 2.0.vi" Type="VI" URL="../GUI_Frog_HPD_Version 2.0.vi"/>
+		<Item Name="GUI_Frog_HPD.vi" Type="VI" URL="../GUI_Frog_HPD.vi"/>
 		<Item Name="GUI_Frog_HPD_imagetester.vi" Type="VI" URL="../GUI_Frog_HPD_imagetester.vi"/>
 		<Item Name="Point Grey Camera.lvclass" Type="LVClass" URL="../../../../Device Drivers/Point Grey Camera/Point Grey Camera.lvclass"/>
 		<Item Name="GUI_Frog_HPD_imagetested2.vi" Type="VI" URL="../GUI_Frog_HPD_imagetested2.vi"/>
@@ -296,6 +296,19 @@
 				<Item Name="Strip Path Extension - 1D Array of Paths__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Strip Path Extension - 1D Array of Paths__ogtk.vi"/>
 				<Item Name="Strip Path Extension - 1D Array of Strings__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Strip Path Extension - 1D Array of Strings__ogtk.vi"/>
 				<Item Name="Wait (ms)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/time/time.llb/Wait (ms)__ogtk.vi"/>
+				<Item Name="Create Dir if Non-Existant__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Create Dir if Non-Existant__ogtk.vi"/>
+				<Item Name="Strip Path__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Strip Path__ogtk.vi"/>
+				<Item Name="Strip Path - Arrays__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Strip Path - Arrays__ogtk.vi"/>
+				<Item Name="Strip Path - Traditional__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Strip Path - Traditional__ogtk.vi"/>
+				<Item Name="Build Path__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Build Path__ogtk.vi"/>
+				<Item Name="Build Path - Traditional__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Build Path - Traditional__ogtk.vi"/>
+				<Item Name="Build Path - File Names Array__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Build Path - File Names Array__ogtk.vi"/>
+				<Item Name="Build Path - File Names and Paths Arrays__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Build Path - File Names and Paths Arrays__ogtk.vi"/>
+				<Item Name="Build Path - Traditional - path__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Build Path - Traditional - path__ogtk.vi"/>
+				<Item Name="Build Path - File Names Array - path__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Build Path - File Names Array - path__ogtk.vi"/>
+				<Item Name="Build Path - File Names and Paths Arrays - path__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Build Path - File Names and Paths Arrays - path__ogtk.vi"/>
+				<Item Name="MGI Write Spreadsheet File.vi" Type="VI" URL="/&lt;userlib&gt;/_MGI/File/Spreadsheet/MGI Write Spreadsheet File.vi"/>
+				<Item Name="MGI Write Spreadsheet Behavior Enum.ctl" Type="VI" URL="/&lt;userlib&gt;/_MGI/File/Spreadsheet/MGI Write Spreadsheet Behavior Enum.ctl"/>
 			</Item>
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
@@ -406,6 +419,7 @@
 				<Item Name="IMAQ ReadFile 2" Type="VI" URL="/&lt;vilib&gt;/vision/Files.llb/IMAQ ReadFile 2"/>
 				<Item Name="Get File System Separator.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/sysinfo.llb/Get File System Separator.vi"/>
 				<Item Name="Get LV Class Path.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Path.vi"/>
+				<Item Name="IMAQ Get Custom Keys" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ Get Custom Keys"/>
 			</Item>
 			<Item Name="add value to xy graph.vi" Type="VI" URL="../../../shared/add value to xy graph.vi"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
@@ -635,51 +649,31 @@
 			<Item Name="1st or last shot of scan.ctl" Type="VI" URL="../../../../Device Drivers/Point Grey Camera/subVis/1st or last shot of scan.ctl"/>
 			<Item Name="tdms image file ref.vi" Type="VI" URL="../../../../Device Drivers/Point Grey Camera/subVis/tdms image file ref.vi"/>
 			<Item Name="png path to tdms image path.vi" Type="VI" URL="../../../../Device Drivers/Point Grey Camera/subVis/png path to tdms image path.vi"/>
+			<Item Name="Launch TCP data clients.vi" Type="VI" URL="../../../General-Controler/Launch TCP data clients.vi"/>
+			<Item Name="Get all devices core info.vi" Type="VI" URL="../../../General-Controler/Subvi/Get all devices core info.vi"/>
+			<Item Name="array to strings and values for ring.vi" Type="VI" URL="../../../General-Controler/array to strings and values for ring.vi"/>
+			<Item Name="generateEvent.vi" Type="VI" URL="../../../../Device Drivers/shared/generateEvent.vi"/>
+			<Item Name="select requested data from MC tcp queue.vi" Type="VI" URL="../../../General-Controler/Subvi/select requested data from MC tcp queue.vi"/>
+			<Item Name="CompressAndUpdate(NumericArray2D).vi" Type="VI" URL="../../../../Device Drivers/shared/CompressAndUpdate(Poly)/CompressAndUpdate(NumericArray2D).vi"/>
+			<Item Name="Are two within tolerance of each other.vi" Type="VI" URL="../../../../Shared/Device Driver/Are two within tolerance of each other.vi"/>
+			<Item Name="string numbers in range.vi" Type="VI" URL="../../../../Shared/Device Driver/string numbers in range.vi"/>
+			<Item Name="timestamp_path.vi" Type="VI" URL="../../../../Shared/timestamp_path.vi"/>
+			<Item Name="wait for udp trigger.vi" Type="VI" URL="../../../../Device Drivers/ThorlabsWFS/wait for udp trigger.vi"/>
+			<Item Name="call async convert tdms to png.vi" Type="VI" URL="../../../../Device Drivers/Point Grey Camera/call async convert tdms to png.vi"/>
+			<Item Name="Convert all images in GEECS tdms file to png.vi" Type="VI" URL="../../../../Device Drivers/Point Grey Camera/Convert all images in GEECS tdms file to png.vi"/>
+			<Item Name="Threshold and Centroid Image.vi" Type="VI" URL="../../../../Shared/Threshold and Centroid Image.vi"/>
+			<Item Name="Coerce I64.vi" Type="VI" URL="../../../../Device Drivers/Point Grey Camera/Set IMAQdx Camera ROI/Coerce I64.vi"/>
+			<Item Name="Rounding Mode.ctl" Type="VI" URL="../../../../Device Drivers/Point Grey Camera/Set IMAQdx Camera ROI/Rounding Mode.ctl"/>
+			<Item Name="coerce exposure to available increment.vi" Type="VI" URL="../../../../Device Drivers/Point Grey Camera/subVis/coerce exposure to available increment.vi"/>
+			<Item Name="setTriggerSource_MVF.vi" Type="VI" URL="../../../../Device Drivers/Point Grey Camera/subVis/setTriggerSource_MVF.vi"/>
+			<Item Name="TriggerSource_TypDEF.ctl" Type="VI" URL="../../../../Device Drivers/Point Grey Camera/subVis/TriggerSource_TypDEF.ctl"/>
+			<Item Name="image color table presets.ctl" Type="VI" URL="../../GUI_Cameras/color tables/image color table presets.ctl"/>
+			<Item Name="Component Generator.vi" Type="VI" URL="../../GUI_Cameras/color tables/2008 Image manager.llb/Component Generator.vi"/>
+			<Item Name="Color Table Generator.vi" Type="VI" URL="../../GUI_Cameras/color tables/2008 Image manager.llb/Color Table Generator.vi"/>
+			<Item Name="image color table presets.vi" Type="VI" URL="../../GUI_Cameras/color tables/image color table presets.vi"/>
+			<Item Name="IMAQ color table presets.vi" Type="VI" URL="../../GUI_Cameras/IMAQ color table presets.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
-			<Item Name="GUI_Frog_HPD" Type="EXE">
-				<Property Name="App_copyErrors" Type="Bool">true</Property>
-				<Property Name="App_INI_aliasGUID" Type="Str">{F1AC8808-CC04-422D-A71D-B24FDD0093B5}</Property>
-				<Property Name="App_INI_GUID" Type="Str">{BF428355-0730-4692-BF08-DFACFF272466}</Property>
-				<Property Name="App_serverType" Type="Int">1</Property>
-				<Property Name="Bld_buildCacheID" Type="Str">{08341E9D-4EB4-4467-B9A1-416C0C920C09}</Property>
-				<Property Name="Bld_buildSpecName" Type="Str">GUI_Frog_HPD</Property>
-				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
-				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">/C/GEECS/Developers Version/builds/Interface builds/General GUIs/Device GUIs/NI_AB_PROJECTNAME</Property>
-				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
-				<Property Name="Bld_previewCacheID" Type="Str">{37C51D7C-C20A-46AE-973F-1C24C8D71DE4}</Property>
-				<Property Name="Destination[0].destName" Type="Str">GUI_FrogHPD.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">/C/GEECS/Developers Version/builds/Interface builds/General GUIs/Device GUIs/NI_AB_PROJECTNAME/GUI_FrogHPD.exe</Property>
-				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
-				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
-				<Property Name="Destination[0].type" Type="Str">App</Property>
-				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">/C/GEECS/Developers Version/builds/Interface builds/General GUIs/Device GUIs/NI_AB_PROJECTNAME/data</Property>
-				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
-				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Exe_cmdLineArgs" Type="Bool">true</Property>
-				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/frog.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{FE28365D-B894-48D2-8ACD-2E52BB98DC7D}</Property>
-				<Property Name="Source[0].type" Type="Str">Container</Property>
-				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/My Computer/GUI_Frog_HPD.vi</Property>
-				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
-				<Property Name="Source[1].type" Type="Str">VI</Property>
-				<Property Name="Source[2].Container.applyInclusion" Type="Bool">true</Property>
-				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[2].itemID" Type="Ref">/My Computer/GUI_Template</Property>
-				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[2].type" Type="Str">Container</Property>
-				<Property Name="SourceCount" Type="Int">3</Property>
-				<Property Name="TgtF_companyName" Type="Str">LBNL</Property>
-				<Property Name="TgtF_fileDescription" Type="Str">GUI_Frog_HPD</Property>
-				<Property Name="TgtF_internalName" Type="Str">GUI_Frog_HPD</Property>
-				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2012 LBNL</Property>
-				<Property Name="TgtF_productName" Type="Str">GUI_Frog_HPD</Property>
-				<Property Name="TgtF_targetfileGUID" Type="Str">{BD64A61D-07D1-4A7B-BC77-18E10977FED6}</Property>
-				<Property Name="TgtF_targetfileName" Type="Str">GUI_FrogHPD.exe</Property>
-			</Item>
 			<Item Name="GUI_Frog" Type="EXE">
 				<Property Name="App_copyErrors" Type="Bool">true</Property>
 				<Property Name="App_INI_aliasGUID" Type="Str">{D6A8885D-4AE3-4434-811B-89BC62E7F5A1}</Property>
@@ -701,8 +695,7 @@
 				<Property Name="Destination[1].path" Type="Path">/C/GEECS/Developers Version/builds/Interface builds/General GUIs/Device GUIs/GUI_Frog/data</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Exe_cmdLineArgs" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{AE07AF87-ED0F-48C2-AED4-05240B73DE02}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{48AFE754-16B7-46A9-A38A-1F074894C22E}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/GUI_Frog_HPD.vi</Property>
