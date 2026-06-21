@@ -208,69 +208,313 @@
 			<Item Name="scan type.ctl" Type="VI" URL="../scan type.ctl"/>
 			<Item Name="fill in mising device data.vi" Type="VI" URL="../Subvi/fill in mising device data.vi"/>
 			<Item Name="test parse tcp replies efficiency.vi" Type="VI" URL="../test parse tcp replies efficiency.vi"/>
+			<Item Name="MC collect shot data from tcp queue.vi" Type="VI" URL="../Subvi/scan shot data collection/MC collect shot data from tcp queue.vi"/>
+			<Item Name="MC shot collector tester.vi" Type="VI" URL="../Subvi/scan shot data collection/MC shot collector tester.vi"/>
+			<Item Name="tcp data queue array back to comma separated.vi" Type="VI" URL="../Subvi/scan shot data collection/tcp data queue array back to comma separated.vi"/>
+			<Item Name="append variable for csv tdms.vi" Type="VI" URL="../Subvi/append variable for csv tdms.vi"/>
+			<Item Name="test parse tcp replies.vi" Type="VI" URL="../test parse tcp replies.vi"/>
+			<Item Name="FGV MC Remote control.vi" Type="VI" URL="../FGV MC Remote control.vi"/>
+			<Item Name="example of controlling MC remotely.vi" Type="VI" URL="../example of controlling MC remotely.vi"/>
+			<Item Name="MC get remote commands.vi" Type="VI" URL="../Subvi/MC get remote commands.vi"/>
+			<Item Name="SQL get filtered device list cluster input.vi" Type="VI" URL="../../../Shared/MySQL/SQL get filtered device list cluster input.vi"/>
+			<Item Name="device filter cluster.ctl" Type="VI" URL="../../../Shared/MySQL/device filter cluster.ctl"/>
+			<Item Name="append alias to string.vi" Type="VI" URL="../../../Shared/tdms/append alias to string.vi"/>
+			<Item Name="get aliases and matching dev var name.vi" Type="VI" URL="../../../Shared/tdms/get aliases and matching dev var name.vi"/>
+			<Item Name="Read TDMS  numeric - LOASIS scan data.vi" Type="VI" URL="../../../Shared/tdms/Read TDMS  numeric - LOASIS scan data.vi"/>
+			<Item Name="create s file from tdms of failed scan.vi" Type="VI" URL="../create s file from tdms of failed scan.vi"/>
+			<Item Name="tdms MC append shot numbers etc.vi" Type="VI" URL="../Subvi/tdms MC append shot numbers etc.vi"/>
+			<Item Name="MC tdms path to scan data and info path.vi" Type="VI" URL="../Subvi/MC tdms path to scan data and info path.vi"/>
+		</Item>
+		<Item Name="organize" Type="Folder">
+			<Item Name="AllDevicesAcquisitionRate.vi" Type="VI" URL="../AllDevicesAcquisitionRate.vi"/>
+			<Item Name="is slow response a fire command.vi" Type="VI" URL="../Subvi/is slow response a fire command.vi"/>
+			<Item Name="TCP read example.vi" Type="VI" URL="../../../Shared/TCP/TCP read example.vi"/>
+			<Item Name="Plotter_General.vi" Type="VI" URL="../../Plotter/Plotter_General.vi"/>
+			<Item Name="imagebitDepth.vi" Type="VI" URL="../../shared/imagebitDepth.vi"/>
+			<Item Name="Experiment Device Enable Status MC only.vi" Type="VI" URL="../../Database Manager/Experiment Device Enable Status MC only.vi"/>
+			<Item Name="get next scan value.vi" Type="VI" URL="../../../Shared/get next scan value.vi"/>
+			<Item Name="LVstarter.vi" Type="VI" URL="../../../Shared/LVstarter.vi"/>
+			<Item Name="Get capillary hexapod fit for move along laser line.vi" Type="VI" URL="../../../Bella center GUIs/GUI_Bella_BTL/Get capillary hexapod fit for move along laser line.vi"/>
+			<Item Name="make single scan multivariable array string.vi" Type="VI" URL="../Subvi/make single scan multivariable array string.vi"/>
+			<Item Name="command parse for 2d scan file.vi" Type="VI" URL="../command parse for 2d scan file.vi"/>
+			<Item Name="Filter device group devices.vi" Type="VI" URL="../../Database Manager/SubVIs/Filter device group devices.vi"/>
+			<Item Name="add or remove from checkbox table.vi" Type="VI" URL="../../Database Manager/SubVIs/add or remove from checkbox table.vi"/>
+			<Item Name="device on off array to DB.vi" Type="VI" URL="../../Database Manager/SubVIs/device on off array to DB.vi"/>
+			<Item Name="save new device group.vi" Type="VI" URL="../../Database Manager/SubVIs/save new device group.vi"/>
+			<Item Name="edit device on off group.vi" Type="VI" URL="../../Database Manager/SubVIs/edit device on off group.vi"/>
+			<Item Name="maybe obsolete.vi" Type="VI" URL="../../Database Manager/SubVIs/maybe obsolete.vi"/>
+			<Item Name="device on off list mouse down.vi" Type="VI" URL="../../Database Manager/SubVIs/device on off list mouse down.vi"/>
+			<Item Name="start kill devs.vi" Type="VI" URL="../Subvi/start kill devs.vi"/>
+			<Item Name="Get Experiment Information.vi" Type="VI" URL="../Subvi/Get Experiment Information.vi"/>
+			<Item Name="Wait for cmd execution state.vi" Type="VI" URL="../Subvi/Wait for cmd execution state.vi"/>
+			<Item Name="wait for cmd exec next steps.ctl" Type="VI" URL="../Subvi/wait for cmd exec next steps.ctl"/>
+			<Item Name="make scan analysis files.vi" Type="VI" URL="../Subvi/make scan analysis files.vi"/>
+			<Item Name="MC Network cluster.ctl" Type="VI" URL="../MC Network cluster.ctl"/>
+			<Item Name="MC scan cluster.ctl" Type="VI" URL="../MC scan cluster.ctl"/>
+			<Item Name="MC timing cluster.ctl" Type="VI" URL="../MC timing cluster.ctl"/>
+			<Item Name="tcp shot sender queue.ctl" Type="VI" URL="../tcp shot sender queue.ctl"/>
+			<Item Name="error_detail.vi" Type="VI" URL="../../../Bella center GUIs/StagingBeamline/error_detail.vi"/>
+			<Item Name="PC_PING.vi" Type="VI" URL="../../../Bella center GUIs/StagingBeamline/PC_PING.vi"/>
+			<Item Name="tcp shot sender send data.vi" Type="VI" URL="../tcp shot sender send data.vi"/>
+			<Item Name="tcp shot sender wait add connection.vi" Type="VI" URL="../tcp shot sender wait add connection.vi"/>
+			<Item Name="tcp shot server send data.vi" Type="VI" URL="../tcp shot server send data.vi"/>
+			<Item Name="LV starter manual input.vi" Type="VI" URL="../LV starter manual input.vi"/>
+			<Item Name="get latest tdms path.vi" Type="VI" URL="../Subvi/get latest tdms path.vi"/>
+			<Item Name="create list of values to scan.vi" Type="VI" URL="../Subvi/create list of values to scan.vi"/>
+			<Item Name="Beampointing get motor position tcp.vi" Type="VI" URL="../../../Bella center GUIs/GUI_Beampointing_multi/Beampointing get motor position tcp.vi"/>
+			<Item Name="check saved scan files.vi" Type="VI" URL="../check saved scan files/check saved scan files.vi"/>
+			<Item Name="playing with luanching with system exec not use.vi" Type="VI" URL="../../../Shared/playing with luanching with system exec not use.vi"/>
+			<Item Name="launch application batch file etc system exec.vi" Type="VI" URL="../Subvi/launch application batch file etc system exec.vi"/>
+			<Item Name="add to array if.vi" Type="VI" URL="../add to array if.vi"/>
+			<Item Name="Alarms FP FGV.vi" Type="VI" URL="../Alarms FP FGV.vi"/>
+			<Item Name="Arguments to array.vi" Type="VI" URL="../../../Device Drivers/shared/Arguments to array.vi"/>
+			<Item Name="array to strings and values for ring.vi" Type="VI" URL="../array to strings and values for ring.vi"/>
+			<Item Name="bin xy graphv02.vi" Type="VI" URL="../../Plotter/binning/bin xy graphv02.vi"/>
+			<Item Name="clearTCPBufferSerial.vi" Type="VI" URL="../../../Shared/TCP/clearTCPBufferSerial.vi"/>
+			<Item Name="create rooth path of day.vi" Type="VI" URL="../create rooth path of day.vi"/>
+			<Item Name="create shot path.vi" Type="VI" URL="../../../Shared/create shot path.vi"/>
+			<Item Name="create udp send cluster.vi" Type="VI" URL="../create udp send cluster.vi"/>
+			<Item Name="Data Cluster GUI for simple master controller2.vi" Type="VI" URL="../Data Cluster GUI for simple master controller2.vi"/>
+			<Item Name="Data Cluster Plotter.vi" Type="VI" URL="../../Plotter/Data Cluster Plotter.vi"/>
+			<Item Name="date zero padder.vi" Type="VI" URL="../date zero padder.vi"/>
+			<Item Name="day root path to sub folder paths.vi" Type="VI" URL="../day root path to sub folder paths.vi"/>
+			<Item Name="DefaultValue_Variable_MC.vi" Type="VI" URL="../../Database Manager/DefaultValue_Variable_MC.vi"/>
+			<Item Name="delete indexes from array.vi" Type="VI" URL="../../Plotter/binning/delete indexes from array.vi"/>
+			<Item Name="Dump Device Variables INI.vi" Type="VI" URL="../../shared/Dump Device Variables INI.vi"/>
+			<Item Name="Expected responses.vi" Type="VI" URL="../../../Shared/Expected responses.vi"/>
+			<Item Name="FastSlowFGV.vi" Type="VI" URL="../../shared/FastSlowFGV.vi"/>
+			<Item Name="filter array based upon column value.vi" Type="VI" URL="../filter array based upon column value.vi"/>
+			<Item Name="Generate GUI List Commands for LVStarter-Modified.vi" Type="VI" URL="../Generate GUI List Commands for LVStarter-Modified.vi"/>
+			<Item Name="generate scan start command.vi" Type="VI" URL="../generate scan start command.vi"/>
+			<Item Name="get buckets for graph averaging.vi" Type="VI" URL="../../Plotter/binning/get buckets for graph averaging.vi"/>
+			<Item Name="get date folder name.vi" Type="VI" URL="../get date folder name.vi"/>
+			<Item Name="get device groups.vi" Type="VI" URL="../get device groups.vi"/>
+			<Item Name="get devices with udp no response.vi" Type="VI" URL="../get devices with udp no response.vi"/>
+			<Item Name="get info from core device data.vi" Type="VI" URL="../get info from core device data.vi"/>
+			<Item Name="get listen ports.vi" Type="VI" URL="../get listen ports.vi"/>
+			<Item Name="get text commands.vi" Type="VI" URL="../get text commands.vi"/>
+			<Item Name="get variable value from udp get response.vi" Type="VI" URL="../get variable value from udp get response.vi"/>
+			<Item Name="kernel32.dll" Type="Document" URL="kernel32.dll">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
+			<Item Name="Logical String Array Sort.vi" Type="VI" URL="../../Database Manager/SubVIs/logicalstringarraysort.llb/Logical String Array Sort.vi"/>
+			<Item Name="LogSort_Partition.vi" Type="VI" URL="../../Database Manager/SubVIs/logicalstringarraysort.llb/LogSort_Partition.vi"/>
+			<Item Name="LogSort_Stack.vi" Type="VI" URL="../../Database Manager/SubVIs/logicalstringarraysort.llb/LogSort_Stack.vi"/>
+			<Item Name="LogSort_StackHandler.vi" Type="VI" URL="../../Database Manager/SubVIs/logicalstringarraysort.llb/LogSort_StackHandler.vi"/>
+			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
+			<Item Name="MC stop FGV.vi" Type="VI" URL="../MC stop FGV.vi"/>
+			<Item Name="MCAST string to TDMS path.vi" Type="VI" URL="../../Plotter/MCAST string to TDMS path.vi"/>
+			<Item Name="MCLB_MouseDown.vi" Type="VI" URL="../../Database Manager/MCLB_MouseDown.vi"/>
+			<Item Name="multi tcp tdms single shot.vi" Type="VI" URL="../multi tcp tdms single shot.vi"/>
+			<Item Name="NaN_filter2D_01_3inputs.vi" Type="VI" URL="../../../Shared/NaN_filter2D_01_3inputs.vi"/>
+			<Item Name="numeric string choice.vi" Type="VI" URL="../numeric string choice.vi"/>
+			<Item Name="parse config file array.vi" Type="VI" URL="../parse config file array.vi"/>
+			<Item Name="parse subscribe command.vi" Type="VI" URL="../../../Shared/parse subscribe command.vi"/>
+			<Item Name="parse tcp subscribe and save to tdms.vi" Type="VI" URL="../parse tcp subscribe and save to tdms.vi"/>
+			<Item Name="Plotter stop FGV.vi" Type="VI" URL="../../Plotter/Plotter stop FGV.vi"/>
+			<Item Name="populateVariableFromDeviceTypeVariable.vi" Type="VI" URL="../../Database Manager/populateVariableFromDeviceTypeVariable.vi"/>
+			<Item Name="Preset Query Enum.ctl" Type="VI" URL="../../../Shared/MySQL/Preset Query Enum.ctl"/>
+			<Item Name="Remove NaN 1D.vi" Type="VI" URL="../../Plotter/binning/Remove NaN 1D.vi"/>
+			<Item Name="scan data to receive to subscribe commands.vi" Type="VI" URL="../../../Shared/scan data to receive to subscribe commands.vi"/>
+			<Item Name="scan parameters.ctl" Type="VI" URL="../scan parameters.ctl"/>
+			<Item Name="scan path from all scans path.vi" Type="VI" URL="../../../Shared/scan path from all scans path.vi"/>
+			<Item Name="Scan Tab Enum.ctl" Type="VI" URL="../Scan Tab Enum.ctl"/>
+			<Item Name="scan value monatomic.vi" Type="VI" URL="../../../Shared/scan value monatomic.vi"/>
+			<Item Name="send udp command.vi" Type="VI" URL="../../../Shared/send udp command.vi"/>
+			<Item Name="Set scan parameters from file.vi" Type="VI" URL="../../../Shared/Set scan parameters from file.vi"/>
+			<Item Name="sort 2d array.vi" Type="VI" URL="../sort 2d array.vi"/>
+			<Item Name="SQL get filtered device list.vi" Type="VI" URL="../../../Shared/MySQL/SQL get filtered device list.vi"/>
+			<Item Name="SQL Insert null.vi" Type="VI" URL="../../Database Manager/SubVIs/SQL Insert null.vi"/>
+			<Item Name="SQL Insert.vi" Type="VI" URL="../../Database Manager/SubVIs/SQL Insert.vi"/>
+			<Item Name="SQL Query.vi" Type="VI" URL="../../../Shared/MySQL/SQL Query.vi"/>
+			<Item Name="SQL Server Info.vi" Type="VI" URL="../../../Shared/MySQL/SQL Server Info.vi"/>
+			<Item Name="SQL Update null.vi" Type="VI" URL="../../Database Manager/SubVIs/SQL Update null.vi"/>
+			<Item Name="SQL Update.vi" Type="VI" URL="../../Database Manager/SubVIs/SQL Update.vi"/>
+			<Item Name="string to 1d array.vi" Type="VI" URL="../../../Shared/string to 1d array.vi"/>
+			<Item Name="TCP multi close.vi" Type="VI" URL="../TCP multi close.vi"/>
+			<Item Name="TCP multiple open.vi" Type="VI" URL="../TCP multiple open.vi"/>
+			<Item Name="tcp multiple read.vi" Type="VI" URL="../tcp multiple read.vi"/>
+			<Item Name="tcp multiple write.vi" Type="VI" URL="../tcp multiple write.vi"/>
+			<Item Name="TCP Write Alive 2.vi" Type="VI" URL="../../Central GUI for Open Clients/TCP Write Alive 2.vi"/>
+			<Item Name="TCP_DATA_Subscriber_subVi.vi" Type="VI" URL="../../../Shared/TCP/TCP_DATA_Subscriber_subVi.vi"/>
+			<Item Name="TDMS add single channel.vi" Type="VI" URL="../../../Shared/tdms/TDMS add single channel.vi"/>
+			<Item Name="TDMS createappend scan data file single device.vi" Type="VI" URL="../../../Shared/tdms/TDMS createappend scan data file single device.vi"/>
+			<Item Name="timer.vi" Type="VI" URL="../../../Shared/timer.vi"/>
+			<Item Name="udp multi alive.vi" Type="VI" URL="../udp multi alive.vi"/>
+			<Item Name="udp multi close.vi" Type="VI" URL="../udp multi close.vi"/>
+			<Item Name="udp multi open.vi" Type="VI" URL="../udp multi open.vi"/>
+			<Item Name="UDP query if command executed.vi" Type="VI" URL="../../../Shared/UDP query if command executed.vi"/>
+			<Item Name="UDP send cluster.ctl" Type="VI" URL="../UDP send cluster.ctl"/>
+			<Item Name="Update Indicators (Data String to ref array).vi" Type="VI" URL="../../Device GUIs/GUI_General_Camera/Update Indicators (Data String to ref array).vi"/>
+			<Item Name="Value TCP Seperator.vi" Type="VI" URL="../../../Shared/Value TCP Seperator.vi"/>
+			<Item Name="variable spacing 2.vi" Type="VI" URL="../../../Shared/variable spacing 2.vi"/>
+			<Item Name="variable tcp separator.vi" Type="VI" URL="../../../Shared/variable tcp separator.vi"/>
+			<Item Name="version.dll" Type="Document" URL="version.dll">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
+			<Item Name="Wake Multiple Computers.vi" Type="VI" URL="../../../Shared/Remote Startup/Wake Multiple Computers.vi"/>
+			<Item Name="Was UDP command accepted.vi" Type="VI" URL="../Was UDP command accepted.vi"/>
+			<Item Name="XYGraph.CreateErrorBars.vi" Type="VI" URL="../../Plotter/binning/XYGraphErrorBars/XYGraph.CreateErrorBars.vi"/>
+			<Item Name="lvsound2.dll" Type="Document" URL="/&lt;resource&gt;/lvsound2.dll"/>
+			<Item Name="Get File scan values.vi" Type="VI" URL="../Subvi/Get File scan values.vi"/>
+			<Item Name="getFreeUDPPorts.vi" Type="VI" URL="../../../Shared/Device Driver/getFreeUDPPorts.vi"/>
+			<Item Name="getIP.vi" Type="VI" URL="../../../Shared/Device Driver/getIP.vi"/>
+			<Item Name="Get Application Directory.vi" Type="VI" URL="../../../Shared/Get Application Directory.vi"/>
+			<Item Name="mysql_authentication.ctl" Type="VI" URL="../../../Shared/MySQL/typedefs/mysql_authentication.ctl"/>
+			<Item Name="add point to scan par graph.vi" Type="VI" URL="../add point to scan par graph.vi"/>
+			<Item Name="command to send to fast response.vi" Type="VI" URL="../../../Shared/command to send to fast response.vi"/>
+			<Item Name="expected slow response.vi" Type="VI" URL="../../../Shared/expected slow response.vi"/>
+			<Item Name="lv_mysql_conn_send_data_packet.vi" Type="VI" URL="../../../Shared/MySQL/subVIs/lv_mysql_conn_send_data_packet.vi"/>
+			<Item Name="lv_mysql_conn_close.vi" Type="VI" URL="../../../Shared/MySQL/lv_mysql_conn_close.vi"/>
+			<Item Name="ok_packet_metadata.ctl" Type="VI" URL="../../../Shared/MySQL/typedefs/ok_packet_metadata.ctl"/>
+			<Item Name="lv_mysql_conn_eof_packet.vi" Type="VI" URL="../../../Shared/MySQL/subVIs/lv_mysql_conn_eof_packet.vi"/>
+			<Item Name="ByteToVariant.vi" Type="VI" URL="../../../Shared/MySQL/ByteToVariant.vi"/>
+			<Item Name="wholeRowToVAriant.vi" Type="VI" URL="../../../Shared/MySQL/subVIs/wholeRowToVAriant.vi"/>
+			<Item Name="lv_mysql_conn_length_coded_binary.vi" Type="VI" URL="../../../Shared/MySQL/subVIs/lv_mysql_conn_length_coded_binary.vi"/>
+			<Item Name="lv_mysql_conn_ok_packet.vi" Type="VI" URL="../../../Shared/MySQL/subVIs/lv_mysql_conn_ok_packet.vi"/>
+			<Item Name="return_packet_type.ctl" Type="VI" URL="../../../Shared/MySQL/typedefs/return_packet_type.ctl"/>
+			<Item Name="lv_mysql_conn_check_packet_type.vi" Type="VI" URL="../../../Shared/MySQL/subVIs/lv_mysql_conn_check_packet_type.vi"/>
+			<Item Name="lv_mysql_conn_receive_data_packet.vi" Type="VI" URL="../../../Shared/MySQL/subVIs/lv_mysql_conn_receive_data_packet.vi"/>
+			<Item Name="lv_mysql_conn_return_packet.vi" Type="VI" URL="../../../Shared/MySQL/subVIs/lv_mysql_conn_return_packet.vi"/>
+			<Item Name="lv_mysql_conn_send_command.vi" Type="VI" URL="../../../Shared/MySQL/subVIs/lv_mysql_conn_send_command.vi"/>
+			<Item Name="lv_mysql_conn_query.vi" Type="VI" URL="../../../Shared/MySQL/lv_mysql_conn_query.vi"/>
+			<Item Name="SHA-1 Digest.vi" Type="VI" URL="../../../Shared/MySQL/subVIs/SHA-1/SHA-1 Digest.vi"/>
+			<Item Name="SHA-1 Core.vi" Type="VI" URL="../../../Shared/MySQL/subVIs/SHA-1/SHA-1 Core.vi"/>
+			<Item Name="SHA-1 Pad.vi" Type="VI" URL="../../../Shared/MySQL/subVIs/SHA-1/SHA-1 Pad.vi"/>
+			<Item Name="SHA-1.vi" Type="VI" URL="../../../Shared/MySQL/subVIs/SHA-1/SHA-1.vi"/>
+			<Item Name="lv_mysql_conn_encrypt_passwd.vi" Type="VI" URL="../../../Shared/MySQL/subVIs/lv_mysql_conn_encrypt_passwd.vi"/>
+			<Item Name="server_init_data.ctl" Type="VI" URL="../../../Shared/MySQL/typedefs/server_init_data.ctl"/>
+			<Item Name="lv_mysql_conn_init_client_data.vi" Type="VI" URL="../../../Shared/MySQL/subVIs/lv_mysql_conn_init_client_data.vi"/>
+			<Item Name="lv_mysql_conn_init_server_data.vi" Type="VI" URL="../../../Shared/MySQL/subVIs/lv_mysql_conn_init_server_data.vi"/>
+			<Item Name="lv_mysql_conn_init.vi" Type="VI" URL="../../../Shared/MySQL/lv_mysql_conn_init.vi"/>
+			<Item Name="database configuration.ctl" Type="VI" URL="../../../Shared/MySQL/database configuration.ctl"/>
+			<Item Name="Convert Ascii Mac-Address to Hex Mac-Address.vi" Type="VI" URL="../../../Shared/Remote Startup/Convert Ascii Mac-Address to Hex Mac-Address.vi"/>
+			<Item Name="SendWakeCommand.vi" Type="VI" URL="../../../Shared/Remote Startup/SendWakeCommand.vi"/>
+			<Item Name="number to string with 0 padding.vi" Type="VI" URL="../../../Shared/number to string with 0 padding.vi"/>
+			<Item Name="remove rows of duplicate col in 2d array.vi" Type="VI" URL="../../../Shared/remove rows of duplicate col in 2d array.vi"/>
+			<Item Name="Read TDMS - LOASIS scan data.vi" Type="VI" URL="../../../Shared/tdms/Read TDMS - LOASIS scan data.vi"/>
+			<Item Name="no timeout error_2.vi" Type="VI" URL="../../../Shared/no timeout error_2.vi"/>
+			<Item Name="SendCommandEvent_alternate_udpqueue.vi" Type="VI" URL="../../shared/SendCommandEvent_alternate_udpqueue.vi"/>
+			<Item Name="sendUDPMode_TypDef.ctl" Type="VI" URL="../../shared/Custom Controls/sendUDPMode_TypDef.ctl"/>
+			<Item Name="RingStringFromValue.vi" Type="VI" URL="../../../Device Drivers/shared/UtilsLib/Rings/RingStringFromValue.vi"/>
+			<Item Name="Get Cluster Element Names__ogtk_TS.vi" Type="VI" URL="../../../Device Drivers/shared/Get Cluster Element Names__ogtk_TS.vi"/>
+			<Item Name="VariantToString.vi" Type="VI" URL="../../../Shared/Device Driver/VariantToString.vi"/>
+			<Item Name="sendCommandAndListen_udpqueue.vi" Type="VI" URL="../../../Shared/sendCommandAndListen_udpqueue.vi"/>
+			<Item Name="Send command and listen to fast UDP.vi" Type="VI" URL="../../../Shared/Send command and listen to fast UDP.vi"/>
+			<Item Name="CreateError.vi" Type="VI" URL="../../../Device Drivers/shared/CreateError.vi"/>
+			<Item Name="parse UDP slow error.vi" Type="VI" URL="../../../Shared/parse UDP slow error.vi"/>
+			<Item Name="Listen to slow UDP and parse error_in sendCommand.vi" Type="VI" URL="../../../Shared/Listen to slow UDP and parse error_in sendCommand.vi"/>
+			<Item Name="GUIDeviceInfo_TypDEf.ctl" Type="VI" URL="../../../Shared/Device Driver/GUIDeviceInfo_TypDEf.ctl"/>
+			<Item Name="getTapControls.vi" Type="VI" URL="../../shared/getTapControls.vi"/>
+			<Item Name="getGUIButtonRef.vi" Type="VI" URL="../../shared/getGUIButtonRef.vi"/>
+			<Item Name="GUI_control_ref.ctl" Type="VI" URL="../../shared/Custom Controls/GUI_control_ref.ctl"/>
+			<Item Name="toBoolean(strict).vi" Type="VI" URL="../../shared/toBoolean(strict).vi"/>
+			<Item Name="toString.vi" Type="VI" URL="../../shared/toString.vi"/>
+			<Item Name="writeError.vi" Type="VI" URL="../../shared/writeError.vi"/>
+			<Item Name="getVarLimitsDB.vi" Type="VI" URL="../../../Shared/Device Driver/getVarLimitsDB.vi"/>
+			<Item Name="getLimitsforVariables_DB.vi" Type="VI" URL="../../../Shared/Device Driver/getLimitsforVariables_DB.vi"/>
+			<Item Name="ChnageControlLimits.vi" Type="VI" URL="../../../Shared/Device Driver/ChnageControlLimits.vi"/>
+			<Item Name="enableEnumItems.vi" Type="VI" URL="../../../Shared/Device Driver/enableEnumItems.vi"/>
+			<Item Name="GUIcreateEnebleList.vi" Type="VI" URL="../../../Shared/Device Driver/GUIcreateEnebleList.vi"/>
+			<Item Name="RemoteStop.vi" Type="VI" URL="../../../Shared/Device Driver/RemoteStop.vi"/>
+			<Item Name="closeQueues.vi" Type="VI" URL="../../../Shared/Device Driver/closeQueues.vi"/>
+			<Item Name="QueueCluster.ctl" Type="VI" URL="../../../Shared/Device Driver/QueueCluster.ctl"/>
+			<Item Name="GetIPAndPort.vi" Type="VI" URL="../../../Shared/Device Driver/GetIPAndPort.vi"/>
+			<Item Name="DataUpdateFrame.vi" Type="VI" URL="../../../Shared/Device Driver/DataUpdateFrame.vi"/>
+			<Item Name="GenerateQueues.vi" Type="VI" URL="../../../Shared/Device Driver/GenerateQueues.vi"/>
+			<Item Name="genUDPQueue.vi" Type="VI" URL="../../../Shared/Device Driver/genUDPQueue.vi"/>
+			<Item Name="generateTCPDataQueue.vi" Type="VI" URL="../../../Shared/Device Driver/generateTCPDataQueue.vi"/>
+			<Item Name="GenerateControlUpdateQueue.vi" Type="VI" URL="../../../Shared/Device Driver/GenerateControlUpdateQueue.vi"/>
+			<Item Name="generateStopQueue.vi" Type="VI" URL="../../../Shared/Device Driver/generateStopQueue.vi"/>
+			<Item Name="getDataFrame.vi" Type="VI" URL="../../../Shared/Device Driver/getDataFrame.vi"/>
+			<Item Name="PressStopAndCloseFP.vi" Type="VI" URL="../../../Shared/Device Driver/PressStopAndCloseFP.vi"/>
+			<Item Name="IsControlNull.vi" Type="VI" URL="../../shared/IsControlNull.vi"/>
+			<Item Name="getChannelName.vi" Type="VI" URL="../../shared/getChannelName.vi"/>
+			<Item Name="trace_TypDef.ctl" Type="VI" URL="../../../Shared/type definition/trace_TypDef.ctl"/>
+			<Item Name="scopeTraceInfo_TypDEf.ctl" Type="VI" URL="../../../Device Drivers/shared/scopeTraceInfo_TypDEf.ctl"/>
+			<Item Name="rescaleImage.vi" Type="VI" URL="../../shared/rescaleImage.vi"/>
+			<Item Name="nivissvc.dll" Type="Document" URL="nivissvc.dll">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
+			<Item Name="nivision.dll" Type="Document" URL="nivision.dll">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
+			<Item Name="string to waveform for scope traces.vi" Type="VI" URL="../../../Shared/string to waveform for scope traces.vi"/>
+			<Item Name="unflattenScopeTrace.vi" Type="VI" URL="../../../Shared/unflattenScopeTrace.vi"/>
+			<Item Name="scopeTrace_TypDef.ctl" Type="VI" URL="../../Device GUIs/GUI_Scopes/scopeTrace_TypDef.ctl"/>
+			<Item Name="toWaveform.vi" Type="VI" URL="../../../Device Drivers/ScopeAnalysis/SubVis/toWaveform.vi"/>
+			<Item Name="RingValueFromString.vi" Type="VI" URL="../../../Shared/Device Driver/UtilsLib/Rings/RingValueFromString.vi"/>
+			<Item Name="set vi panel position.vi" Type="VI" URL="../../shared/set vi panel position.vi"/>
+			<Item Name="stringToImage.vi" Type="VI" URL="../../../Shared/TCP/stringToImage.vi"/>
+			<Item Name="WaitFGV.vi" Type="VI" URL="../../shared/WaitFGV.vi"/>
+			<Item Name="clearTCPBuffer.vi" Type="VI" URL="../../Device GUIs/GUI_General_Camera/clearTCPBuffer.vi"/>
+			<Item Name="DATAStringFGV.vi" Type="VI" URL="../../shared/DATAStringFGV.vi"/>
+			<Item Name="updateIndicatorsSubVi.vi" Type="VI" URL="../../../Shared/updateIndicatorsSubVi.vi"/>
+			<Item Name="tcp open connection from subscription messag.vi" Type="VI" URL="../../shared/subscribe to images no super gui/tcp open connection from subscription messag.vi"/>
+			<Item Name="File Scan Values.vi" Type="VI" URL="../../../Shared/File Scan Values.vi"/>
+			<Item Name="index_label array01.vi" Type="VI" URL="../../../Shared/binbystepindex/index_label array01.vi"/>
+			<Item Name="NaN_filter2D_01.vi" Type="VI" URL="../../../Shared/binbystepindex/NaN_filter2D_01.vi"/>
+			<Item Name="interval size.vi" Type="VI" URL="../../../Shared/binbystepindex/interval size.vi"/>
+			<Item Name="XY error bars.vi" Type="VI" URL="../../../Shared/binbystepindex/XY error bars.vi"/>
+			<Item Name="change password sub.vi" Type="VI" URL="../../../Shared/change password sub.vi"/>
+			<Item Name="Get Cluster Element by Name__ogtk_TS.vi" Type="VI" URL="../../../Device Drivers/shared/Get Cluster Element by Name__ogtk_TS.vi"/>
+			<Item Name="Allowed root paths.vi" Type="VI" URL="../../../Shared/Allowed root paths.vi"/>
+			<Item Name="stop FGV control.ctl" Type="VI" URL="../../../Device Drivers/shared/stop FGV control.ctl"/>
+			<Item Name="supergui create stop queue.vi" Type="VI" URL="../../../Shared/supergui create stop queue.vi"/>
+			<Item Name="delete device group name.vi" Type="VI" URL="../../Database Manager/SubVIs/delete device group name.vi"/>
+			<Item Name="TCP Multiple Connections State.ctl" Type="VI" URL="../TCP Multiple Connections State.ctl"/>
+			<Item Name="MC shot tcp server.vi" Type="VI" URL="../MC shot tcp server.vi"/>
+			<Item Name="does string start with.vi" Type="VI" URL="../does string start with.vi"/>
+			<Item Name="diagnosticQuee.ctl" Type="VI" URL="../../../Bella center GUIs/StagingBeamline/Controls/diagnosticQuee.ctl"/>
+			<Item Name="comunicationQueuecluster.ctl" Type="VI" URL="../../../Bella center GUIs/StagingBeamline/Controls/comunicationQueuecluster.ctl"/>
+			<Item Name="stopQue.ctl" Type="VI" URL="../../../Bella center GUIs/StagingBeamline/Controls/stopQue.ctl"/>
+			<Item Name="PingQueueTypDef.ctl" Type="VI" URL="../../../Bella center GUIs/StagingBeamline/Controls/PingQueueTypDef.ctl"/>
+			<Item Name="deviceQueue.ctl" Type="VI" URL="../../../Bella center GUIs/StagingBeamline/Controls/deviceQueue.ctl"/>
+			<Item Name="GetDataSubVi.vi" Type="VI" URL="../../../Bella center GUIs/StagingBeamline/SubVis/GetDataSubVi.vi"/>
+			<Item Name="DeviceControl_Typdef.ctl" Type="VI" URL="../../../Bella center GUIs/StagingBeamline/Controls/DeviceControl_Typdef.ctl"/>
+			<Item Name="getDeviceType.vi" Type="VI" URL="../../../Bella center GUIs/StagingBeamline/SubVis/getDeviceType.vi"/>
+			<Item Name="getSubVarib.vi" Type="VI" URL="../../../Bella center GUIs/StagingBeamline/SubVis/getSubVarib.vi"/>
+			<Item Name="getDeviceIP.vi" Type="VI" URL="../../../Bella center GUIs/StagingBeamline/SubVis/getDeviceIP.vi"/>
+			<Item Name="DiagDeviceControl.vi" Type="VI" URL="../../../Bella center GUIs/StagingBeamline/SubVis/DiagDeviceControl.vi"/>
+			<Item Name="checkPC.vi" Type="VI" URL="../../../Bella center GUIs/StagingBeamline/SubVis/checkPC.vi"/>
+			<Item Name="GetRawSocketFromConnectionID.vi" Type="VI" URL="../../../Device Drivers/shared/GetRawSocketFromConnectionID.vi"/>
+			<Item Name="TCP_NoDelay.vi" Type="VI" URL="../../../Device Drivers/shared/TCP_NoDelay.vi"/>
+			<Item Name="wsock32.dll" Type="Document" URL="wsock32.dll">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
+			<Item Name="Launch TCP data clients.vi" Type="VI" URL="../Launch TCP data clients.vi"/>
+			<Item Name="generateEvent.vi" Type="VI" URL="../../../Device Drivers/shared/generateEvent.vi"/>
+			<Item Name="select requested data from MC tcp queue.vi" Type="VI" URL="../Subvi/select requested data from MC tcp queue.vi"/>
+			<Item Name="Preset Expt Device Comparison.vi" Type="VI" URL="../../GUI_Preset_Manager/Preset Expt Device Comparison.vi"/>
+			<Item Name="Devices Not On.vi" Type="VI" URL="../../GUI_Preset_Manager/Devices Not On.vi"/>
+			<Item Name="Configuration_to_Array.vi" Type="VI" URL="../../GUI_Preset_Manager/Configuration_to_Array.vi"/>
+			<Item Name="Preset_to_Array.vi" Type="VI" URL="../../GUI_Preset_Manager/Preset_to_Array.vi"/>
+			<Item Name="Value_Update_to_Preset.vi" Type="VI" URL="../../GUI_Preset_Manager/Value_Update_to_Preset.vi"/>
+			<Item Name="Value_Selection_in_Table_GUI.vi" Type="VI" URL="../../GUI_Preset_Manager/Value_Selection_in_Table_GUI.vi"/>
+			<Item Name="Left Join.vi" Type="VI" URL="../../GUI_Preset_Manager/Left Join.vi"/>
+			<Item Name="UPD Variable Init.vi" Type="VI" URL="../../GUI_Preset_Manager/UPD Variable Init.vi"/>
+			<Item Name="PresetExecutionDataCluster.vi" Type="VI" URL="../../GUI_Preset_Manager/PresetExecutionDataCluster.vi"/>
+			<Item Name="Preset_Manager_Main.vi" Type="VI" URL="../../GUI_Preset_Manager/Preset_Manager_Main.vi"/>
+			<Item Name="Preset Builder.vi" Type="VI" URL="../../GUI_Preset_Manager/Preset Builder.vi"/>
+			<Item Name="Search 2D Array (Bool).vi" Type="VI" URL="../../GUI_Preset_Manager/Search 2D Array 2012NIVerified/Search 2D Array (Bool).vi"/>
+			<Item Name="Search 2D Array (U32).vi" Type="VI" URL="../../GUI_Preset_Manager/Search 2D Array 2012NIVerified/Search 2D Array (U32).vi"/>
+			<Item Name="Search 2D Array (U16).vi" Type="VI" URL="../../GUI_Preset_Manager/Search 2D Array 2012NIVerified/Search 2D Array (U16).vi"/>
+			<Item Name="Search 2D Array (I32).vi" Type="VI" URL="../../GUI_Preset_Manager/Search 2D Array 2012NIVerified/Search 2D Array (I32).vi"/>
+			<Item Name="Search 2D Array (I16).vi" Type="VI" URL="../../GUI_Preset_Manager/Search 2D Array 2012NIVerified/Search 2D Array (I16).vi"/>
+			<Item Name="Search 2D Array (DBL).vi" Type="VI" URL="../../GUI_Preset_Manager/Search 2D Array 2012NIVerified/Search 2D Array (DBL).vi"/>
+			<Item Name="Search 2D Array 2012NIVerified.vi" Type="VI" URL="../../GUI_Preset_Manager/Search 2D Array 2012NIVerified/Search 2D Array 2012NIVerified.vi"/>
+			<Item Name="Search 2D Array (String).vi" Type="VI" URL="../../GUI_Preset_Manager/Search 2D Array 2012NIVerified/Search 2D Array (String).vi"/>
+			<Item Name="Control 1.ctl" Type="VI" URL="../../GUI_Preset_Manager/Control 1.ctl"/>
+			<Item Name="TCPDeviceNameRead.vi" Type="VI" URL="../TCPDeviceNameRead.vi"/>
 		</Item>
 		<Item Name="MC3.vi" Type="VI" URL="../MC3.vi"/>
 		<Item Name="Plotter_TDMS.vi" Type="VI" URL="../../Plotter/Plotter_TDMS.vi"/>
 		<Item Name="make 2d scan file.vi" Type="VI" URL="../make 2d scan file.vi"/>
 		<Item Name="Make single scan multivariable file.vi" Type="VI" URL="../Make single scan multivariable file.vi"/>
 		<Item Name="Make single scan multivariable array file.vi" Type="VI" URL="../Make single scan multivariable array file.vi"/>
+		<Item Name="TCP Get interlock status.vi" Type="VI" URL="../Subvi/TCP Get interlock status.vi"/>
 		<Item Name="Add aliases to tdms.vi" Type="VI" URL="../../../Shared/tdms/Add aliases to tdms.vi"/>
 		<Item Name="Master Control.ini" Type="Document" URL="../Master Control.ini"/>
-		<Item Name="AllDevicesAcquisitionRate.vi" Type="VI" URL="../AllDevicesAcquisitionRate.vi"/>
-		<Item Name="is slow response a fire command.vi" Type="VI" URL="../Subvi/is slow response a fire command.vi"/>
-		<Item Name="TCP read example.vi" Type="VI" URL="../../../Shared/TCP/TCP read example.vi"/>
-		<Item Name="Plotter_General.vi" Type="VI" URL="../../Plotter/Plotter_General.vi"/>
-		<Item Name="imagebitDepth.vi" Type="VI" URL="../../shared/imagebitDepth.vi"/>
-		<Item Name="Experiment Device Enable Status MC only.vi" Type="VI" URL="../../Database Manager/Experiment Device Enable Status MC only.vi"/>
-		<Item Name="get next scan value.vi" Type="VI" URL="../../../Shared/get next scan value.vi"/>
-		<Item Name="LVstarter.vi" Type="VI" URL="../../../Shared/LVstarter.vi"/>
-		<Item Name="Get capillary hexapod fit for move along laser line.vi" Type="VI" URL="../../../Bella center GUIs/GUI_Bella_BTL/Get capillary hexapod fit for move along laser line.vi"/>
-		<Item Name="make single scan multivariable array string.vi" Type="VI" URL="../Subvi/make single scan multivariable array string.vi"/>
-		<Item Name="command parse for 2d scan file.vi" Type="VI" URL="../command parse for 2d scan file.vi"/>
-		<Item Name="Filter device group devices.vi" Type="VI" URL="../../Database Manager/SubVIs/Filter device group devices.vi"/>
-		<Item Name="add or remove from checkbox table.vi" Type="VI" URL="../../Database Manager/SubVIs/add or remove from checkbox table.vi"/>
-		<Item Name="device on off array to DB.vi" Type="VI" URL="../../Database Manager/SubVIs/device on off array to DB.vi"/>
-		<Item Name="save new device group.vi" Type="VI" URL="../../Database Manager/SubVIs/save new device group.vi"/>
-		<Item Name="edit device on off group.vi" Type="VI" URL="../../Database Manager/SubVIs/edit device on off group.vi"/>
-		<Item Name="maybe obsolete.vi" Type="VI" URL="../../Database Manager/SubVIs/maybe obsolete.vi"/>
-		<Item Name="device on off list mouse down.vi" Type="VI" URL="../../Database Manager/SubVIs/device on off list mouse down.vi"/>
-		<Item Name="start kill devs.vi" Type="VI" URL="../Subvi/start kill devs.vi"/>
-		<Item Name="Get Experiment Information.vi" Type="VI" URL="../Subvi/Get Experiment Information.vi"/>
-		<Item Name="Wait for cmd execution state.vi" Type="VI" URL="../Subvi/Wait for cmd execution state.vi"/>
-		<Item Name="wait for cmd exec next steps.ctl" Type="VI" URL="../Subvi/wait for cmd exec next steps.ctl"/>
-		<Item Name="make scan analysis files.vi" Type="VI" URL="../Subvi/make scan analysis files.vi"/>
-		<Item Name="MC Network cluster.ctl" Type="VI" URL="../MC Network cluster.ctl"/>
-		<Item Name="MC scan cluster.ctl" Type="VI" URL="../MC scan cluster.ctl"/>
-		<Item Name="MC timing cluster.ctl" Type="VI" URL="../MC timing cluster.ctl"/>
-		<Item Name="tcp shot sender queue.ctl" Type="VI" URL="../tcp shot sender queue.ctl"/>
-		<Item Name="error_detail.vi" Type="VI" URL="../../../Bella center GUIs/StagingBeamline/error_detail.vi"/>
-		<Item Name="PC_PING.vi" Type="VI" URL="../../../Bella center GUIs/StagingBeamline/PC_PING.vi"/>
-		<Item Name="tcp shot sender send data.vi" Type="VI" URL="../tcp shot sender send data.vi"/>
-		<Item Name="tcp shot sender wait add connection.vi" Type="VI" URL="../tcp shot sender wait add connection.vi"/>
-		<Item Name="tcp shot server send data.vi" Type="VI" URL="../tcp shot server send data.vi"/>
-		<Item Name="LV starter manual input.vi" Type="VI" URL="../LV starter manual input.vi"/>
-		<Item Name="get latest tdms path.vi" Type="VI" URL="../Subvi/get latest tdms path.vi"/>
-		<Item Name="create list of values to scan.vi" Type="VI" URL="../Subvi/create list of values to scan.vi"/>
-		<Item Name="Beampointing get motor position tcp.vi" Type="VI" URL="../../../Bella center GUIs/GUI_Beampointing_multi/Beampointing get motor position tcp.vi"/>
-		<Item Name="check saved scan files.vi" Type="VI" URL="../check saved scan files/check saved scan files.vi"/>
-		<Item Name="playing with luanching with system exec not use.vi" Type="VI" URL="../../../Shared/playing with luanching with system exec not use.vi"/>
-		<Item Name="launch application batch file etc system exec.vi" Type="VI" URL="../Subvi/launch application batch file etc system exec.vi"/>
-		<Item Name="MC collect shot data from tcp queue.vi" Type="VI" URL="../Subvi/scan shot data collection/MC collect shot data from tcp queue.vi"/>
-		<Item Name="MC shot collector tester.vi" Type="VI" URL="../Subvi/scan shot data collection/MC shot collector tester.vi"/>
-		<Item Name="tcp data queue array back to comma separated.vi" Type="VI" URL="../Subvi/scan shot data collection/tcp data queue array back to comma separated.vi"/>
-		<Item Name="append variable for csv tdms.vi" Type="VI" URL="../Subvi/append variable for csv tdms.vi"/>
-		<Item Name="test parse tcp replies.vi" Type="VI" URL="../test parse tcp replies.vi"/>
-		<Item Name="FGV MC Remote control.vi" Type="VI" URL="../FGV MC Remote control.vi"/>
-		<Item Name="example of controlling MC remotely.vi" Type="VI" URL="../example of controlling MC remotely.vi"/>
-		<Item Name="MC get remote commands.vi" Type="VI" URL="../Subvi/MC get remote commands.vi"/>
-		<Item Name="SQL get filtered device list cluster input.vi" Type="VI" URL="../../../Shared/MySQL/SQL get filtered device list cluster input.vi"/>
-		<Item Name="device filter cluster.ctl" Type="VI" URL="../../../Shared/MySQL/device filter cluster.ctl"/>
-		<Item Name="append alias to string.vi" Type="VI" URL="../../../Shared/tdms/append alias to string.vi"/>
-		<Item Name="get aliases and matching dev var name.vi" Type="VI" URL="../../../Shared/tdms/get aliases and matching dev var name.vi"/>
-		<Item Name="Read TDMS  numeric - LOASIS scan data.vi" Type="VI" URL="../../../Shared/tdms/Read TDMS  numeric - LOASIS scan data.vi"/>
-		<Item Name="create s file from tdms of failed scan.vi" Type="VI" URL="../create s file from tdms of failed scan.vi"/>
-		<Item Name="tdms MC append shot numbers etc.vi" Type="VI" URL="../Subvi/tdms MC append shot numbers etc.vi"/>
-		<Item Name="MC tdms path to scan data and info path.vi" Type="VI" URL="../Subvi/MC tdms path to scan data and info path.vi"/>
 		<Item Name="Interlock status global variable.vi" Type="VI" URL="../Subvi/Interlock status global variable.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
@@ -810,7 +1054,7 @@
 				<Item Name="_GetConfiguration.vi" Type="VI" URL="/&lt;vilib&gt;/sound2/lvsound2.llb/_GetConfiguration.vi"/>
 				<Item Name="Sound Output Info.vi" Type="VI" URL="/&lt;vilib&gt;/sound2/lvsound2.llb/Sound Output Info.vi"/>
 				<Item Name="Play Sound File.vi" Type="VI" URL="/&lt;vilib&gt;/sound2/lvsound2.llb/Play Sound File.vi"/>
-				<Item Name="Build State String with Arguments__jki_lib_state_machine.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/State Machine/_JKI_lib_State_Machine.llb/Build State String with Arguments__jki_lib_state_machine.vi"/>
+				<Item Name="Build State String with Arguments__JKI_lib_State_Machine.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/State Machine/_JKI_lib_State_Machine.llb/Build State String with Arguments__JKI_lib_State_Machine.vi"/>
 				<Item Name="Application Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Application Directory.vi"/>
 				<Item Name="IMAQ Image.ctl" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/IMAQ Image.ctl"/>
 				<Item Name="IMAQ Read Custom Data" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ Read Custom Data"/>
@@ -900,248 +1144,6 @@
 				<Item Name="ERR_ErrorClusterFromErrorCode.vi" Type="VI" URL="/&lt;vilib&gt;/lvdsc/common/error/ERR_ErrorClusterFromErrorCode.vi"/>
 				<Item Name="ALM_Error_Resolve.vi" Type="VI" URL="/&lt;vilib&gt;/lvdsc/alarm/internal/ALM_Error_Resolve.vi"/>
 			</Item>
-			<Item Name="add to array if.vi" Type="VI" URL="../add to array if.vi"/>
-			<Item Name="Alarms FP FGV.vi" Type="VI" URL="../Alarms FP FGV.vi"/>
-			<Item Name="Arguments to array.vi" Type="VI" URL="../../../Device Drivers/shared/Arguments to array.vi"/>
-			<Item Name="array to strings and values for ring.vi" Type="VI" URL="../array to strings and values for ring.vi"/>
-			<Item Name="bin xy graphv02.vi" Type="VI" URL="../../Plotter/binning/bin xy graphv02.vi"/>
-			<Item Name="clearTCPBufferSerial.vi" Type="VI" URL="../../../Shared/TCP/clearTCPBufferSerial.vi"/>
-			<Item Name="create rooth path of day.vi" Type="VI" URL="../create rooth path of day.vi"/>
-			<Item Name="create shot path.vi" Type="VI" URL="../../../Shared/create shot path.vi"/>
-			<Item Name="create udp send cluster.vi" Type="VI" URL="../create udp send cluster.vi"/>
-			<Item Name="Data Cluster GUI for simple master controller2.vi" Type="VI" URL="../Data Cluster GUI for simple master controller2.vi"/>
-			<Item Name="Data Cluster Plotter.vi" Type="VI" URL="../../Plotter/Data Cluster Plotter.vi"/>
-			<Item Name="date zero padder.vi" Type="VI" URL="../date zero padder.vi"/>
-			<Item Name="day root path to sub folder paths.vi" Type="VI" URL="../day root path to sub folder paths.vi"/>
-			<Item Name="DefaultValue_Variable_MC.vi" Type="VI" URL="../../Database Manager/DefaultValue_Variable_MC.vi"/>
-			<Item Name="delete indexes from array.vi" Type="VI" URL="../../Plotter/binning/delete indexes from array.vi"/>
-			<Item Name="Dump Device Variables INI.vi" Type="VI" URL="../../shared/Dump Device Variables INI.vi"/>
-			<Item Name="Expected responses.vi" Type="VI" URL="../../../Shared/Expected responses.vi"/>
-			<Item Name="FastSlowFGV.vi" Type="VI" URL="../../shared/FastSlowFGV.vi"/>
-			<Item Name="filter array based upon column value.vi" Type="VI" URL="../filter array based upon column value.vi"/>
-			<Item Name="Generate GUI List Commands for LVStarter-Modified.vi" Type="VI" URL="../Generate GUI List Commands for LVStarter-Modified.vi"/>
-			<Item Name="generate scan start command.vi" Type="VI" URL="../generate scan start command.vi"/>
-			<Item Name="get buckets for graph averaging.vi" Type="VI" URL="../../Plotter/binning/get buckets for graph averaging.vi"/>
-			<Item Name="get date folder name.vi" Type="VI" URL="../get date folder name.vi"/>
-			<Item Name="get device groups.vi" Type="VI" URL="../get device groups.vi"/>
-			<Item Name="get devices with udp no response.vi" Type="VI" URL="../get devices with udp no response.vi"/>
-			<Item Name="get info from core device data.vi" Type="VI" URL="../get info from core device data.vi"/>
-			<Item Name="get listen ports.vi" Type="VI" URL="../get listen ports.vi"/>
-			<Item Name="get text commands.vi" Type="VI" URL="../get text commands.vi"/>
-			<Item Name="get variable value from udp get response.vi" Type="VI" URL="../get variable value from udp get response.vi"/>
-			<Item Name="kernel32.dll" Type="Document" URL="kernel32.dll">
-				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
-			</Item>
-			<Item Name="Logical String Array Sort.vi" Type="VI" URL="../../Database Manager/SubVIs/logicalstringarraysort.llb/Logical String Array Sort.vi"/>
-			<Item Name="LogSort_Partition.vi" Type="VI" URL="../../Database Manager/SubVIs/logicalstringarraysort.llb/LogSort_Partition.vi"/>
-			<Item Name="LogSort_Stack.vi" Type="VI" URL="../../Database Manager/SubVIs/logicalstringarraysort.llb/LogSort_Stack.vi"/>
-			<Item Name="LogSort_StackHandler.vi" Type="VI" URL="../../Database Manager/SubVIs/logicalstringarraysort.llb/LogSort_StackHandler.vi"/>
-			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
-			<Item Name="MC stop FGV.vi" Type="VI" URL="../MC stop FGV.vi"/>
-			<Item Name="MCAST string to TDMS path.vi" Type="VI" URL="../../Plotter/MCAST string to TDMS path.vi"/>
-			<Item Name="MCLB_MouseDown.vi" Type="VI" URL="../../Database Manager/MCLB_MouseDown.vi"/>
-			<Item Name="multi tcp tdms single shot.vi" Type="VI" URL="../multi tcp tdms single shot.vi"/>
-			<Item Name="NaN_filter2D_01_3inputs.vi" Type="VI" URL="../../../Shared/NaN_filter2D_01_3inputs.vi"/>
-			<Item Name="numeric string choice.vi" Type="VI" URL="../numeric string choice.vi"/>
-			<Item Name="parse config file array.vi" Type="VI" URL="../parse config file array.vi"/>
-			<Item Name="parse subscribe command.vi" Type="VI" URL="../../../Shared/parse subscribe command.vi"/>
-			<Item Name="parse tcp subscribe and save to tdms.vi" Type="VI" URL="../parse tcp subscribe and save to tdms.vi"/>
-			<Item Name="Plotter stop FGV.vi" Type="VI" URL="../../Plotter/Plotter stop FGV.vi"/>
-			<Item Name="populateVariableFromDeviceTypeVariable.vi" Type="VI" URL="../../Database Manager/populateVariableFromDeviceTypeVariable.vi"/>
-			<Item Name="Preset Query Enum.ctl" Type="VI" URL="../../../Shared/MySQL/Preset Query Enum.ctl"/>
-			<Item Name="Remove NaN 1D.vi" Type="VI" URL="../../Plotter/binning/Remove NaN 1D.vi"/>
-			<Item Name="scan data to receive to subscribe commands.vi" Type="VI" URL="../../../Shared/scan data to receive to subscribe commands.vi"/>
-			<Item Name="scan parameters.ctl" Type="VI" URL="../scan parameters.ctl"/>
-			<Item Name="scan path from all scans path.vi" Type="VI" URL="../../../Shared/scan path from all scans path.vi"/>
-			<Item Name="Scan Tab Enum.ctl" Type="VI" URL="../Scan Tab Enum.ctl"/>
-			<Item Name="scan value monatomic.vi" Type="VI" URL="../../../Shared/scan value monatomic.vi"/>
-			<Item Name="send udp command.vi" Type="VI" URL="../../../Shared/send udp command.vi"/>
-			<Item Name="Set scan parameters from file.vi" Type="VI" URL="../../../Shared/Set scan parameters from file.vi"/>
-			<Item Name="sort 2d array.vi" Type="VI" URL="../sort 2d array.vi"/>
-			<Item Name="SQL get filtered device list.vi" Type="VI" URL="../../../Shared/MySQL/SQL get filtered device list.vi"/>
-			<Item Name="SQL Insert null.vi" Type="VI" URL="../../Database Manager/SubVIs/SQL Insert null.vi"/>
-			<Item Name="SQL Insert.vi" Type="VI" URL="../../Database Manager/SubVIs/SQL Insert.vi"/>
-			<Item Name="SQL Query.vi" Type="VI" URL="../../../Shared/MySQL/SQL Query.vi"/>
-			<Item Name="SQL Server Info.vi" Type="VI" URL="../../../Shared/MySQL/SQL Server Info.vi"/>
-			<Item Name="SQL Update null.vi" Type="VI" URL="../../Database Manager/SubVIs/SQL Update null.vi"/>
-			<Item Name="SQL Update.vi" Type="VI" URL="../../Database Manager/SubVIs/SQL Update.vi"/>
-			<Item Name="string to 1d array.vi" Type="VI" URL="../../../Shared/string to 1d array.vi"/>
-			<Item Name="TCP multi close.vi" Type="VI" URL="../TCP multi close.vi"/>
-			<Item Name="TCP multiple open.vi" Type="VI" URL="../TCP multiple open.vi"/>
-			<Item Name="tcp multiple read.vi" Type="VI" URL="../tcp multiple read.vi"/>
-			<Item Name="tcp multiple write.vi" Type="VI" URL="../tcp multiple write.vi"/>
-			<Item Name="TCP Write Alive 2.vi" Type="VI" URL="../../Central GUI for Open Clients/TCP Write Alive 2.vi"/>
-			<Item Name="TCP_DATA_Subscriber_subVi.vi" Type="VI" URL="../../../Shared/TCP/TCP_DATA_Subscriber_subVi.vi"/>
-			<Item Name="TDMS add single channel.vi" Type="VI" URL="../../../Shared/tdms/TDMS add single channel.vi"/>
-			<Item Name="TDMS createappend scan data file single device.vi" Type="VI" URL="../../../Shared/tdms/TDMS createappend scan data file single device.vi"/>
-			<Item Name="timer.vi" Type="VI" URL="../../../Shared/timer.vi"/>
-			<Item Name="udp multi alive.vi" Type="VI" URL="../udp multi alive.vi"/>
-			<Item Name="udp multi close.vi" Type="VI" URL="../udp multi close.vi"/>
-			<Item Name="udp multi open.vi" Type="VI" URL="../udp multi open.vi"/>
-			<Item Name="UDP query if command executed.vi" Type="VI" URL="../../../Shared/UDP query if command executed.vi"/>
-			<Item Name="UDP send cluster.ctl" Type="VI" URL="../UDP send cluster.ctl"/>
-			<Item Name="Update Indicators (Data String to ref array).vi" Type="VI" URL="../../Device GUIs/GUI_General_Camera/Update Indicators (Data String to ref array).vi"/>
-			<Item Name="Value TCP Seperator.vi" Type="VI" URL="../../../Shared/Value TCP Seperator.vi"/>
-			<Item Name="variable spacing 2.vi" Type="VI" URL="../../../Shared/variable spacing 2.vi"/>
-			<Item Name="variable tcp separator.vi" Type="VI" URL="../../../Shared/variable tcp separator.vi"/>
-			<Item Name="version.dll" Type="Document" URL="version.dll">
-				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
-			</Item>
-			<Item Name="Wake Multiple Computers.vi" Type="VI" URL="../../../Shared/Remote Startup/Wake Multiple Computers.vi"/>
-			<Item Name="Was UDP command accepted.vi" Type="VI" URL="../Was UDP command accepted.vi"/>
-			<Item Name="XYGraph.CreateErrorBars.vi" Type="VI" URL="../../Plotter/binning/XYGraphErrorBars/XYGraph.CreateErrorBars.vi"/>
-			<Item Name="lvsound2.dll" Type="Document" URL="/&lt;resource&gt;/lvsound2.dll"/>
-			<Item Name="Get File scan values.vi" Type="VI" URL="../Subvi/Get File scan values.vi"/>
-			<Item Name="getFreeUDPPorts.vi" Type="VI" URL="../../../Shared/Device Driver/getFreeUDPPorts.vi"/>
-			<Item Name="getIP.vi" Type="VI" URL="../../../Shared/Device Driver/getIP.vi"/>
-			<Item Name="Get Application Directory.vi" Type="VI" URL="../../../Shared/Get Application Directory.vi"/>
-			<Item Name="mysql_authentication.ctl" Type="VI" URL="../../../Shared/MySQL/typedefs/mysql_authentication.ctl"/>
-			<Item Name="add point to scan par graph.vi" Type="VI" URL="../add point to scan par graph.vi"/>
-			<Item Name="command to send to fast response.vi" Type="VI" URL="../../../Shared/command to send to fast response.vi"/>
-			<Item Name="expected slow response.vi" Type="VI" URL="../../../Shared/expected slow response.vi"/>
-			<Item Name="lv_mysql_conn_send_data_packet.vi" Type="VI" URL="../../../Shared/MySQL/subVIs/lv_mysql_conn_send_data_packet.vi"/>
-			<Item Name="lv_mysql_conn_close.vi" Type="VI" URL="../../../Shared/MySQL/lv_mysql_conn_close.vi"/>
-			<Item Name="ok_packet_metadata.ctl" Type="VI" URL="../../../Shared/MySQL/typedefs/ok_packet_metadata.ctl"/>
-			<Item Name="lv_mysql_conn_eof_packet.vi" Type="VI" URL="../../../Shared/MySQL/subVIs/lv_mysql_conn_eof_packet.vi"/>
-			<Item Name="ByteToVariant.vi" Type="VI" URL="../../../Shared/MySQL/ByteToVariant.vi"/>
-			<Item Name="wholeRowToVAriant.vi" Type="VI" URL="../../../Shared/MySQL/subVIs/wholeRowToVAriant.vi"/>
-			<Item Name="lv_mysql_conn_length_coded_binary.vi" Type="VI" URL="../../../Shared/MySQL/subVIs/lv_mysql_conn_length_coded_binary.vi"/>
-			<Item Name="lv_mysql_conn_ok_packet.vi" Type="VI" URL="../../../Shared/MySQL/subVIs/lv_mysql_conn_ok_packet.vi"/>
-			<Item Name="return_packet_type.ctl" Type="VI" URL="../../../Shared/MySQL/typedefs/return_packet_type.ctl"/>
-			<Item Name="lv_mysql_conn_check_packet_type.vi" Type="VI" URL="../../../Shared/MySQL/subVIs/lv_mysql_conn_check_packet_type.vi"/>
-			<Item Name="lv_mysql_conn_receive_data_packet.vi" Type="VI" URL="../../../Shared/MySQL/subVIs/lv_mysql_conn_receive_data_packet.vi"/>
-			<Item Name="lv_mysql_conn_return_packet.vi" Type="VI" URL="../../../Shared/MySQL/subVIs/lv_mysql_conn_return_packet.vi"/>
-			<Item Name="lv_mysql_conn_send_command.vi" Type="VI" URL="../../../Shared/MySQL/subVIs/lv_mysql_conn_send_command.vi"/>
-			<Item Name="lv_mysql_conn_query.vi" Type="VI" URL="../../../Shared/MySQL/lv_mysql_conn_query.vi"/>
-			<Item Name="SHA-1 Digest.vi" Type="VI" URL="../../../Shared/MySQL/subVIs/SHA-1/SHA-1 Digest.vi"/>
-			<Item Name="SHA-1 Core.vi" Type="VI" URL="../../../Shared/MySQL/subVIs/SHA-1/SHA-1 Core.vi"/>
-			<Item Name="SHA-1 Pad.vi" Type="VI" URL="../../../Shared/MySQL/subVIs/SHA-1/SHA-1 Pad.vi"/>
-			<Item Name="SHA-1.vi" Type="VI" URL="../../../Shared/MySQL/subVIs/SHA-1/SHA-1.vi"/>
-			<Item Name="lv_mysql_conn_encrypt_passwd.vi" Type="VI" URL="../../../Shared/MySQL/subVIs/lv_mysql_conn_encrypt_passwd.vi"/>
-			<Item Name="server_init_data.ctl" Type="VI" URL="../../../Shared/MySQL/typedefs/server_init_data.ctl"/>
-			<Item Name="lv_mysql_conn_init_client_data.vi" Type="VI" URL="../../../Shared/MySQL/subVIs/lv_mysql_conn_init_client_data.vi"/>
-			<Item Name="lv_mysql_conn_init_server_data.vi" Type="VI" URL="../../../Shared/MySQL/subVIs/lv_mysql_conn_init_server_data.vi"/>
-			<Item Name="lv_mysql_conn_init.vi" Type="VI" URL="../../../Shared/MySQL/lv_mysql_conn_init.vi"/>
-			<Item Name="database configuration.ctl" Type="VI" URL="../../../Shared/MySQL/database configuration.ctl"/>
-			<Item Name="Convert Ascii Mac-Address to Hex Mac-Address.vi" Type="VI" URL="../../../Shared/Remote Startup/Convert Ascii Mac-Address to Hex Mac-Address.vi"/>
-			<Item Name="SendWakeCommand.vi" Type="VI" URL="../../../Shared/Remote Startup/SendWakeCommand.vi"/>
-			<Item Name="number to string with 0 padding.vi" Type="VI" URL="../../../Shared/number to string with 0 padding.vi"/>
-			<Item Name="remove rows of duplicate col in 2d array.vi" Type="VI" URL="../../../Shared/remove rows of duplicate col in 2d array.vi"/>
-			<Item Name="Read TDMS - LOASIS scan data.vi" Type="VI" URL="../../../Shared/tdms/Read TDMS - LOASIS scan data.vi"/>
-			<Item Name="no timeout error_2.vi" Type="VI" URL="../../../Shared/no timeout error_2.vi"/>
-			<Item Name="SendCommandEvent_alternate_udpqueue.vi" Type="VI" URL="../../shared/SendCommandEvent_alternate_udpqueue.vi"/>
-			<Item Name="sendUDPMode_TypDef.ctl" Type="VI" URL="../../shared/Custom Controls/sendUDPMode_TypDef.ctl"/>
-			<Item Name="RingStringFromValue.vi" Type="VI" URL="../../../Device Drivers/shared/UtilsLib/Rings/RingStringFromValue.vi"/>
-			<Item Name="Get Cluster Element Names__ogtk_TS.vi" Type="VI" URL="../../../Device Drivers/shared/Get Cluster Element Names__ogtk_TS.vi"/>
-			<Item Name="VariantToString.vi" Type="VI" URL="../../../Shared/Device Driver/VariantToString.vi"/>
-			<Item Name="sendCommandAndListen_udpqueue.vi" Type="VI" URL="../../../Shared/sendCommandAndListen_udpqueue.vi"/>
-			<Item Name="Send command and listen to fast UDP.vi" Type="VI" URL="../../../Shared/Send command and listen to fast UDP.vi"/>
-			<Item Name="CreateError.vi" Type="VI" URL="../../../Device Drivers/shared/CreateError.vi"/>
-			<Item Name="parse UDP slow error.vi" Type="VI" URL="../../../Shared/parse UDP slow error.vi"/>
-			<Item Name="Listen to slow UDP and parse error_in sendCommand.vi" Type="VI" URL="../../../Shared/Listen to slow UDP and parse error_in sendCommand.vi"/>
-			<Item Name="GUIDeviceInfo_TypDEf.ctl" Type="VI" URL="../../../Shared/Device Driver/GUIDeviceInfo_TypDEf.ctl"/>
-			<Item Name="getTapControls.vi" Type="VI" URL="../../shared/getTapControls.vi"/>
-			<Item Name="getGUIButtonRef.vi" Type="VI" URL="../../shared/getGUIButtonRef.vi"/>
-			<Item Name="GUI_control_ref.ctl" Type="VI" URL="../../shared/Custom Controls/GUI_control_ref.ctl"/>
-			<Item Name="toBoolean(strict).vi" Type="VI" URL="../../shared/toBoolean(strict).vi"/>
-			<Item Name="toString.vi" Type="VI" URL="../../shared/toString.vi"/>
-			<Item Name="writeError.vi" Type="VI" URL="../../shared/writeError.vi"/>
-			<Item Name="getVarLimitsDB.vi" Type="VI" URL="../../../Shared/Device Driver/getVarLimitsDB.vi"/>
-			<Item Name="getLimitsforVariables_DB.vi" Type="VI" URL="../../../Shared/Device Driver/getLimitsforVariables_DB.vi"/>
-			<Item Name="ChnageControlLimits.vi" Type="VI" URL="../../../Shared/Device Driver/ChnageControlLimits.vi"/>
-			<Item Name="enableEnumItems.vi" Type="VI" URL="../../../Shared/Device Driver/enableEnumItems.vi"/>
-			<Item Name="GUIcreateEnebleList.vi" Type="VI" URL="../../../Shared/Device Driver/GUIcreateEnebleList.vi"/>
-			<Item Name="RemoteStop.vi" Type="VI" URL="../../../Shared/Device Driver/RemoteStop.vi"/>
-			<Item Name="closeQueues.vi" Type="VI" URL="../../../Shared/Device Driver/closeQueues.vi"/>
-			<Item Name="QueueCluster.ctl" Type="VI" URL="../../../Shared/Device Driver/QueueCluster.ctl"/>
-			<Item Name="GetIPAndPort.vi" Type="VI" URL="../../../Shared/Device Driver/GetIPAndPort.vi"/>
-			<Item Name="DataUpdateFrame.vi" Type="VI" URL="../../../Shared/Device Driver/DataUpdateFrame.vi"/>
-			<Item Name="GenerateQueues.vi" Type="VI" URL="../../../Shared/Device Driver/GenerateQueues.vi"/>
-			<Item Name="genUDPQueue.vi" Type="VI" URL="../../../Shared/Device Driver/genUDPQueue.vi"/>
-			<Item Name="generateTCPDataQueue.vi" Type="VI" URL="../../../Shared/Device Driver/generateTCPDataQueue.vi"/>
-			<Item Name="GenerateControlUpdateQueue.vi" Type="VI" URL="../../../Shared/Device Driver/GenerateControlUpdateQueue.vi"/>
-			<Item Name="generateStopQueue.vi" Type="VI" URL="../../../Shared/Device Driver/generateStopQueue.vi"/>
-			<Item Name="getDataFrame.vi" Type="VI" URL="../../../Shared/Device Driver/getDataFrame.vi"/>
-			<Item Name="PressStopAndCloseFP.vi" Type="VI" URL="../../../Shared/Device Driver/PressStopAndCloseFP.vi"/>
-			<Item Name="IsControlNull.vi" Type="VI" URL="../../shared/IsControlNull.vi"/>
-			<Item Name="getChannelName.vi" Type="VI" URL="../../shared/getChannelName.vi"/>
-			<Item Name="trace_TypDef.ctl" Type="VI" URL="../../../Shared/type definition/trace_TypDef.ctl"/>
-			<Item Name="scopeTraceInfo_TypDEf.ctl" Type="VI" URL="../../../Device Drivers/shared/scopeTraceInfo_TypDEf.ctl"/>
-			<Item Name="rescaleImage.vi" Type="VI" URL="../../shared/rescaleImage.vi"/>
-			<Item Name="nivissvc.dll" Type="Document" URL="nivissvc.dll">
-				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
-			</Item>
-			<Item Name="nivision.dll" Type="Document" URL="nivision.dll">
-				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
-			</Item>
-			<Item Name="string to waveform for scope traces.vi" Type="VI" URL="../../../Shared/string to waveform for scope traces.vi"/>
-			<Item Name="unflattenScopeTrace.vi" Type="VI" URL="../../../Shared/unflattenScopeTrace.vi"/>
-			<Item Name="scopeTrace_TypDef.ctl" Type="VI" URL="../../Device GUIs/GUI_Scopes/scopeTrace_TypDef.ctl"/>
-			<Item Name="toWaveform.vi" Type="VI" URL="../../../Device Drivers/ScopeAnalysis/SubVis/toWaveform.vi"/>
-			<Item Name="RingValueFromString.vi" Type="VI" URL="../../../Shared/Device Driver/UtilsLib/Rings/RingValueFromString.vi"/>
-			<Item Name="set vi panel position.vi" Type="VI" URL="../../shared/set vi panel position.vi"/>
-			<Item Name="stringToImage.vi" Type="VI" URL="../../../Shared/TCP/stringToImage.vi"/>
-			<Item Name="WaitFGV.vi" Type="VI" URL="../../shared/WaitFGV.vi"/>
-			<Item Name="clearTCPBuffer.vi" Type="VI" URL="../../Device GUIs/GUI_General_Camera/clearTCPBuffer.vi"/>
-			<Item Name="DATAStringFGV.vi" Type="VI" URL="../../shared/DATAStringFGV.vi"/>
-			<Item Name="updateIndicatorsSubVi.vi" Type="VI" URL="../../../Shared/updateIndicatorsSubVi.vi"/>
-			<Item Name="tcp open connection from subscription messag.vi" Type="VI" URL="../../shared/subscribe to images no super gui/tcp open connection from subscription messag.vi"/>
-			<Item Name="File Scan Values.vi" Type="VI" URL="../../../Shared/File Scan Values.vi"/>
-			<Item Name="index_label array01.vi" Type="VI" URL="../../../Shared/binbystepindex/index_label array01.vi"/>
-			<Item Name="NaN_filter2D_01.vi" Type="VI" URL="../../../Shared/binbystepindex/NaN_filter2D_01.vi"/>
-			<Item Name="interval size.vi" Type="VI" URL="../../../Shared/binbystepindex/interval size.vi"/>
-			<Item Name="XY error bars.vi" Type="VI" URL="../../../Shared/binbystepindex/XY error bars.vi"/>
-			<Item Name="change password sub.vi" Type="VI" URL="../../../Shared/change password sub.vi"/>
-			<Item Name="Get Cluster Element by Name__ogtk_TS.vi" Type="VI" URL="../../../Device Drivers/shared/Get Cluster Element by Name__ogtk_TS.vi"/>
-			<Item Name="Allowed root paths.vi" Type="VI" URL="../../../Shared/Allowed root paths.vi"/>
-			<Item Name="stop FGV control.ctl" Type="VI" URL="../../../Device Drivers/shared/stop FGV control.ctl"/>
-			<Item Name="supergui create stop queue.vi" Type="VI" URL="../../../Shared/supergui create stop queue.vi"/>
-			<Item Name="delete device group name.vi" Type="VI" URL="../../Database Manager/SubVIs/delete device group name.vi"/>
-			<Item Name="TCP Multiple Connections State.ctl" Type="VI" URL="../TCP Multiple Connections State.ctl"/>
-			<Item Name="MC shot tcp server.vi" Type="VI" URL="../MC shot tcp server.vi"/>
-			<Item Name="does string start with.vi" Type="VI" URL="../does string start with.vi"/>
-			<Item Name="diagnosticQuee.ctl" Type="VI" URL="../../../Bella center GUIs/StagingBeamline/Controls/diagnosticQuee.ctl"/>
-			<Item Name="comunicationQueuecluster.ctl" Type="VI" URL="../../../Bella center GUIs/StagingBeamline/Controls/comunicationQueuecluster.ctl"/>
-			<Item Name="stopQue.ctl" Type="VI" URL="../../../Bella center GUIs/StagingBeamline/Controls/stopQue.ctl"/>
-			<Item Name="PingQueueTypDef.ctl" Type="VI" URL="../../../Bella center GUIs/StagingBeamline/Controls/PingQueueTypDef.ctl"/>
-			<Item Name="deviceQueue.ctl" Type="VI" URL="../../../Bella center GUIs/StagingBeamline/Controls/deviceQueue.ctl"/>
-			<Item Name="GetDataSubVi.vi" Type="VI" URL="../../../Bella center GUIs/StagingBeamline/SubVis/GetDataSubVi.vi"/>
-			<Item Name="DeviceControl_Typdef.ctl" Type="VI" URL="../../../Bella center GUIs/StagingBeamline/Controls/DeviceControl_Typdef.ctl"/>
-			<Item Name="getDeviceType.vi" Type="VI" URL="../../../Bella center GUIs/StagingBeamline/SubVis/getDeviceType.vi"/>
-			<Item Name="getSubVarib.vi" Type="VI" URL="../../../Bella center GUIs/StagingBeamline/SubVis/getSubVarib.vi"/>
-			<Item Name="getDeviceIP.vi" Type="VI" URL="../../../Bella center GUIs/StagingBeamline/SubVis/getDeviceIP.vi"/>
-			<Item Name="DiagDeviceControl.vi" Type="VI" URL="../../../Bella center GUIs/StagingBeamline/SubVis/DiagDeviceControl.vi"/>
-			<Item Name="checkPC.vi" Type="VI" URL="../../../Bella center GUIs/StagingBeamline/SubVis/checkPC.vi"/>
-			<Item Name="GetRawSocketFromConnectionID.vi" Type="VI" URL="../../../Device Drivers/shared/GetRawSocketFromConnectionID.vi"/>
-			<Item Name="TCP_NoDelay.vi" Type="VI" URL="../../../Device Drivers/shared/TCP_NoDelay.vi"/>
-			<Item Name="wsock32.dll" Type="Document" URL="wsock32.dll">
-				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
-			</Item>
-			<Item Name="Launch TCP data clients.vi" Type="VI" URL="../Launch TCP data clients.vi"/>
-			<Item Name="generateEvent.vi" Type="VI" URL="../../../Device Drivers/shared/generateEvent.vi"/>
-			<Item Name="select requested data from MC tcp queue.vi" Type="VI" URL="../Subvi/select requested data from MC tcp queue.vi"/>
-			<Item Name="Preset Expt Device Comparison.vi" Type="VI" URL="../../GUI_Preset_Manager/Preset Expt Device Comparison.vi"/>
-			<Item Name="Devices Not On.vi" Type="VI" URL="../../GUI_Preset_Manager/Devices Not On.vi"/>
-			<Item Name="Configuration_to_Array.vi" Type="VI" URL="../../GUI_Preset_Manager/Configuration_to_Array.vi"/>
-			<Item Name="Preset_to_Array.vi" Type="VI" URL="../../GUI_Preset_Manager/Preset_to_Array.vi"/>
-			<Item Name="Value_Update_to_Preset.vi" Type="VI" URL="../../GUI_Preset_Manager/Value_Update_to_Preset.vi"/>
-			<Item Name="Value_Selection_in_Table_GUI.vi" Type="VI" URL="../../GUI_Preset_Manager/Value_Selection_in_Table_GUI.vi"/>
-			<Item Name="Left Join.vi" Type="VI" URL="../../GUI_Preset_Manager/Left Join.vi"/>
-			<Item Name="UPD Variable Init.vi" Type="VI" URL="../../GUI_Preset_Manager/UPD Variable Init.vi"/>
-			<Item Name="PresetExecutionDataCluster.vi" Type="VI" URL="../../GUI_Preset_Manager/PresetExecutionDataCluster.vi"/>
-			<Item Name="Preset_Manager_Main.vi" Type="VI" URL="../../GUI_Preset_Manager/Preset_Manager_Main.vi"/>
-			<Item Name="Preset Builder.vi" Type="VI" URL="../../GUI_Preset_Manager/Preset Builder.vi"/>
-			<Item Name="Search 2D Array (Bool).vi" Type="VI" URL="../../GUI_Preset_Manager/Search 2D Array 2012NIVerified/Search 2D Array (Bool).vi"/>
-			<Item Name="Search 2D Array (U32).vi" Type="VI" URL="../../GUI_Preset_Manager/Search 2D Array 2012NIVerified/Search 2D Array (U32).vi"/>
-			<Item Name="Search 2D Array (U16).vi" Type="VI" URL="../../GUI_Preset_Manager/Search 2D Array 2012NIVerified/Search 2D Array (U16).vi"/>
-			<Item Name="Search 2D Array (I32).vi" Type="VI" URL="../../GUI_Preset_Manager/Search 2D Array 2012NIVerified/Search 2D Array (I32).vi"/>
-			<Item Name="Search 2D Array (I16).vi" Type="VI" URL="../../GUI_Preset_Manager/Search 2D Array 2012NIVerified/Search 2D Array (I16).vi"/>
-			<Item Name="Search 2D Array (DBL).vi" Type="VI" URL="../../GUI_Preset_Manager/Search 2D Array 2012NIVerified/Search 2D Array (DBL).vi"/>
-			<Item Name="Search 2D Array 2012NIVerified.vi" Type="VI" URL="../../GUI_Preset_Manager/Search 2D Array 2012NIVerified/Search 2D Array 2012NIVerified.vi"/>
-			<Item Name="Search 2D Array (String).vi" Type="VI" URL="../../GUI_Preset_Manager/Search 2D Array 2012NIVerified/Search 2D Array (String).vi"/>
-			<Item Name="Control 1.ctl" Type="VI" URL="../../GUI_Preset_Manager/Control 1.ctl"/>
-			<Item Name="TCPDeviceNameRead.vi" Type="VI" URL="../TCPDeviceNameRead.vi"/>
-			<Item Name="TCP Get interlock status.vi" Type="VI" URL="../Subvi/TCP Get interlock status.vi"/>
 			<Item Name="NVIORef.dll" Type="Document" URL="NVIORef.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
@@ -1161,7 +1163,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">/C/GEECS/Developers Version/builds/Interface builds/General GUIs/NI_AB_PROJECTNAME/Master Control</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{C126A360-18F5-4B84-9B98-CDE1988BCE93}</Property>
-				<Property Name="Bld_version.build" Type="Int">311</Property>
+				<Property Name="Bld_version.build" Type="Int">313</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Master Control.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">/C/GEECS/Developers Version/builds/Interface builds/General GUIs/NI_AB_PROJECTNAME/Master Control/Master Control.exe</Property>
@@ -1174,16 +1176,20 @@
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_cmdLineArgs" Type="Bool">true</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/icons/MC.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{03912415-209B-4844-A1EE-6C297B6C222A}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{CD70A6E7-AB7C-457C-9A12-8DF16A59F2E2}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/MC3.vi</Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="Source[10].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[10].itemID" Type="Ref">/My Computer/PC_PING.vi</Property>
+				<Property Name="Source[10].itemID" Type="Ref">/My Computer/organize/PC_PING.vi</Property>
 				<Property Name="Source[10].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[10].type" Type="Str">VI</Property>
+				<Property Name="Source[11].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[11].itemID" Type="Ref">/My Computer/TCP Get interlock status.vi</Property>
+				<Property Name="Source[11].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[11].type" Type="Str">VI</Property>
 				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[2].itemID" Type="Ref">/My Computer/sub vis/Device Enable Status.vi</Property>
 				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
@@ -1211,14 +1217,14 @@
 				<Property Name="Source[7].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[7].type" Type="Str">Container</Property>
 				<Property Name="Source[8].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[8].itemID" Type="Ref">/My Computer/AllDevicesAcquisitionRate.vi</Property>
+				<Property Name="Source[8].itemID" Type="Ref">/My Computer/organize/AllDevicesAcquisitionRate.vi</Property>
 				<Property Name="Source[8].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[8].type" Type="Str">VI</Property>
 				<Property Name="Source[9].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[9].itemID" Type="Ref">/My Computer/error_detail.vi</Property>
+				<Property Name="Source[9].itemID" Type="Ref">/My Computer/organize/error_detail.vi</Property>
 				<Property Name="Source[9].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[9].type" Type="Str">VI</Property>
-				<Property Name="SourceCount" Type="Int">11</Property>
+				<Property Name="SourceCount" Type="Int">12</Property>
 				<Property Name="TgtF_companyName" Type="Str">LBNL</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">Master Control</Property>
 				<Property Name="TgtF_internalName" Type="Str">Master Control</Property>
@@ -1254,7 +1260,7 @@
 				<Property Name="Source[0].itemID" Type="Str">{15DA3BD9-3707-402F-B704-78DB9589A0E6}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Plotter_General.vi</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/organize/Plotter_General.vi</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[2].itemID" Type="Ref">/My Computer/Plotter_TDMS.vi</Property>
@@ -1374,7 +1380,7 @@
 				<Property Name="Source[0].itemID" Type="Str">{6DB0E582-9B0F-457B-9FC0-E881512298B3}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/My Computer/LVstarter.vi</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/organize/LVstarter.vi</Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="SourceCount" Type="Int">2</Property>
@@ -1492,7 +1498,7 @@
 				<Property Name="Source[6].itemID" Type="Ref">/My Computer/Make single scan multivariable array file.vi</Property>
 				<Property Name="Source[6].type" Type="Str">VI</Property>
 				<Property Name="Source[7].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[7].itemID" Type="Ref">/My Computer/Get capillary hexapod fit for move along laser line.vi</Property>
+				<Property Name="Source[7].itemID" Type="Ref">/My Computer/organize/Get capillary hexapod fit for move along laser line.vi</Property>
 				<Property Name="Source[7].properties[0].type" Type="Str">Run when opened</Property>
 				<Property Name="Source[7].properties[0].value" Type="Bool">false</Property>
 				<Property Name="Source[7].propertiesCount" Type="Int">1</Property>
@@ -1647,10 +1653,10 @@
 				<Property Name="Source[0].itemID" Type="Str">{2225A5AE-E445-4F97-999E-35E0A1FD6F17}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/My Computer/LVstarter.vi</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/organize/LVstarter.vi</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[2].itemID" Type="Ref">/My Computer/LV starter manual input.vi</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/My Computer/organize/LV starter manual input.vi</Property>
 				<Property Name="Source[2].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[2].type" Type="Str">VI</Property>
 				<Property Name="SourceCount" Type="Int">3</Property>
@@ -1692,7 +1698,7 @@
 				<Property Name="Source[0].itemID" Type="Str">{A972407E-6139-4D5B-ACB3-3B09E683E116}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/My Computer/check saved scan files.vi</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/organize/check saved scan files.vi</Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="SourceCount" Type="Int">2</Property>
@@ -1734,7 +1740,7 @@
 				<Property Name="Source[0].itemID" Type="Str">{034CD817-0C81-4162-AF2E-5544BDF9041A}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/My Computer/create s file from tdms of failed scan.vi</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/sub vis/create s file from tdms of failed scan.vi</Property>
 				<Property Name="Source[1].properties[0].type" Type="Str">Run when opened</Property>
 				<Property Name="Source[1].properties[0].value" Type="Bool">true</Property>
 				<Property Name="Source[1].properties[1].type" Type="Str">Allow debugging</Property>
