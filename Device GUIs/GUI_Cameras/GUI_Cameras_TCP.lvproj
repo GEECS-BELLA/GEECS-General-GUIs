@@ -683,7 +683,7 @@
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/Camera.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{0CC55EAA-0704-4779-AE92-8B391FA455E4}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{E1A3C639-B7B8-45EC-9985-C69AFC089C3F}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/GUI_Cameras.vi</Property>
